@@ -3,13 +3,22 @@ layout: default
 title: Home
 ---
 
-# Assetto Corsa ARC
+# Welcome to ARC
 
-Welcome to the hub for Assetto Corsa guides, mods, and tools.
+A community-driven resource hub for everything Assetto Corsa:
 
-Explore below to get started:
+- Mods and install guides
+- Tools like Content Manager
+- Community Discords
+- Various Guides
 
-- [Mods and Installations](mods.md)
-- [Tools & Utilities](tools.md)
-- [Guides](guides/photo-mode.md)
-- [Useful Links](links.md)
+## Meet the Team
+
+- **sql** - site maintainer, UI & modding
+- ...others
+
+## Start Exploring
+
+- [Mod Guide](mods.md)
+- [Tools & Enhancements](tools.md)
+- [List of Guides](photo-mode.md)
