@@ -1,24 +1,17 @@
 ---
-layout: default
-title: Home
+title: ARC
+description: A documentation resource for configuring, enhancing, and understanding Assetto Corsa in a modern modding context.
 ---
 
-# Welcome to ARC
+# ARC
 
-A community-driven resource hub for everything Assetto Corsa:
-
-- Mods and install guides
-- Tools like Content Manager
-- Community Discords
-- Various Guides
+ARC serves as a centralized, community-driven reference for improving the Assetto Corsa experience, for users on all levels.
 
 ## Meet the Team
 
-- **sql** - site maintainer, UI & modding
-- ...others
+- **sql** - site setup, mod curation
+- ...more contributors to arrive soon
 
-## Start Exploring
+## Jump in
 
-- [Mod Guide](mods.md)
-- [Tools & Enhancements](tools.md)
-- [List of Guides](guides/photo-mode.md)
+- [Getting Started](getting-started.md)
