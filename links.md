@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mods
+title: Links & Resources
 ---
 
 # Helpful Links & Other Resources

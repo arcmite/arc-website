@@ -21,4 +21,4 @@ A community-driven resource hub for everything Assetto Corsa:
 
 - [Mod Guide](mods.md)
 - [Tools & Enhancements](tools.md)
-- [List of Guides](photo-mode.md)
+- [List of Guides](guides/photo-mode.md)
