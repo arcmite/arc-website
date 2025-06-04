@@ -39,10 +39,7 @@ To install:
 - Launch `ContentManager.exe`
 - Set the path to the Assetto Corsa installation directory when prompted
 
-**Video Guide**  
-A video walkthrough will be linked here for visual reference.
-
-<!-- TODO: SOMEONE GET ON IT -->
+**Video Guide**
 
 <div style="text-align:center; margin-bottom:1em;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/eour5cDFF84"
