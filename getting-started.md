@@ -25,7 +25,7 @@ After installation, launch the game once. This ensures that all necessary config
 
 <!-- TODO: ADD REFERENCES TO ILJA'S CREATOR PROFILE FOR THIS SECTION -->
 
-Content Manager (CM) is a third-party launcher developed by [**Ilja Jusupov**](creator-profile.md). It replaces the original Assetto Corsa launcher and provides significantly improved usability, mod management, server tools, and configuration control.
+Content Manager (CM) is a third-party launcher developed by **[Ilja Jusupov](creator-profile.md)**. It replaces the original Assetto Corsa launcher and provides significantly improved usability, mod management, server tools, and configuration control.
 
 **Official Download**
 
@@ -62,13 +62,13 @@ The free version is sufficient for standard use. The latest experimental feature
 www.patreon.com/x4fab
 ```
 
-4. Install Pure
+## 4. Install Pure
 
 <!-- TODO: ADD REFERENCES TO PETER'S CREATOR PROFILE FOR THIS SECTION -->
 
-**Pure** is a comprehensive weather and lighting framework developed by [**Peter Boese**](creator-profile.md). It replaces older solutions such as SOL, and is the current standard for enhanced visuals and weather control in Assetto Corsa.
+**Pure** is a comprehensive weather and lighting framework developed by **[Peter Boese](creator-profile.md)**. It replaces older solutions like SOL, and is the current standard for enhanced visuals and weather control in Assetto Corsa.
 
-Pure is distributed via Patreon:
+Pure is distributed via Boese's Patreon:
 
 ```txt
 https://www.patreon.com/peterboese
