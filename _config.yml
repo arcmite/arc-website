@@ -1,3 +1,6 @@
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
 title: ARC
 description: ARC is a community-driven project that aims to provide information, resources, and tools for Assetto Corsa players and modders.
-theme: jekyll-theme-minimal
