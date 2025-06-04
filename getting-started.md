@@ -3,31 +3,31 @@ title: Getting Started
 description: Step-by-step instructions for preparing Assetto Corsa with essential tools and enhancements.
 ---
 
-<!-- TODO: NEED TO CLARIFY THE WORDING AND WHAT NOT -->
+<!-- DONE:::: -->
 
 # Getting Started
 
-This section details the recommended setup for Assetto Corsa using standard tools essential for most mods and servers.
+This guide outlines the recommended setup process for Assetto Corsa using tools the community relies on. Whether you're just starting out or setting up a fresh install, this will get you to a modern baseline.
 
 ## 1. Install Assetto Corsa
 
-Assetto Corsa must be purchased and installed via Steam:
+Assetto Corsa must be purchased and installed via **[Steam](https://store.steampowered.com/)**:
 
 ```txt
 https://store.steampowered.com/app/244210/Assetto_Corsa/
 ```
 
-We suggest the **Ultimate Edition**, which includes all DLC's needed for modded cars, tracks, and online servers. The game often goes on sale so you can wait to get the game for cheaper.
+We recommend buying the **Ultimate Edition Bundle**, which includes all official DLC. Many servers require at least some of these DLC's to work. The game is frequently on sale, so it's worth waiting for a discount if you're not in a rush.
 
-After installation, launch the game once. This ensures that all necessary configuration files and directories are generated. You may close the game after reaching the main menu.
+After installation, launch the game once. It's not strictly required, but doing so ensures that all folders and config files are created. You can close the game after reaching the main menu.
 
 ## 2. Install Content Manager
 
 <!-- TODO: ADD REFERENCES TO ILJA'S CREATOR PROFILE FOR THIS SECTION -->
 
-Content Manager (CM) is a third-party launcher developed by **[Ilja Jusupov](creator-profile.md)**. It replaces the original Assetto Corsa launcher and provides significantly improved usability, mod management, server tools, and configuration control.
+Content Manager (CM) is a third-party launcher developed by **[Ilja Jusupov](creator-profile.md)**. It replaces the original Assetto Corsa launcher and is considered essential for anyone using mods or joining online servers.
 
-**Official Download**
+**Download it from:**
 
 ```txt
 https://acstuff.ru/app/
@@ -37,38 +37,41 @@ To install:
 
 - Extract the archive
 - Launch `ContentManager.exe`
-- Set the correct path to the Assetto Corsa installation directory when prompted
+- Set the path to the Assetto Corsa installation directory when prompted
 
-For ongoing updates and access to additional features, users can choose to support the developer
+**Video Guide**  
+A video walkthrough will be linked here for visual reference.
 
-**Optional Video Guide**  
-A video walkthrough may be linked here for visual reference.
+<!-- TODO: SOMEONE GET ON IT -->
+
+<div style="text-align:center; margin-bottom:1em;">
+    <iframe width="560" height="315" src=""
+        title="Installing Content Manager and CSP" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## 3. Install Custom Shaders Patch (CSP)
 
-Custom Shaders Patch (CSP) is an extension that improves graphic rendering, lighting, physics interaction, weather support, and more. It is developed by the same creator as Content Manager.
+Custom Shaders Patch (CSP) is an essential extension that adds advanced graphic rendering, lighting, physics interaction, weather support, and other under-the-hood improvements. It is developed by the same creator as Content Manager.
 
 To install:
 
 - Open Content Manager
 - Navigate to `Settings -> Custom Shaders Patch`
-- Select and install the latest _recommended_ version
+- Select and install the latest **recommended** version
 
-The free version is sufficient for standard use. The latest experimental features are available exclusively through Patreon support.
-
-**CSP Patreon**
+This will install the free version, which is enough for most users. To access experimental builds and extra features (such as rain), you'll need to support the project on Patreon:
 
 ```txt
-www.patreon.com/x4fab
+http://www.patreon.com/x4fab
 ```
 
 ## 4. Install Pure
 
 <!-- TODO: ADD REFERENCES TO PETER'S CREATOR PROFILE FOR THIS SECTION -->
 
-**Pure** is a comprehensive weather and lighting framework developed by **[Peter Boese](creator-profile.md)**. It replaces older solutions like SOL, and is the current standard for enhanced visuals and weather control in Assetto Corsa.
+**Pure** is a comprehensive weather and lighting framework developed by **[Peter Boese](creator-profile.md)**. It replaces older systems like SOL, and is the current standard for enhanced visuals and weather control in Assetto Corsa.
 
-Pure is distributed via Boese's Patreon:
+Pure is only available through Boese's Patreon:
 
 ```txt
 https://www.patreon.com/peterboese
@@ -76,6 +79,18 @@ https://www.patreon.com/peterboese
 
 To install:
 
-- Extract the downloaded package
+- Download the archive
+- Place the folders into the Assetto Corsa root directory
+- Replace any old files when prompted
+
+To make sure Pure has been installed correctly, go to `Content Manager -> Settings -> Custom Shaders Patch -> Extensions -> Weather FX` and make sure Pure appears under the `Weather style` dropdown.
 
 <!-- TODO: FINISH THIS -->
+<!-- TODO: ADD PICTURES, VIDEO, MEDIA -->
+
+---
+
+## TO-DO
+
+- Visual media (screenshots and video walkthroughs) to be added to this section
+- Small skim through. Make sure everything reads smoothly
