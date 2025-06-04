@@ -10,6 +10,7 @@ ARC serves as a centralized, community-driven reference for improving the Assett
 ## Meet the Team
 
 - **sql** - site setup, mod curation
+- **infrect** - site setup, UI
 - ...more contributors to arrive soon
 
 ## Jump in
