@@ -45,7 +45,7 @@ A video walkthrough will be linked here for visual reference.
 <!-- TODO: SOMEONE GET ON IT -->
 
 <div style="text-align:center; margin-bottom:1em;">
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=eour5cDFF84"
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eour5cDFF84"
         title="Installing Content Manager and CSP" frameborder="0" allowfullscreen></iframe>
 </div>
 
