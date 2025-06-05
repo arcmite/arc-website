@@ -27,7 +27,7 @@ After installation, launch the game once. It's not strictly required, but doing 
 
 <!-- TODO: ADD REFERENCES TO ILJA'S CREATOR PROFILE FOR THIS SECTION -->
 
-Content Manager (CM) is a third-party launcher developed by **[Ilja Jusupov](creator-profile.md)**. It replaces the original Assetto Corsa launcher and is considered essential for anyone using mods or joining online servers.
+Content Manager (CM) is a third-party launcher developed by **[Ilja Jusupov](/creators/ilja-jusupov.md)**. It replaces the original Assetto Corsa launcher and is considered essential for anyone using mods or joining online servers.
 
 ### Download it from:
 
@@ -61,7 +61,7 @@ If this is not the case for you, for any reason, you can instead find Assetto Co
 
 ## 3. Install Custom Shaders Patch (CSP)
 
-Custom Shaders Patch (CSP) is an essential extension that adds advanced graphic rendering, lighting, physics interaction, weather support, and other under-the-hood improvements. It is developed by the **[same creator as CM](creator-profile.md)**.
+Custom Shaders Patch (CSP) is an essential extension that adds advanced graphic rendering, lighting, physics interaction, weather support, and other under-the-hood improvements. It is developed by the **[same creator as CM](/creators/ilja-jusupov.md)**.
 
 ### To install:
 
