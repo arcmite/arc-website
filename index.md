@@ -8,15 +8,19 @@ hide_title: true
 <div class="hero">
   <h1 class="hero-title">ARC</h1>
   <p class="hero-subtitle">Assetto Corsa Reference Centre — setup help, mods, guides & more.</p>
+
+  <div class="hero-buttons">
+    <a href="{{ '/getting-started/' | relative_url }}" class="primary">See Starting Guide</a>
+    <a href="{{ '/contents/' | relative_url }}">Contents</a>
+    <a href="{{ '/creators/' | relative_url }}">Contribute</a>
+    <a href="{{ '/site/links/' | relative_url }}">Discord</a>
+  </div>
 </div>
 
-<div class="card-grid">
-  <div class="card">
-    <h3>Getting Started</h3>
-    <p>First-time setup for Assetto Corsa, Content Manager, CSP and Pure.</p>
-    <a href="{{ '/getting-started/' | relative_url }}">Go to Guide →</a>
-  </div>
+<hr style="margin: 4rem auto 2rem; max-width: 200px; border: 1px solid #333;" />
+<p style="text-align: center; color: #aaa; margin-bottom: -2rem;">Or check out these pages!</p>
 
+<div class="card-grid">
   <div class="card">
     <h3>Modding Guide</h3>
     <p>Where to install mods, common formats, and troubleshooting.</p>

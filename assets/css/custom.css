@@ -125,6 +125,7 @@ pre code {
   font-weight: 800;
   background: linear-gradient(90deg, #00b4ff, #aa88ff);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   margin-bottom: 0.4rem;
 }
@@ -136,6 +137,45 @@ pre code {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+}
+
+.hero-buttons a {
+  display: inline-block;
+  padding: 0.4rem 1.1rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  background-color: #222;
+  color: #ccc;
+  border: 1px solid #444;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.15s ease;
+}
+
+.hero-buttons a:hover {
+  background-color: #00b4ff;
+  color: #000;
+  border-color: #00b4ff;
+  transform: translateY(-1px);
+}
+
+.hero-buttons a.primary {
+  background-color: #00b4ff;
+  color: #000;
+  border: none;
+}
+
+.hero-buttons a.primary:hover {
+  background-color: #0092cc;
+  color: #fff;
 }
 
 .card-grid {
