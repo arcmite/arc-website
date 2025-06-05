@@ -1,13 +1,8 @@
 ---
 layout: page
 title: Getting Started
-description: Step-by-step instructions for preparing Assetto Corsa with essential tools and enhancements.
 permalink: /getting-started/
 ---
-
-<!-- DONE:::: -->
-
-# Getting Started
 
 This guide outlines the recommended setup process for Assetto Corsa using tools the community relies on. Whether you're just starting out or setting up a fresh install, this will get you to a modern baseline.
 
@@ -29,7 +24,7 @@ After installation, launch the game once. It's not strictly required, but doing 
 
 <!-- TODO: ADD REFERENCES TO ILJA'S CREATOR PROFILE FOR THIS SECTION -->
 
-Content Manager (CM) is a third-party launcher developed by **[Ilja Jusupov](/creators/ilja-jusupov.md)**. It replaces the original Assetto Corsa launcher and is considered essential for anyone using mods or joining online servers.
+Content Manager (CM) is a third-party launcher developed by **[Ilja Jusupov](/creators/ilja-jusupov/)**. It replaces the original Assetto Corsa launcher and is considered essential for anyone using mods or joining online servers.
 
 ### Download it from:
 
@@ -39,7 +34,7 @@ https://acstuff.ru/app/
 
 ### To install:
 
-- Extract `ContentManager.exe` somewhere you can easily access it, like your desktop.
+- Extract `ContentManager.exe` somewhere you can easily access it, like your desktop
 - Launch `ContentManager.exe`
 - Set the path to the Assetto Corsa installation directory when prompted
 
@@ -57,7 +52,7 @@ If this is not the case for you, for any reason, you can instead find Assetto Co
     alt="Assetto Corsa Steam Page" 
     style="max-width: 100%; height: auto;">
 <figcaption 
-    style="color: #888; font-size: 0.9em;">Assetto Corsa’s Steam page — open the game’s local files from here
+    style="color: #888; font-size: 0.9em;">Assetto Corsa’s Steam library page — open the game’s local files from here
 </figcaption>
 </figure>
 
@@ -69,7 +64,7 @@ Custom Shaders Patch (CSP) is an essential extension that adds advanced graphic 
 
 - Open Content Manager
 - Navigate to `Settings -> Custom Shaders Patch`
-- If this is your first time, you will be prompted to install some version of CSP, usually the most recent stable build.
+- If this is your first time, you will be prompted to install some version of CSP, usually the most recent stable build
 
 The recommended version is enough for most users. To access experimental builds and features like rain, you’ll need to support the project on Patreon:
 
@@ -115,8 +110,8 @@ Here are some ways to check:
 
 - **Drive Tab**: Make sure Pure is selected under the `Weather` dropdown before launching a session (for recent CM versions)
 - **CSP Settings**: In `Settings -> Custom Shaders Patch -> Extensions -> Weather FX`, Pure should be selected under the `Weather style` dropdown (either `Pure Gamma` or `Pure LCS`, for versions of Pure post v2.38) <!-- MAKE SURE THIS IS RIGHT -->
-- **In-game Apps**: Join a session and open the Pure apps (`Pure Config`, `Pure Planner`). If they don't appear in the app shelf or throw errors, the install is likely broken.
-- **Post-Processing Filters**: Some PPFilters made for Pure won't work right unless Pure is actually functioning. If visuals look wrong or a black screen appears, it will most likely be the Pure installation.
+- **In-game Apps**: Join a session and open the Pure apps (`Pure Config`, `Pure Planner`). If they don't appear in the app shelf or throw errors, the install is likely broken
+- **Post-Processing Filters**: Some PPFilters made for Pure won't work right unless Pure is actually functioning. If visuals look wrong or a black screen appears, it will most likely be the Pure installation
 
 If any of these don't behave as expected, try reinstalling Pure manually. It may take a bit of back and forth to get it working cleanly.
 
