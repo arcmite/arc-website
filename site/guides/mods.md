@@ -1,12 +1,11 @@
 ---
-layout: default
+layout: page
 title: Mods
+permalink: /site/guides/mods/
 ---
-
-# Installing Mods
 
 Mods usually go in:
 
-```
+```txt
 steam/steamapps/common/assettcorsa/
 ```

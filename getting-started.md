@@ -24,7 +24,7 @@ After installation, launch the game once. It's not strictly required, but doing 
 
 <!-- TODO: ADD REFERENCES TO ILJA'S CREATOR PROFILE FOR THIS SECTION -->
 
-Content Manager (CM) is a third-party launcher developed by **[Ilja Jusupov](/creators/ilja-jusupov/)**. It replaces the original Assetto Corsa launcher and is considered essential for anyone using mods or joining online servers.
+Content Manager (CM) is a third-party launcher developed by **[Ilja Jusupov]({{/creators/ilja-jusupov/ | relative_url }})**. It replaces the original Assetto Corsa launcher and is considered essential for anyone using mods or joining online servers.
 
 ### Download it from:
 
@@ -58,7 +58,7 @@ If this is not the case for you, for any reason, you can instead find Assetto Co
 
 ## 3. Install Custom Shaders Patch (CSP)
 
-Custom Shaders Patch (CSP) is an essential extension that adds advanced graphic rendering, lighting, physics interaction, weather support, and other under-the-hood improvements. It is developed by the **[same creator as CM](/creators/ilja-jusupov.md)**.
+Custom Shaders Patch (CSP) is an essential extension that adds advanced graphic rendering, lighting, physics interaction, weather support, and other under-the-hood improvements. It is developed by the **[same creator as CM]({{/creators/ilja-jusupov/ | relative_url }})**.
 
 ### To install:
 
@@ -86,7 +86,7 @@ You can usually drag and drop the archive into CM, but it's worth knowing how to
 
 <!-- TODO: ADD REFERENCES TO PETER'S CREATOR PROFILE FOR THIS SECTION -->
 
-Pure is a comprehensive weather and lighting framework developed by **[Peter Boese](/creators/peter-boese.md)**. It replaces older systems like SOL, and is the current standard for enhanced visuals and weather control in Assetto Corsa.
+Pure is a comprehensive weather and lighting framework developed by **[Peter Boese]({{/creators/peter-boese/ | relative_url }})**. It replaces older systems like SOL, and is the current standard for enhanced visuals and weather control in Assetto Corsa.
 
 Pure is only available through Boese's Patreon:
 
@@ -111,7 +111,7 @@ Here are some ways to check:
 - **Drive Tab**: Make sure Pure is selected under the `Weather` dropdown before launching a session (for recent CM versions)
 - **CSP Settings**: In `Settings -> Custom Shaders Patch -> Extensions -> Weather FX`, Pure should be selected under the `Weather style` dropdown (either `Pure Gamma` or `Pure LCS`, for versions of Pure post v2.38) <!-- MAKE SURE THIS IS RIGHT -->
 - **In-game Apps**: Join a session and open the Pure apps (`Pure Config`, `Pure Planner`). If they don't appear in the app shelf or throw errors, the install is likely broken
-- **Post-Processing Filters**: Some PPFilters made for Pure won't work right unless Pure is actually functioning. If visuals look wrong or a black screen appears, it will most likely be the Pure installation
+- **Post-Processing Filters**: Some PPFilters made for Pure won't work right unless Pure is actually functioning. If visuals look wrong or a black screen appears, it will most likely be an issue with the Pure installation
 
 If any of these don't behave as expected, try reinstalling Pure manually. It may take a bit of back and forth to get it working cleanly.
 
