@@ -1,6 +1,8 @@
 ---
+layout: page
 title: ARC
 description: A documentation resource for configuring, enhancing, and understanding Assetto Corsa in a modern modding context.
+permalink: /home/
 ---
 
 # ARC

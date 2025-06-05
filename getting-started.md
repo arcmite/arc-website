@@ -1,6 +1,8 @@
 ---
+layout: page
 title: Getting Started
 description: Step-by-step instructions for preparing Assetto Corsa with essential tools and enhancements.
+permalink: /getting-started/
 ---
 
 <!-- DONE:::: -->
@@ -89,7 +91,7 @@ You can usually drag and drop the archive into CM, but it's worth knowing how to
 
 <!-- TODO: ADD REFERENCES TO PETER'S CREATOR PROFILE FOR THIS SECTION -->
 
-Pure is a comprehensive weather and lighting framework developed by **[Peter Boese](creator-profile.md)**. It replaces older systems like SOL, and is the current standard for enhanced visuals and weather control in Assetto Corsa.
+Pure is a comprehensive weather and lighting framework developed by **[Peter Boese](/creators/peter-boese.md)**. It replaces older systems like SOL, and is the current standard for enhanced visuals and weather control in Assetto Corsa.
 
 Pure is only available through Boese's Patreon:
 

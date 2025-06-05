@@ -1,0 +1,13 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Getting Started"
+    url: /getting-started/
+  - title: "Guides"
+    url: /site/guides/
+  - title: "Links"
+    url: /site/links/
+  - title: "Creators"
+    url: /creators/
+  - title: "About"
+    url: /about/
