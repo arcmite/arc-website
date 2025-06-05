@@ -138,29 +138,6 @@ pre code {
   margin-right: auto;
 }
 
-.hero-cta {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.button-cta {
-  background-color: #00b4ff;
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.5rem;
-  color: #000;
-  font-weight: 600;
-  text-decoration: none;
-  box-shadow: 0 4px 10px rgba(0, 180, 255, 0.3);
-  transition: background 0.5s ease;
-}
-
-.button-cta:hover {
-  background-color: #0092cc;
-  color: #fff;
-}
-
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
