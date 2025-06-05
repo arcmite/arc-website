@@ -17,4 +17,4 @@ ARC serves as a centralized, community-driven reference for improving the Assett
 
 ## Jump in
 
-- [Getting Started](/getting-started/)
+- [Getting Started]({{ "/getting-started/" | relative_url }})
