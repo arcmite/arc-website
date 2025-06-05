@@ -10,13 +10,13 @@ This guide outlines the recommended setup process for Assetto Corsa using tools 
 
 ## 1. Install Assetto Corsa
 
-Assetto Corsa must be purchased and installed via **[Steam](https://store.steampowered.com/)**:
+Assetto Corsa must be purchased and installed via [Steam](https://store.steampowered.com/):
 
 ```txt
 https://store.steampowered.com/app/244210/Assetto_Corsa/
 ```
 
-We recommend buying the **Ultimate Edition Bundle** — it includes all the official DLC. Many online servers require at least some of these DLC's to join. The game is frequently on **[sale](https://steamdb.info/app/244210/)**, so it's worth waiting for a discount if you're not in a rush.
+We recommend buying the **Ultimate Edition Bundle** — it includes all the official DLC. Many online servers require at least some of these DLC's to join. The game is frequently on [sale](https://steamdb.info/app/244210/), so it's worth waiting for a discount if you're not in a rush.
 
 After installation, launch the game once. It's not strictly required, but doing so ensures that all folders and config files are created. You can close the game after reaching the main menu.
 
@@ -24,7 +24,7 @@ After installation, launch the game once. It's not strictly required, but doing 
 
 <!-- TODO: ADD REFERENCES TO ILJA'S CREATOR PROFILE FOR THIS SECTION -->
 
-Content Manager (CM) is a third-party launcher developed by **[Ilja Jusupov]({{/creators/ilja-jusupov/ | relative_url }})**. It replaces the original Assetto Corsa launcher and is considered essential for anyone using mods or joining online servers.
+Content Manager (CM) is a third-party launcher developed by [Ilja Jusupov]({{ "/creators/ilja-jusupov/" | relative_url }}). It replaces the original Assetto Corsa launcher and is considered essential for anyone using mods or joining online servers.
 
 ### Download it from:
 
@@ -58,7 +58,7 @@ If this is not the case for you, for any reason, you can instead find Assetto Co
 
 ## 3. Install Custom Shaders Patch (CSP)
 
-Custom Shaders Patch (CSP) is an essential extension that adds advanced graphic rendering, lighting, physics interaction, weather support, and other under-the-hood improvements. It is developed by the **[same creator as CM]({{/creators/ilja-jusupov/ | relative_url }})**.
+Custom Shaders Patch (CSP) is an essential extension that adds advanced graphic rendering, lighting, physics interaction, weather support, and other under-the-hood improvements. It is developed by the [same creator as CM]({{ "/creators/ilja-jusupov/" | relative_url }}).
 
 ### To install:
 
@@ -86,7 +86,7 @@ You can usually drag and drop the archive into CM, but it's worth knowing how to
 
 <!-- TODO: ADD REFERENCES TO PETER'S CREATOR PROFILE FOR THIS SECTION -->
 
-Pure is a comprehensive weather and lighting framework developed by **[Peter Boese]({{/creators/peter-boese/ | relative_url }})**. It replaces older systems like SOL, and is the current standard for enhanced visuals and weather control in Assetto Corsa.
+Pure is a comprehensive weather and lighting framework developed by [Peter Boese]({{ "/creators/peter-boese/" | relative_url }}). It replaces older systems like SOL, and is the current standard for enhanced visuals and weather control in Assetto Corsa.
 
 Pure is only available through Boese's Patreon:
 
