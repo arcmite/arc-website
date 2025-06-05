@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ARC
+title: Home
 ---
 
 ARC serves as a centralized, community-driven reference for improving the Assetto Corsa experience, for users on all levels.
