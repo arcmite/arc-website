@@ -41,9 +41,14 @@ To install:
 
 **Video Guide**
 
-<div style="text-align:center; margin-bottom:1em;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/eour5cDFF84"
-        title="Installing Content Manager and CSP" frameborder="0" allowfullscreen></iframe>
+<div style="position: relative; width: 100%; padding-bottom: 56.25%; margin-bottom:1em; height: 0">
+<iframe 
+    src="https://www.youtube.com/embed/eour5cDFF84"
+    title="Installing Content Manager and CSP" 
+    frameborder="0" 
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+</iframe>
 </div>
 
 ## 3. Install Custom Shaders Patch (CSP)
