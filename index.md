@@ -1,20 +1,49 @@
 ---
 layout: page
 title: Home
+permalink: /
+hide_title: true
 ---
 
-ARC serves as a centralized, community-driven reference for improving the Assetto Corsa experience, for users on all levels.
+<div class="hero">
+  <h1 class="hero-title">ARC</h1>
+  <p class="hero-subtitle">Assetto Corsa Reference Centre — setup help, mods, guides & more.</p>
+</div>
 
----
+<div class="card-grid">
+  <div class="card">
+    <h3>Getting Started</h3>
+    <p>First-time setup for Assetto Corsa, Content Manager, CSP and Pure.</p>
+    <a href="{{ '/getting-started/' | relative_url }}">Go to Guide →</a>
+  </div>
 
-## Meet the Team
+  <div class="card">
+    <h3>Modding Guide</h3>
+    <p>Where to install mods, common formats, and troubleshooting.</p>
+    <a href="{{ '/site/guides/mods/' | relative_url }}">Open Mods Guide →</a>
+  </div>
 
-- **sql** - site setup, mod curation
-- **infrect** - site setup, UI
-- ...more contributors to arrive soon
+  <div class="card">
+    <h3>Creators</h3>
+    <p>Meet the minds behind key Assetto Corsa tools and frameworks.</p>
+    <a href="{{ '/creators/' | relative_url }}">See Creators →</a>
+  </div>
 
----
+  <div class="card">
+    <h3>Photo Mode</h3>
+    <p>Use shaders, camera mods, and Pure features to capture shots.</p>
+    <a href="{{ '/site/guides/photo-mode/' | relative_url }}">Explore Tips →</a>
+  </div>
 
-## Jump in
+  <div class="card">
+    <h3>Links & Resources</h3>
+    <p>Download sources, tools, guides, Discords, and community hubs.</p>
+    <a href="{{ '/site/links/' | relative_url }}">See Resources →</a>
+  </div>
 
-- [Getting Started]({{ "/getting-started/" | relative_url }})
+  <div class="card">
+    <h3>Contributors</h3>
+    <p>People helping maintain this site and community materials.</p>
+    <a href="{{ '/site/contributors/' | relative_url }}">Meet Contributors →</a>
+  </div>
+</div>
