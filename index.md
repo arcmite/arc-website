@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: single
 title: Home
 permalink: /
-hide_title: true
+author_profile: false
+toc: true
 ---
 
 <div class="hero">

@@ -1,8 +1,9 @@
-- title: Guides
-  url: /site/guides/mods/
+main:
+  - title: Guides
+    url: /site/guides/mods/
 
-- title: Creators
-  url: /creators/
+  - title: Creators
+    url: /creators/
 
-- title: About
-  url: /site/about/
+  - title: About
+    url: /site/about/

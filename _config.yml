@@ -1,7 +1,15 @@
-remote_theme: zivhub/monophase
+remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache
 
 title: ARC
 baseurl: "/assetto-corsa-arc"
 url: "https://creacher4.github.io"
+
+header:
+  nav:
+    - main
+
+minimal_mistakes_skin: dark
+search: true
