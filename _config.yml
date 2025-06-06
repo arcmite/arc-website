@@ -3,7 +3,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
-title: ARC
+title: "ARC"
 baseurl: "/assetto-corsa-arc"
 url: "https://creacher4.github.io"
 
