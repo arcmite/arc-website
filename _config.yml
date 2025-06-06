@@ -4,9 +4,11 @@ plugins:
   - jekyll-include-cache
 
 title: "ARC"
+subtitle: "A Reference Guide"
 baseurl: "/assetto-corsa-arc"
 url: "https://creacher4.github.io"
 
+# this is for when author: true is set in yml front matter
 author:
   name: ARC
   links:
@@ -18,10 +20,8 @@ header:
   nav:
     - main
 
-# Add this near the bottom
 sass:
   style: compressed
 
-# Include custom CSS
-minimal_mistakes_skin: "dark"  # or another skin name
+minimal_mistakes_skin: "neon"
 search: true
