@@ -6,6 +6,7 @@ toc: true
 toc_sticky: true
 sidebar:
   nav: "docs"
+custom_css_files: /assets/css/custom.css
 ---
 
 This guide outlines the recommended setup process for Assetto Corsa using tools the community relies on. Whether you're just starting out or setting up a fresh install, this will get you to a modern baseline.

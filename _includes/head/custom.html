@@ -1,0 +1,5 @@
+{% if page.custom_css_files %}
+  {% for css_file in page.custom_css_files %}
+    <link rel="stylesheet" href="{{ css_file | relative_url }}">
+  {% endfor %}
+{% endif %}

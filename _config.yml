@@ -18,5 +18,10 @@ header:
   nav:
     - main
 
-minimal_mistakes_skin: dark
+# Add this near the bottom
+sass:
+  style: compressed
+
+# Include custom CSS
+minimal_mistakes_skin: "dark"  # or another skin name
 search: true
