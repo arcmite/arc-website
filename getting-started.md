@@ -1,12 +1,14 @@
 ---
 layout: single
-title: Getting Started
+title: Get Started
 permalink: /getting-started/
+toc: true
+toc_sticky: true
+sidebar:
+  nav: "docs"
 ---
 
 This guide outlines the recommended setup process for Assetto Corsa using tools the community relies on. Whether you're just starting out or setting up a fresh install, this will get you to a modern baseline.
-
----
 
 ## 1. Install Assetto Corsa
 
@@ -48,8 +50,8 @@ If this is not the case for you, for any reason, you can instead find Assetto Co
 
 <figure style="text-align: center; margin-bottom: 1.5em;">
 <img 
-    src="https://media.discordapp.net/attachments/1380082663490064526/1380083763543015424/5A50BD54-E9D0-4823-A021-5997870E8397.png?ex=684296a9&is=68414529&hm=f202d2f3be7ec25acecb95aeb4d47c75538f6931b0d5a94da4a6cd18653ba829&=&format=webp&quality=lossless"
-    alt="Assetto Corsa Steam Page" 
+    src="{{ 'assets/images/ac_steam_library.png' | relative_url }}" 
+    alt="Assetto Corsa Steam Library Page" 
     style="max-width: 100%; height: auto;">
 <figcaption 
     style="color: #888; font-size: 0.9em;">Assetto Corsa’s Steam library page — open the game’s local files from here
@@ -117,8 +119,6 @@ If any of these don't behave as expected, try reinstalling Pure manually. It may
 
 <!-- TODO: FINISH THIS -->
 <!-- TODO: ADD PICTURES, VIDEO, MEDIA -->
-
----
 
 ## Full Setup Walkthrough (Video)
 
