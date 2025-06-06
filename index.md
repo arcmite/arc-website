@@ -2,9 +2,13 @@
 layout: single
 title: Home
 permalink: /
-author_profile: false
+author_profile: true
 toc: true
 ---
+
+# ARC
+
+Assetto Corsa Reference Centre — setup help, mods, guides & more.
 
 <div class="hero">
   <h1 class="hero-title">ARC</h1>

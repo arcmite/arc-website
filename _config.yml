@@ -7,6 +7,13 @@ title: ARC
 baseurl: "/assetto-corsa-arc"
 url: "https://creacher4.github.io"
 
+author:
+  name: ARC
+  links:
+    - label: GitHub
+      icon: fab fa-github
+      url: https://github.com/creacher4
+
 header:
   nav:
     - main

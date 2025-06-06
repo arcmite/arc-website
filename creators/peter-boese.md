@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Peter Boese
 permalink: /creators/peter-boese/
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Contents
 permalink: /contents/
 hide_title: true

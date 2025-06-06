@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 permalink: /creators/ilja-jusupov/
 title: Ilja Jusupov
 ---
