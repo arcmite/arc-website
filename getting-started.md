@@ -6,7 +6,6 @@ toc: true
 toc_sticky: true
 sidebar:
   nav: "docs"
-custom_css_files: "/assets/css/custom.css"
 read_time: true
 ---
 

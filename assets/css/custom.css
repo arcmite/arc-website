@@ -23,14 +23,14 @@ p {
 
 /* LANDING PAGE BUTTON */
 
-.btn--highlight {
+.page__hero--overlay .btn--highlight {
   background-color: rgb(161, 34, 76);
   border: none;
   color: #fff;
   transition: background-color 0.25s ease, transform 0.15s ease;
 }
 
-.btn--highlight:hover {
+.page__hero--overlay .btn--highlight:hover {
   background-color: rgb(141, 28, 66);
   transform: translateY(-2px);
 }
