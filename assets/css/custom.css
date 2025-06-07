@@ -3,15 +3,6 @@ body {
   color: #e0e0e0;
 }
 
-a {
-  color: #afc3f7;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #81d4fa;
-}
-
 code,
 pre {
   background-color: #1e1e1e;
