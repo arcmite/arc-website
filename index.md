@@ -9,11 +9,9 @@ header:
   actions:
     - label: "See Starting Guide"
       url: "/getting-started/"
-      class: "btn btn--light-outline btn--large btn--primary"
     - label: "Contribute"
       url: "/creators/"
     - label: "<i class='fab fa-discord'></i> Discord"
       url: "https://discord.gg/Szd4nu4wEp"
 excerpt: "Start-to-finish modding reference for Assetto Corsa — from installation to visuals, and beyond."
-custom_css_files: "/assets/css/custom.css"
 ---
