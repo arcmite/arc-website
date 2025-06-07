@@ -1,3 +1,5 @@
+/* GLOBAL */
+
 body {
   background-color: #111;
   color: #e0e0e0;
@@ -16,3 +18,21 @@ p {
   margin-bottom: 1.25em;
   line-height: 1.65;
 }
+
+/* END GLOBAL */
+
+/* LANDING PAGE BUTTON */
+
+.btn--highlight {
+  background-color: rgb(161, 34, 76);
+  border: none;
+  color: #fff;
+  transition: background-color 0.25s ease, transform 0.15s ease;
+}
+
+.btn--highlight:hover {
+  background-color: rgb(141, 28, 66);
+  transform: translateY(-2px);
+}
+
+/* END LANDING PAGE BUTTON */
