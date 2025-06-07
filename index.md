@@ -9,12 +9,10 @@ header:
   actions:
     - label: "See Starting Guide"
       url: "/getting-started/"
-    - label: "Contents"
-      url: "/contents/"
     - label: "Contribute"
       url: "/creators/"
-    - label: "Discord"
-      url: "/site/links/"
-excerpt: "Assetto Corsa Reference Centre — setup help, mods, guides & more."
+    - label: "<i  class='fab fa-discord'></i> Discord"
+      url: "https://discord.gg/Szd4nu4wEp"
+excerpt: "Start-to-finish modding reference for Assetto Corsa — from installation to visuals, and beyond."
 custom_css_files: "/assets/css/custom.css"
 ---
