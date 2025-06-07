@@ -7,6 +7,7 @@ toc_sticky: true
 sidebar:
   nav: "docs"
 custom_css_files: "/assets/css/custom.css"
+read_time: true
 ---
 
 This guide outlines the recommended setup process for Assetto Corsa using tools the community relies on. Whether you're just starting out or setting up a fresh install, this will get you to a modern baseline.
@@ -43,7 +44,7 @@ https://acstuff.ru/app/
 
 This path would usually be at:
 
-```txt
+```ps
 C:\Program Files (x86)\Steam\steamapps\common\assettocorsa
 ```
 

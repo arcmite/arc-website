@@ -10,11 +10,23 @@ url: "https://creacher4.github.io"
 
 # this is for when author: true is set in yml front matter
 author:
-  name: ARC
+  name: sql
+  avatar: /assets/images/avatar_sql.png
+  bio: "Game dev student gone rogue."
+  location: "UK"
   links:
     - label: GitHub
       icon: fab fa-github
       url: https://github.com/creacher4
+    - label: Discord
+      icon: fab fa-discord
+      url: https://discord.gg/Szd4nu4wEp
+
+# for defining multiple authors, just name the author here
+# then in /_data/authors.yml, define the author with:
+# sql:
+#  name: sql
+# then in the front matter of a post, use author: sql
 
 header:
   nav:
@@ -25,3 +37,5 @@ sass:
 
 minimal_mistakes_skin: "neon"
 search: true
+
+enable_copy_code_button: true
