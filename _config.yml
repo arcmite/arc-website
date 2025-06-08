@@ -2,6 +2,7 @@ remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+  - jekyll-lunr-js-search
 
 title: "ARC"
 subtitle: "A Reference Guide"
