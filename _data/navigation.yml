@@ -1,24 +1,18 @@
 main:
+  - title: Get Started
+    url: /guides/getting-started/
   - title: Guides
-    url: /site/guides/mods/
-
+    url: /guides/
   - title: Creators
     url: /creators/
-
-  - title: About
-    url: /site/about/
 
 docs:
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"
         url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+      - title: "Lexicon"
+        url: /lexicon/
 
   - title: Customization
     children:

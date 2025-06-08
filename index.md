@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/bannochbrae.png
   actions:
     - label: "<i class='fas fa-book'></i> See Starting Guide"
-      url: "/getting-started/"
+      url: "/guides/getting-started/"
       class: "btn btn--highlight btn--large"
     - label: "Contribute"
       url: "/contribute/"

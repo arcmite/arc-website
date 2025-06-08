@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: creator_page
 title: Foo-Bar
 permalink: /creators/foo-bar/
 author_profile: false

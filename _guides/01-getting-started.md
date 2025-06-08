@@ -1,12 +1,15 @@
 ---
 layout: single
 title: Get Started
-permalink: /getting-started/
+permalink: /guides/getting-started/
 toc: true
 toc_sticky: true
 sidebar:
   nav: "docs"
 read_time: true
+creators_mentioned:
+  - ilja-jusupov
+  - peter-boese
 ---
 
 This guide outlines the recommended setup process for Assetto Corsa using tools the community relies on. Whether you're just starting out or setting up a fresh install, this will get you to a modern baseline.

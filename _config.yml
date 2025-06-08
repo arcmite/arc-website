@@ -39,3 +39,14 @@ minimal_mistakes_skin: "neon"
 search: true
 
 enable_copy_code_button: true
+
+collections:
+  creators:
+    output: true
+    permalink: /creators/:path/
+  guides:
+    output: true
+    permalink: /guides/:path/
+  lexicon:
+    output: true
+    permalink: /lexicon/:path/
