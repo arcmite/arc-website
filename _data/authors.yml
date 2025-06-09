@@ -27,3 +27,15 @@ peter-boese:
     - label: YouTube
       icon: fab fa-youtube
       url: https://www.youtube.com/@onlyletterandnumber
+
+foo-bar:
+  name: "Foo-Bar"
+  avatar: "/assets/images/avatar_placeholder.png"
+  bio: "Contributed several tools and visual enhancements for Assetto Corsa."
+  links:
+    - label: GitHub
+      icon: fab fa-github
+      url: https://github.com
+    - label: Website
+      icon: fas fa-globe
+      url: https://example.com

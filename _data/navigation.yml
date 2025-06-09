@@ -12,7 +12,7 @@ creators:
   - title: "Creators & Modders"
     url: /creators/
     children:
-      - title: "First-Last"
+      - title: "Foo-Bar"
         url: /creators/foo-bar/
       - title: "Ilja Jusupov"
         url: /creators/ilja-jusupov/

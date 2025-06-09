@@ -1,11 +1,16 @@
 ---
-title: "PPFilter (Post-Processing Filter)"
+title: "Post-Processing Filters"
 layout: single
-permalink: /wiki/ppfilter/
+permalink: /wiki/ppfilters/
+toc: true
+toc_sticky: true
+# COULD ADD META DATA LIKE RELATED ARTICLES/CREATORS
 ---
 
-A Post-Processing Filter, or PPFilter, controls how Assetto Corsa looks — color grading, sharpness, bloom, and more.
+## What is a PPFilter?
 
-PPFilters are selectable in Content Manager. Some are tuned for Pure or SOL and may not behave correctly outside those environments.
+A Post-Processing Filter, or PPFilter, is a configuration file (`.ini`) that controls the final look of the game in real-time. It adjusts everything from color grading and contrast to advanced effects like bloom, lens flare, and depth of field. It is the primary tool for achieving a specific visual style in Assetto Corsa.
 
-See our [Photo Mode Guide]({{ "/guides/photo-mode/" | relative_url }}).
+## How It Works
+
+The filter works by applying a series of shader effects after the 3D scene has been rendered but before it is displayed on your screen. ...
