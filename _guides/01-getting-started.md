@@ -21,6 +21,7 @@ https://store.steampowered.com/app/244210/Assetto_Corsa/
 We recommend buying the **Ultimate Edition Bundle** — it includes all the official DLC. Many online servers require at least some of these DLC's to join. The game is frequently on [sale](https://steamdb.info/app/244210/), so it's worth waiting for a discount if you're not in a rush.
 
 After installation, launch the game once. It's not strictly required, but doing so ensures that all folders and config files are created. You can close the game after reaching the main menu.
+{: .notice--info}
 
 ## 2. Install Content Manager
 
@@ -131,15 +132,7 @@ If you want a more in-depth guide that covers everything in one go, including st
 
 It's a useful reference, especially if you prefer video guides or want to see how everything connects in context.
 
-<div style="position: relative; width: 100%; padding-bottom: 56.25%; margin-bottom:1em; height: 0">
-<iframe 
-    src="https://www.youtube.com/embed/eour5cDFF84"
-    title="Assetto Corsa: FULL Guide" 
-    frameborder="0" 
-    allowfullscreen
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-</iframe>
-</div>
+{% include video id="eour5cDFF84" provider="youtube" %}
 
 ---
 

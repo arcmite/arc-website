@@ -38,11 +38,6 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
 - 📺 [YouTube](#)
 - 🧵 [Twitter](#)
 
-## Mentions in Guides
-
-- [Quick Start Guide]({{ "/getting-started/" | relative_url }})
-- [Using External Mods]({{ "/guides/mods/" | relative_url }})
-
 ## Notes
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat, urna in sodales tincidunt, justo lorem pulvinar erat, a sollicitudin massa sem in libero.

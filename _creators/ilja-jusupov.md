@@ -2,6 +2,7 @@
 layout: creator_page
 title: Ilja Jusupov
 permalink: /creators/ilja-jusupov/
+id: ilja-jusupov
 author: ilja-jusupov
 author_profile: true
 toc: true
