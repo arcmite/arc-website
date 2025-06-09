@@ -5,14 +5,27 @@ main:
     url: /guides/
   - title: Creators
     url: /creators/
+  - title: About
+    url: /about/
+
+creators:
+  - title: "Creators & Modders"
+    url: /creators/
+    children:
+      - title: "First-Last"
+        url: /creators/foo-bar/
+      - title: "Ilja Jusupov"
+        url: /creators/ilja-jusupov/
+      - title: "Peter Boese"
+        url: /creators/peter-boese/
 
 docs:
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"
         url: /docs/quick-start-guide/
-      - title: "Lexicon"
-        url: /lexicon/
+      - title: "Wiki"
+        url: /wiki/
 
   - title: Customization
     children:
@@ -31,9 +44,3 @@ docs:
     children:
       - title: "Working with Posts"
         url: /docs/posts/
-
-  - title: Creators
-    url: /creators/
-    children:
-      - title: "First-Last"
-        url: /creators/first-last/

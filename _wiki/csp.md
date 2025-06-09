@@ -1,5 +1,5 @@
 ---
 title: "Custom Shaders Patch"
 layout: single
-permalink: /lexicon/csp/
+permalink: /wiki/csp/
 ---

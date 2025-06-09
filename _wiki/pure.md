@@ -1,5 +1,5 @@
 ---
 title: "Pure"
 layout: single
-permalink: /lexicon/pure/
+permalink: /wiki/pure/
 ---

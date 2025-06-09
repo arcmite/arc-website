@@ -1,7 +1,7 @@
 ---
 title: "PPFilter (Post-Processing Filter)"
 layout: single
-permalink: /lexicon/ppfilter/
+permalink: /wiki/ppfilter/
 ---
 
 A Post-Processing Filter, or PPFilter, controls how Assetto Corsa looks — color grading, sharpness, bloom, and more.

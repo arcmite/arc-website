@@ -1,7 +1,7 @@
 ---
 layout: single
 title: About Us
-permalink: /site/about/
+permalink: /about/
 toc: true
 toc_sticky: true
 read_time: true

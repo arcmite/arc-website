@@ -6,11 +6,12 @@ toc: true
 toc_sticky: true
 sidebar:
   nav: "docs"
-read_time: true
 ---
 
 Mods usually go in:
 
 ```txt
-steam/steamapps/common/assettcorsa/
+steam/steamapps/common/assetocorsa/
 ```
+
+<!-- NEEDS WRITING -->

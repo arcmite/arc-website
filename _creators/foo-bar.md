@@ -3,8 +3,6 @@ layout: creator_page
 title: Foo-Bar
 permalink: /creators/foo-bar/
 author_profile: false
-sidebar:
-  nav: "docs"
 toc: true
 toc_sticky: true
 ---
