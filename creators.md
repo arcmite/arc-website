@@ -1,10 +1,13 @@
 ---
 layout: single
-title: "All Creators"
+title: "Creators"
 permalink: /creators/
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/hero_background.png
+excerpt: "These people have built or inspired the tools, visuals, and mods ARC covers."
 ---
-
-## Community Creators
 
 These people have built or inspired the tools, visuals, and mods ARC covers.
 

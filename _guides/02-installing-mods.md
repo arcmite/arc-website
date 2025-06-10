@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Installing Mods
-permalink: /installing-mods/
+permalink: /guides/installing-mods/
 toc: true
 toc_sticky: true
 sidebar:

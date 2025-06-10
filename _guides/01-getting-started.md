@@ -1,5 +1,10 @@
 ---
 layout: single
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/hero_background.png
+excerpt: "Whether you’re just starting out or setting up a fresh install, this will get you to a modern baseline."
 title: Get Started
 permalink: /guides/getting-started/
 toc: true
@@ -8,8 +13,6 @@ sidebar:
   nav: "docs"
 author: sql
 ---
-
-This guide outlines the recommended setup process for Assetto Corsa using tools the community relies on. Whether you're just starting out or setting up a fresh install, this will get you to a modern baseline.
 
 ## 1. Install Assetto Corsa
 

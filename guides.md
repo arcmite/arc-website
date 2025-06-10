@@ -1,10 +1,13 @@
 ---
 layout: single
-title: "All Guides"
+title: "Guides"
 permalink: /guides/
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/hero_background.png
+excerpt: "Step-by-step walkthroughs and setup guides, from basic installs to visual configuration and advanced tweaks."
 ---
-
-## All Guides
 
 Browse our available guides below.
 
