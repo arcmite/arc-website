@@ -8,8 +8,6 @@ export default defineConfig({
   // BASE LINK FOR GITHUB PAGES
   base: "/assetto-corsa-arc/",
 
-  head: [["link", { rel: "stylesheet", href: "/style.css" }]],
-
   themeConfig: {
     // The main navigation bar at the top of the page
     nav: [
