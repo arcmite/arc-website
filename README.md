@@ -1,1 +1,0 @@
-# assetto-corsa-arc
