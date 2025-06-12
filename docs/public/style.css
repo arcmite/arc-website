@@ -1,0 +1,9 @@
+/*
+ * Arcmite Color Theme Override for VitePress
+ */
+:root,
+.dark {
+  --vp-c-brand-1: #eb0a1e;
+  --vp-c-brand-2: #eb0a1e;
+  --vp-c-brand-3: #eb0a1e;
+}
