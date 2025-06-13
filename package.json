@@ -7,6 +7,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "vitepress": "latest"
+    "vitepress": "latest",
+    "vue-easy-lightbox": "^1.19.0"
   }
 }

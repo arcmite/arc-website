@@ -82,6 +82,7 @@ html.dark {
   background-color: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-bg-soft);
   transition: transform 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .showcase-card:hover {

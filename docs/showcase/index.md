@@ -2,56 +2,50 @@
 layout: page
 ---
 
+<script setup>
+import { ref } from 'vue'
+import { withBase } from 'vitepress' // Needed for relative image paths
+import VueEasyLightbox from 'vue-easy-lightbox/dist/external-css/vue-easy-lightbox.esm.min.js'
+import 'vue-easy-lightbox/dist/external-css/vue-easy-lightbox.css'
+import { items } from './data.ts'
+
+// Create an array of just the image URLs for the lightbox component
+const imageSources = items.map(item => withBase(item.src))
+
+// Reactive variables to control the lightbox
+const lightboxVisible = ref(false)
+const lightboxIndex = ref(0)
+
+// Function to open the lightbox at a specific image index
+const showLightbox = (index) => {
+  lightboxIndex.value = index
+  lightboxVisible.value = true
+}
+
+// Function to hide the lightbox
+const hideLightbox = () => {
+  lightboxVisible.value = false
+}
+</script>
+
 <div class="section-hero">
   <h1>Showcase</h1>
   <p>A curated gallery of what's possible in modded Assetto Corsa. Featuring stunning visuals and unique compositions from the community.</p>
 </div>
 
 <div class="showcase-grid">
-  <!-- Card 1 -->
-  <div class="showcase-card">
-    <img src="/images/showcase/bannochbrae.png" alt="Another scenic shot">
+  <div v-for="(item, index) in items" :key="item.src" class="showcase-card" @click="showLightbox(index)">
+    <img :src="withBase(item.src)" :alt="item.alt" loading="lazy">
     <div class="card-info">
-      <p class="photo-by">Photo by: <strong>@sql</strong></p>
-      <p class="details"><strong>PPFilter:</strong> C13 | <strong>Car:</strong> N/A | <strong>Track:</strong> Bannochbrae</p>
+      <p class="photo-by">Photo by: <strong>{{ item.author }}</strong></p>
+      <p class="details">{{ item.details }}</p>
     </div>
   </div>
-
-  <!-- Card 2 -->
-  <div class="showcase-card">
-    <img src="/images/showcase/r35_waves.png" alt="Another scenic shot">
-    <div class="card-info">
-      <p class="photo-by">Photo by: <strong>@sql</strong></p>
-      <p class="details"><strong>PPFilter:</strong> C13 | <strong>Car:</strong> Nissan GT-R R35 2007 | <strong>Track:</strong> Waves</p>
-    </div>
-  </div>
-
-  <!-- Card 3 -->
-  <div class="showcase-card">
-    <img src="/images/showcase/r35_showroom.png" alt="Another scenic shot">
-    <div class="card-info">
-      <p class="photo-by">Photo by: <strong>@sql</strong></p>
-      <p class="details"><strong>PPFilter:</strong> C13 | <strong>Car:</strong> Nissan GT-R R35 2007 | <strong>Track:</strong> J&G Small Studio</p>
-    </div>
-  </div>
-
-  <!-- Card 4 -->
-  <div class="showcase-card">
-    <img src="/images/showcase/lexus_srp.png" alt="Another scenic shot">
-    <div class="card-info">
-      <p class="photo-by">Photo by: <strong>@lint0</strong></p>
-      <p class="details"><strong>PPFilter:</strong> C13 | <strong>Car:</strong> Lexus LFA | <strong>Track:</strong> Shutoko Revival Project</p>
-    </div>
-  </div>
-
-  <!-- Card 5 -->
-  <div class="showcase-card">
-    <img src="/images/showcase/porsche911.png" alt="Another scenic shot">
-    <div class="card-info">
-      <p class="photo-by">Photo by: <strong>@lint0</strong></p>
-      <p class="details"><strong>PPFilter:</strong> C13 | <strong>Car:</strong> Porsche 911 GT3 RS | <strong>Track:</strong> N/A</p>
-    </div>
-  </div>
-
-  <!-- Add more cards as more images are added to the showcase -->
 </div>
+
+<VueEasyLightbox
+:visible="lightboxVisible"
+:imgs="imageSources"
+:index="lightboxIndex"
+@hide="hideLightbox"
+/>
