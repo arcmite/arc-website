@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 <div class="section-hero">
   <h1>Showcase</h1>
   <p>A curated gallery of what's possible in modded Assetto Corsa. Featuring stunning visuals and unique compositions from the community.</p>
