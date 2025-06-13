@@ -118,10 +118,3 @@ It's a useful reference, especially if you prefer video guides or want to see ho
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/eour5cDFF84" frameborder="0" allowfullscreen></iframe>
 </div>
-
----
-
-# TO-DO
-
-- Visual media (screenshots and video walkthroughs) to be added to this section
-- Small skim through. Make sure everything reads smoothly

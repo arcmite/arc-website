@@ -8,6 +8,12 @@ export default defineConfig({
   // BASE LINK FOR GITHUB PAGES
   base: "/assetto-corsa-arc/",
 
+  markdown: {
+    image: {
+      lazyLoading: true,
+    },
+  },
+
   themeConfig: {
     // The main navigation bar at the top of the page
     nav: [
@@ -65,10 +71,20 @@ export default defineConfig({
       // This sidebar will be shown on all pages under the /docs/ path
       "/docs/": [
         {
-          text: "Project Documentation",
+          text: "About The Project",
+          collapsed: false,
           items: [
-            { text: "About this Project", link: "/docs/" },
+            { text: "Project Roadmap", link: "/docs/roadmap" },
+            { text: "Changelog", link: "/docs/changelog" },
+          ],
+        },
+        {
+          text: "Contributing",
+          collapsed: false,
+          items: [
             { text: "How to Contribute", link: "/docs/contributing" },
+            { text: "Style Guide", link: "/docs/style-guide" },
+            { text: "Meet the Team", link: "/docs/contributors" },
           ],
         },
       ],

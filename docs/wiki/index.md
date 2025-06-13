@@ -3,7 +3,7 @@
   <p>A quick-reference dictionary for common modding terms, tools, and configurations.</p>
 </div>
 
-## How to Use This Wiki
+## How to Use This Section
 
 This section is not for long, step-by-step guides. Instead, it's designed for quick lookups. If you see a term you don't recognize in a guide, you can find an explanation for it here.
 
