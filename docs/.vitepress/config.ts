@@ -25,10 +25,12 @@ export default defineConfig({
       "/guides/": [
         {
           text: "Installation & Setup",
+          collapsed: false,
           items: [{ text: "Getting Started", link: "/guides/getting-started" }],
         },
         {
           text: "Modding",
+          collapsed: false,
           items: [
             { text: "Installing Mods", link: "/guides/installing-mods" },
             { text: "Photo Mode", link: "/guides/photo-mode" },
@@ -39,6 +41,7 @@ export default defineConfig({
       "/creators/": [
         {
           text: "Creators & Modders",
+          collapsed: false,
           items: [
             { text: "Ilja Jusupov", link: "/creators/ilja-jusupov" },
             { text: "Peter Boese", link: "/creators/peter-boese" },
@@ -50,6 +53,7 @@ export default defineConfig({
       "/wiki/": [
         {
           text: "Wiki",
+          collapsed: false,
           items: [
             { text: "Custom Shaders Patch", link: "/wiki/csp" },
             { text: "Look Up Tables", link: "/wiki/lut" },
