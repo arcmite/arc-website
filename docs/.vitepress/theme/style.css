@@ -1,5 +1,77 @@
 /*
- * Arcmite Color Theme Override for VitePress
+ * Arcmite VitePress Font Override
+ * =================================================================== */
+
+@font-face {
+  font-family: "Nationale";
+  src: url("/fonts/Nationale-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --- Italic --- */
+@font-face {
+  font-family: "Nationale";
+  src: url("/fonts/Nationale-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* --- Light --- */
+@font-face {
+  font-family: "Nationale";
+  src: url("/fonts/Nationale-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --- Medium --- */
+@font-face {
+  font-family: "Nationale";
+  src: url("/fonts/Nationale-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --- Demi --- */
+@font-face {
+  font-family: "Nationale";
+  src: url("/fonts/Nationale-DemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --- Bold --- */
+@font-face {
+  font-family: "Nationale";
+  src: url("/fonts/Nationale-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --- Black --- */
+@font-face {
+  font-family: "Nationale";
+  src: url("/fonts/Nationale-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --vp-font-family-base: "Nationale", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+}
+
+/*
+ * Arcmite VitePress Color Theme Override
  
 html.dark {
   --vp-c-brand-1: #eb0a1e;
