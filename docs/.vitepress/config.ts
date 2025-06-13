@@ -96,8 +96,12 @@ export default defineConfig({
     },
 
     // Enables local full-text search
+    // the detailed view is set as default because it's just better
     search: {
       provider: "local",
+      options: {
+        detailedView: true,
+      },
     },
   },
 });

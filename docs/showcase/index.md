@@ -35,5 +35,23 @@ layout: page
     </div>
   </div>
 
+  <!-- Card 4 -->
+  <div class="showcase-card">
+    <img src="/images/showcase/lexus_srp.png" alt="Another scenic shot">
+    <div class="card-info">
+      <p class="photo-by">Photo by: <strong>@lint0</strong></p>
+      <p class="details"><strong>PPFilter:</strong> C13 | <strong>Car:</strong> Lexus LFA | <strong>Track:</strong> Shutoko Revival Project</p>
+    </div>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="showcase-card">
+    <img src="/images/showcase/porsche911.png" alt="Another scenic shot">
+    <div class="card-info">
+      <p class="photo-by">Photo by: <strong>@lint0</strong></p>
+      <p class="details"><strong>PPFilter:</strong> C13 | <strong>Car:</strong> Porsche 911 GT3 RS | <strong>Track:</strong> N/A</p>
+    </div>
+  </div>
+
   <!-- Add more cards as more images are added to the showcase -->
 </div>
