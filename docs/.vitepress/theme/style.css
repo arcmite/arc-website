@@ -1,8 +1,115 @@
 /*
  * Arcmite Color Theme Override for VitePress
- */
+ 
 html.dark {
   --vp-c-brand-1: #eb0a1e;
   --vp-c-brand-2: #c9091a;
   --vp-c-brand-3: #f04f5f;
+}
+*/
+
+/*
+* Video container styles in docs
+*/
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+  margin: 1rem 0;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* 
+* Home page hero image block
+*/
+
+.VPHero.has-image .image-src {
+  /* The drop-shadow filter respects the image's transparency */
+  /* format: drop-shadow(offsetX offsetY blur-radius color) */
+  filter: drop-shadow(0 0 150px rgba(0, 150, 255, 0.5));
+}
+
+/*
+ * Hero block for each sections landing pages
+*/
+.section-hero {
+  text-align: center;
+  padding: 4rem 1.5rem;
+  max-width: 688px;
+  margin: 0 auto;
+}
+
+.section-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: var(--vp-c-text-1);
+}
+
+.section-hero p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--vp-c-text-2);
+  margin: 0;
+}
+
+/*
+ * Showcase Gallery Styles
+*/
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.showcase-card {
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-bg-soft);
+  transition: transform 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.showcase-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--vp-c-brand-1);
+}
+
+.showcase-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  margin: 0;
+}
+
+.showcase-card .card-info {
+  padding: 1rem;
+}
+
+.showcase-card .photo-by {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  margin: 0 0 0.5rem 0;
+}
+
+.showcase-card .details {
+  font-size: 0.85rem;
+  color: var(--vp-c-text-2);
+  margin: 0;
+  line-height: 1.4;
 }

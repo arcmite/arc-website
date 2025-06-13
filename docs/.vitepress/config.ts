@@ -14,7 +14,8 @@ export default defineConfig({
       { text: "Guides", link: "/guides/" },
       { text: "Creators", link: "/creators/" },
       { text: "Wiki", link: "/wiki/" },
-      { text: "About", link: "/about" },
+      { text: "Showcase", link: "/showcase/" },
+      { text: "Docs", link: "/docs/" },
     ],
 
     // The sidebar configuration. VitePress automatically shows the
@@ -57,6 +58,16 @@ export default defineConfig({
           ],
         },
       ],
+      // This sidebar will be shown on all pages under the /docs/ path
+      "/docs/": [
+        {
+          text: "Project Documentation",
+          items: [
+            { text: "About this Project", link: "/docs/" },
+            { text: "How to Contribute", link: "/docs/contributing" },
+          ],
+        },
+      ],
     },
 
     socialLinks: [
@@ -74,13 +85,15 @@ export default defineConfig({
 
     editLink: {
       pattern:
-        "https://github.com/creacher4/assetto-corsa-arc/edit/main/docs/:path",
+        "https://github.com/creacher4/assetto-corsa-arc/edit/vitepress-rewrite/docs/:path",
       text: "Edit this page on GitHub",
     },
 
-    // The 'lastUpdated' feature requires Git. It is disabled here to prevent
+    // The 'lastUpdated' feature requires Git. It was disabled here to prevent
     // the 'spawn git ENOENT' error in environments without Git installed.
-    // lastUpdated: true,
+    lastUpdated: {
+      text: "Last Updated",
+    },
 
     // Enables local full-text search
     search: {

@@ -1,7 +1,4 @@
-# Creators
-
-These people have built or inspired the tools, visuals, and mods ARC covers.
-
-- [Foo-Bar](./foo-bar.md)
-- [Ilja Jusupov](./ilja-jusupov.md)
-- [Peter Boese](./peter-boese.md)
+<div class="section-hero">
+  <h1>Creators</h1>
+  <p>These people have built or inspired the tools, visuals, and mods that ARC covers.</p>
+</div>
