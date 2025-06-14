@@ -17,7 +17,27 @@ export default defineConfig({
   themeConfig: {
     // The main navigation bar at the top of the page
     nav: [
-      { text: "Guides", link: "/guides/" },
+      {
+        text: "Guides",
+        items: [
+          {
+            text: "Installation & Setup",
+            link: "/guides/install-setup/welcome",
+          },
+          {
+            text: "Modding",
+            link: "/guides/modding/modding-basics",
+          },
+          {
+            text: "Visuals",
+            link: "/guides/visuals/enhancing-looks",
+          },
+          {
+            text: "Other",
+            link: "/guides/other/photo-mode",
+          },
+        ],
+      },
       { text: "Creators", link: "/creators/" },
       { text: "Wiki", link: "/wiki/" },
       { text: "Showcase", link: "/showcase/" },
@@ -32,15 +52,114 @@ export default defineConfig({
         {
           text: "Installation & Setup",
           collapsed: false,
-          items: [{ text: "Getting Started", link: "/guides/getting-started" }],
+          items: [
+            {
+              text: "Introduction",
+              link: "/guides/install-setup/welcome",
+            },
+            {
+              text: "Requirements",
+              link: "/guides/install-setup/requirements",
+            },
+            {
+              text: "Installation",
+              collapsed: true,
+              items: [
+                {
+                  text: "Content Manager",
+                  link: "/guides/install-setup/installation/installing-cm",
+                },
+                {
+                  text: "Custom Shaders Patch",
+                  link: "/guides/install-setup/installation/installing-csp",
+                },
+                {
+                  text: "Pure",
+                  link: "/guides/install-setup/installation/installing-pure",
+                },
+              ],
+            },
+          ],
         },
         {
           text: "Modding",
-          collapsed: false,
+          collapsed: true,
           items: [
-            { text: "Installing Mods", link: "/guides/installing-mods" },
-            { text: "Photo Mode", link: "/guides/photo-mode" },
+            {
+              text: "Basics",
+              link: "/guides/modding/modding-basics",
+            },
+            {
+              text: "Root Folder",
+              collapsed: true,
+              items: [
+                {
+                  text: "What is it?",
+                  link: "/guides/modding/root-directory/root-directory",
+                },
+                {
+                  text: "Structure",
+                  link: "/guides/modding/root-directory/rd-structure",
+                },
+              ],
+            },
+            {
+              text: "Installing Mods",
+              collapsed: true,
+              items: [
+                { text: "Cars", link: "/guides/modding/installing-mods/cars" },
+                {
+                  text: "Tracks",
+                  link: "/guides/modding/installing-mods/tracks",
+                },
+                {
+                  text: "Apps",
+                  link: "/guides/modding/installing-mods/apps",
+                },
+                {
+                  text: "Other",
+                  link: "/guides/modding/installing-mods/other",
+                },
+              ],
+            },
           ],
+        },
+        {
+          text: "Visuals",
+          collapsed: true,
+          items: [
+            {
+              text: "Enhancing Looks",
+              link: "/guides/visuals/enhancing-looks",
+            },
+            {
+              text: "Post-Processing Filters",
+              collapsed: true,
+              items: [
+                {
+                  text: "What are they?",
+                  link: "/guides/visuals/ppfilters/ppfilters",
+                },
+                {
+                  text: "Installation",
+                  link: "/guides/visuals/ppfilters/installing-ppfilters",
+                },
+                {
+                  text: "Creating your own",
+                  link: "/guides/visuals/ppfilters/creating-ppfilters",
+                },
+              ],
+            },
+            {
+              text: "Pure Config",
+              link: "/guides/visuals/pconfig-basics",
+            },
+          ],
+        },
+        {
+          text: "Other Guides",
+          collapsed: true,
+          items: [{ text: "Photo Mode", link: "/guides/other/photo-mode" }],
         },
       ],
       // This sidebar will be shown on all pages under the /creators/ path

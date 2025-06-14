@@ -1,5 +1,5 @@
 # How to Contribute
 
-We welcome contributions of all kinds! From fixing typos to writing entire guides, every bit helps.
+We’re open to all kinds of contributions — fixing typos, improving guides, adding visuals, or suggesting something new.
 
-The easiest way to contribute is to find a page you want to improve and click the "Edit this page on GitHub" link at the bottom.
+Ways to contribute:
