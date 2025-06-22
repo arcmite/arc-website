@@ -8,6 +8,10 @@ export default defineConfig({
   // BASE LINK FOR GITHUB PAGES
   base: "/assetto-corsa-arc/",
 
+  head: [
+    ['link', { rel: 'icon', href: '/assetto-corsa-arc/images/ARC1.png' }]
+  ],
+
   markdown: {
     image: {
       lazyLoading: true,
