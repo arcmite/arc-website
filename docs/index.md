@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guides/getting-started
+      link: /guides/install-setup/requirements
     - theme: alt
       text: Contribute on GitHub
       link: https://github.com/creacher4/assetto-corsa-arc
@@ -20,13 +20,10 @@ features:
   - title: "Step-by-Step Guides"
     details: From a fresh install to a fully-modded setup, our guides walk you through the entire process.
     icon: "🚀"
-    link: /guides/
   - title: "Creator Spotlights"
     details: Learn about the key figures in the modding community and the essential tools they've created.
     icon: "👥"
-    link: /creators/
   - title: "Technical Wiki"
     details: A quick-reference wiki for common terms, tools, and configurations you'll encounter.
     icon: "📚"
-    link: /wiki/
 ---
