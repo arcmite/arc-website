@@ -232,11 +232,13 @@ export default defineConfig({
       text: "Edit this page on GitHub",
     },
 
-    // The 'lastUpdated' feature requires Git. It was disabled here to prevent
+    // The 'lastUpdated' feature requires Git. It can be disabled here to prevent
     // the 'spawn git ENOENT' error in environments without Git installed.
+    // lastUpdated: false,
     lastUpdated: {
       text: "Last Updated",
     },
+
 
     // Enables local full-text search
     // the detailed view is set as default because it's just better
