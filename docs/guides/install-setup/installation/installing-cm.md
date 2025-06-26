@@ -19,6 +19,8 @@ Content Manager is available from its official website. [Download](https://acstu
 
 ### Version Information
 
+<!-- This entire section needs fact checking because I've actually almost 0 idea what the full version actually brings other than server management -->
+
 Content Manager comes in two versions:
 
 :::info Lite
@@ -34,7 +36,7 @@ A key unlocked by donating to the developer. Adds advanced tools for:
 :::
 
 :::info Should I upgrade?
-If you’re just looking to play and mod AC casually, **Lite is more than enough**. Upgrade only if you're managing servers or working heavily with advanced modding setups.
+If you’re just looking to play and mod AC casually, the lite version is more than enough. Upgrade only if you're managing servers or working heavily with advanced modding setups.
 :::
 
 ## Installation
@@ -45,7 +47,7 @@ Content Manager doesn't have a traditional installer. You simply extract the mai
 
 1.  Open the downloaded archive, `content-manager.zip`.
 2.  You will find a file named `ContentManager.exe` inside, along with a `Manifest.json`.
-3.  For ease of access, you can drag `ContentManager.exe` directly onto your desktop. Alternatively, you can create a dedicated folder and place it there.
+3.  For ease of access, drag `ContentManager.exe` directly onto your desktop. Alternatively, create a dedicated folder and place it in there.
 
     <!-- Placeholder for a screenshot of dragging Content Manager.exe to Desktop or a folder -->
     <!-- <img src="/images/guides/cm-extract-desktop.png" alt="Dragging Content Manager.exe"> -->
@@ -80,12 +82,11 @@ CM needs to know where your Assetto Corsa game is installed.
 CM will usually attempt to detect your Steam ID automatically. If prompted, or if you need it for other purposes:
 
 ::: details Find your Steam ID
-
 1. Open your Steam client.
-2. Click your profile name in the top right, then select "View my profile."
-3. Right-click anywhere on your profile page and select "Copy Page URL."
+2. Click your profile name in the top right, then select `View my profile`.
+3. Right-click anywhere on your profile page and select `Copy Page URL`.
 4. Paste this URL into a Steam ID finder website (e.g., `steamid.io` or `steamidfinder.com`). It will display your SteamID64 along with other formats.
-   :::
+:::
 
 ### Plugins
 
