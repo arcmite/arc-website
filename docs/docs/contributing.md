@@ -2,7 +2,7 @@
 
 Welcome! We're thrilled you're interested in contributing to ARC. We aim to be the definitive Assetto Corsa reference guide, and your help will make that possible. Whether it's fixing a typo, writing a guide, or sharing ideas, every contribution matters.
 
-## Ways to Contribute
+## Types of Contributions
 
 You can help improve ARC in the following ways:
 
@@ -14,122 +14,116 @@ You can help improve ARC in the following ways:
 -   **Suggest Ideas:** Propose new topics, guides, or site features. Give feedback on layout or usability.
 
 :::tip Not sure where to start?
-Check the [Project Roadmap](./roadmap.md) or look through our [open issues](https://github.com/creacher4/assetto-corsa-arc/issues).
+Check the [Project Roadmap](./roadmap.md), or look through our [open issues](https://github.com/creacher4/assetto-corsa-arc/issues) on GitHub.
 :::
 
-## How to Contribute
+## Contribution Methods
 
 Choose the method that suits you best:
 
-### 1. Edit Directly on GitHub
+### Edit on GitHub
 
-For small changes like typos or minor wording updates:
+For small changes like typos or minor wording updates, you don't need any special tools.
 
-1.  On any ARC page, scroll to the bottom and click "Edit this page on GitHub."
+1.  On any page, scroll to the bottom and click `Edit this page on GitHub`.
 2.  Make your changes in GitHub's online editor.
-3.  Describe your changes briefly, then click “Propose changes” to open a Pull Request (PR) for review.
+3.  Describe your changes briefly, then click `Propose changes` to open a pull request for review.
 
-:::info GitHub's Editor
-Note that GitHub's editor only shows a basic Markdown preview, not the full VitePress site rendering. For a live preview, see "Previewing Your Changes" below.
+### Complete Workflow
+
+For adding new pages, making significant revisions, or working with images, this workflow lets you preview your changes live on your own machine.
+
+:::danger Prerequisites
+This method requires a few standard development tools. Before you start, please ensure you have:
+
+-   A [**GitHub Account**](https://github.com)
+-   [**Git**](https://git-scm.com/downloads) (the version control system)
+-   [**Node.js**](https://nodejs.org/en/) (v18+ LTS recommended)
+-   A code editor like [**VS Code**](https://code.visualstudio.com/) (recommended)
+
+**Alternative:** You can use [**StackBlitz**](#online-ide-stackblitz) for an online setup without installing anything locally.
 :::
-
-### 2. Fork + Pull Request
-
-For new pages, significant revisions, or new features, a Pull Request (PR) is the way to go:
 
 1.  **Fork & Clone:**
     -   [Fork the repository](https://github.com/creacher4/assetto-corsa-arc) to your GitHub account.
-    -   Clone your fork to your local machine:
+    -   Clone your fork to your local machine using a terminal:
+        :::info Tip
+        Before cloning, make sure you're inside the directory where you want the project folder to be created. You can open this location through VSCode or navigate to it using Git Bash or any terminal.
+        :::
         ```bash
+        # Replace YOUR_USERNAME with your actual GitHub username
         git clone https://github.com/YOUR_USERNAME/assetto-corsa-arc.git
         cd assetto-corsa-arc
         ```
 
-2.  **Create a Branch:**
-    Keep your changes organized by creating a new branch:
+2.  **Install Dependencies:**
+    Inside the project folder, run this command once to install VitePress and other tools.
+    ```bash
+    # In the same terminal used to clone the repo
+    npm install
+    ```
+
+3.  **Create a Branch:**
+    Keep your changes organized by creating a new branch for each feature or fix.
     ```bash
     # Examples: feature/new-csp-guide, fix/typo-in-install-doc
     git checkout -b your-descriptive-branch-name
     ```
 
-3.  **Make Changes:**
-    Edit or add files. Refer to our [Style Guide](./style-guide.md) and ensure new pages are linked in `docs/.vitepress/config.ts` if needed for the sidebar.
+4.  **Make & Preview Changes:**
+    -   Start the local development server:
+        ```bash
+        npm run docs:dev
+        ```
+    -   Open the URL shown in your terminal (usually `http://localhost:5173`) in your browser.
+    -   Edit or add files in your code editor. The site will update live as you save your changes.
+    -   Remember to follow our [Style Guide](./style-guide.md) and link new pages in `docs/.vitepress/config.ts` if they need to appear in the sidebar.
 
-4.  **Commit Your Work:**
+5.  **Commit Your Work:**
     Use clear, concise commit messages.
     ```bash
     git add .
     git commit -m "Your descriptive commit message"
     ```
     :::tip Conventional Commits
-    We encourage [Conventional Commits](https://www.conventionalcommits.org/) (e.g., `feat: Add Sol installation guide`, `fix: Correct link in Pure docs`). It helps keep our history clean.
+    We encourage the use of [Conventional Commits](https://www.conventionalcommits.org/) (e.g., `feat: Add Sol installation guide`, `fix: Correct link in Pure docs`). It helps keep our history clean.
     :::
 
-5.  **Push to Your Fork:**
+6.  **Push to Your Fork:**
     ```bash
     git push origin your-descriptive-branch-name
     ```
 
-6.  **Submit a Pull Request:**
-    -   Go to your fork on GitHub.
-    -   Click "Compare & pull request" for your new branch (or go to the "Pull requests" tab and click "New pull request").
-    -   Provide a clear title and description for your PR. If it addresses an issue, link it (e.g., "Closes #123").
-    -   Click "Create pull request."
+7.  **Submit a Pull Request:**
+    -   Go to your fork on GitHub. A prompt to `Compare & pull request` should appear.
+    -   Provide a clear title and description for your PR. If it addresses an issue, link it (e.g., `Closes #123`).
+    -   Click `Create pull request`.
 
 Our team will review your PR. We may suggest changes or ask for revisions.
 
-:::details No Git? No Problem
+## StackBlitz
 
--   **GitHub Issues:** [Open an issue](https://github.com/creacher4/assetto-corsa-arc/issues) to report errors, suggest content, or ask questions.
--   **Discord:** Join our [Discord server](https://discord.gg/Szd4nu4wEp) to chat, share ideas, or get help.
-:::
-
-## Style Guide
-
-Please follow our [Style Guide](./style-guide.md) for consistency in formatting, tone, and content structure.
-
-## Previewing Your Changes
-
-See your edits live before submitting:
-
-### Local Development
-
-1.  **Prerequisites:**
-    -   [Node.js](https://nodejs.org/) (v18.x or newer recommended)
-    -   `npm` (comes with Node.js) or `pnpm`
-2.  **Setup:**
-    -   Clone the repository (if you haven't already).
-    -   Install dependencies:
-        ```bash
-        npm install  # or pnpm install
-        ```
-3.  **Run Dev Server:**
-    ```bash
-    npm run docs:dev # or pnpm docs:dev
-    ```
-    Open `http://localhost:5173` (or the port shown in your terminal) in your browser.
-
-### Using StackBlitz (Online IDE)
-
-You can also use StackBlitz to edit and preview changes online without a local setup:
+You can use StackBlitz to edit and preview changes online without a local setup:
 
 1.  Go to the [ARC repository](https://github.com/creacher4/assetto-corsa-arc).
 2.  Change `github.com` in the URL to `stackblitz.com/github` (e.g., `stackblitz.com/github/creacher4/assetto-corsa-arc`).
 3.  StackBlitz will set up the project. You may need to run `npm run docs:dev` in its built-in terminal to start the live preview.
 
 :::warning StackBlitz & `lastUpdated`
-If you see an error like `spawn git ENOENT` on StackBlitz, it's likely due to the `lastUpdated` feature. Temporarily disable it in `docs/.vitepress/config.ts` by setting `themeConfig.lastUpdated` to `false`.
+If you see an error like `spawn git ENOENT` on StackBlitz, it's likely due to the `lastUpdated` feature. Temporarily disable it in `docs/.vitepress/config.ts` by setting `themeConfig.lastUpdated` to `false`. There are two ways to do this: either by omitting the `lastUpdated` property completely (since it's disabled by default), or by using the following code snippets:
+
+```ts
+// active
+lastUpdated: {
+    text: "Last Updated",
+},
+
+// inactive
+lastUpdated: false,
+```
 :::
-
-## Requesting Contributor Access
-
-Contributors who demonstrate consistent quality and collaboration may be invited to join the project directly. Begin with Pull Requests, and if you're interested after a few contributions, reach out via Discord or in a PR discussion.
 
 ## Communication
 
 -   **GitHub Issues:** For specific bugs, features, and content discussions.
 -   **Discord:** For general chat, quick questions, and collaboration. Join us: [https://discord.gg/Szd4nu4wEp](https://discord.gg/Szd4nu4wEp).
-
----
-
-Thank you for helping ARC grow! We're looking forward to seeing the contributions you put forward.

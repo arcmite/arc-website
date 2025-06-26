@@ -1,6 +1,6 @@
 # Installing Content Manager
 
-Content Manager (CM) is an alternative launcher for _Assetto Corsa_, packed with features that go beyond the original. Developed by [Ilja Jusupov](../../../creators/ilja-jusupov), it is considered essential for anyone looking to mod the game, manage content, or join online servers.
+Content Manager (CM) is an alternative launcher for _Assetto Corsa_ (AC), packed with features that go beyond the original. Developed by [Ilja Jusupov](../../../creators/ilja-jusupov), it is considered essential for anyone looking to mod the game, manage content, or join online servers.
 
 This guide walks you through downloading, installing, and configuring Content Manager.
 
@@ -15,41 +15,42 @@ See [Requirements](../requirements) if you haven’t completed these steps yet.
 
 ## Download
 
-Content Manager is available from its official website:
+Content Manager is available from its official website. [Download](https://acstuff.ru/app/) the latest release archive (typically a `.zip`).
 
-- **Official Download:** [acstuff.ru/app/](https://acstuff.ru/app/)
+### Version Information
 
-::: details Version Information
-Content Manager has two versions: Lite and Full.
+Content Manager comes in two versions:
 
-When you first download Content Manager, you get the Lite version, which is free and fully usable. It includes everything most users need: mod management, driving, and basic setup.
-
-The Full version, unlocked by donating to the developer, adds extra features like:
-
-- Advanced server setup tools
-- Custom career and special event support
-- More detailed content and modding controls
-- Access to experimental features
-
-Unless you're hosting servers or doing in-depth content work, the Lite version is more than enough.
+:::info Lite
+Free and fully functional for most users. Includes everything you need for mod management, gameplay, and basic setup.
 :::
 
-Download the latest release archive (typically a `.zip`).
+:::details Full
+A key unlocked by donating to the developer. Adds advanced tools for:
+  - Server management
+  - Custom careers and events
+  - Detailed content/modding controls
+  - Access to experimental builds
+:::
+
+:::info Should I upgrade?
+If you’re just looking to play and mod AC casually, **Lite is more than enough**. Upgrade only if you're managing servers or working heavily with advanced modding setups.
+:::
 
 ## Installation
 
 Content Manager doesn't have a traditional installer. You simply extract the main program file and run it.
 
-**Extraction and Placement**
+### Extraction
 
 1.  Open the downloaded archive, `content-manager.zip`.
 2.  You will find a file named `ContentManager.exe` inside, along with a `Manifest.json`.
-3.  For ease of access, you can drag `ContentManager.exe` directly onto your Desktop. Alternatively, you can create a dedicated folder and place it there.
+3.  For ease of access, you can drag `ContentManager.exe` directly onto your desktop. Alternatively, you can create a dedicated folder and place it there.
 
     <!-- Placeholder for a screenshot of dragging Content Manager.exe to Desktop or a folder -->
     <!-- <img src="/images/guides/cm-extract-desktop.png" alt="Dragging Content Manager.exe"> -->
 
-**Running**
+### Running
 
 Double-click `ContentManager.exe` from where you placed it (e.g., your Desktop) to launch it for the first time.
 
@@ -57,25 +58,24 @@ Double-click `ContentManager.exe` from where you placed it (e.g., your Desktop) 
 
 On first launch, Content Manager prompts for basic configuration:
 
-**Assetto Corsa Root Folder**
+### Root Folder
 
 CM needs to know where your Assetto Corsa game is installed.
 
 - The typical path is: `C:\Program Files (x86)\Steam\steamapps\common\assettocorsa`
 - If you installed AC in a different Steam Library or custom location, browse to that folder.
 
-::: details Find your root folder
-
+:::details Find your root folder
 1. Open Steam and go to your Library.
-2. Right-click on "Assetto Corsa."
+2. Right-click on `Assetto Corsa`.
 3. Go to `Manage -> Browse local files`.
-4. The File Explorer window that opens shows your Assetto Corsa root folder. Copy this path.
-   :::
+4. The File Explorer window that opens shows your AC root folder. Copy this path.
+:::
 
 <!-- Placeholder for a screenshot of CM asking for AC root path -->
 <!-- <img src="/images/guides/cm-ac-root-prompt.png" alt="Content Manager asking for Assetto Corsa root path"> -->
 
-**Your Steam ID**
+### Your Steam ID
 
 CM will usually attempt to detect your Steam ID automatically. If prompted, or if you need it for other purposes:
 
@@ -84,35 +84,37 @@ CM will usually attempt to detect your Steam ID automatically. If prompted, or i
 1. Open your Steam client.
 2. Click your profile name in the top right, then select "View my profile."
 3. Right-click anywhere on your profile page and select "Copy Page URL."
-4. Paste this URL into a Steam ID finder website (e.g., `steamid.io` or `steamidfinder.com`). It will display your SteamID64 and other formats.
+4. Paste this URL into a Steam ID finder website (e.g., `steamid.io` or `steamidfinder.com`). It will display your SteamID64 along with other formats.
    :::
 
-**Plugins**
+### Plugins
 
-CM may offer to install some additional plugins, such as "7-Zip" integration for handling archives or others for specific functionalities.
+CM may offer to install some additional plugins, such as integration for handling archives, or others for specific functionalities.
 
-- These plugins are **optional**. You do not need to install all, or any, of them for CM to function correctly with Assetto Corsa.
-- Install any you think might be useful (like 7-Zip integration if you frequently download mods in `.7z` format). You can manage these later in CM's settings.
+- These plugins are _optional_. You do not need to install all, or any, of them for CM to function correctly with Assetto Corsa.
+- Install any you think might be useful (like 7-Zip integration if you frequently download mods in the `.7z` format). You can manage these later in CM's settings.
 
 <!-- Placeholder for a screenshot of CM initial settings screen, possibly highlighting the optional plugins -->
 <!-- <img src="/images/guides/cm-initial-settings-plugins.png" alt="Content Manager initial settings screen with plugin options"> -->
 
-**Finalizing Setup**
+### Finalizing Setup
 
-Click "OK" or "Apply" to save these initial settings. Content Manager will then launch.
+Click `OK` or `Apply` to save these initial settings. Content Manager will then launch.
 
-::: details Unlocking the full version
-If you've donated and received a key, go to `Settings → Content Manager → General`, and under the `App` section, click "Change" to enter your activation key.
+:::info Unlocking the full version
+If you've donated and received a key, go to `Settings → Content Manager → General`, and under the `App` section, click `Change` to enter your activation key.
 :::
 
 ## Troubleshooting
 
-- **"Assetto Corsa root folder not found" or "Invalid Path":**
-  - Carefully verify the path you provided. Ensure it's the main `assettocorsa` folder (the one containing `acs.exe`), not a subfolder.
-  - Use the "Browse local files" method in Steam (detailed above) to confirm the correct path.
-- **Antivirus Flags `ContentManager.exe`:**
-  - This can occasionally happen with new software versions, especially tools that interact deeply with other applications. If you downloaded CM from the official `acstuff.ru` site, it's almost always a false positive.
-  - Consider adding an exception for `ContentManager.exe` or its containing folder in your antivirus software.
-- **CM is Slow or Unresponsive on First Start:**
-  - If you have a very large amount of existing _Assetto Corsa_ content (many cars and tracks), CM might take some time to scan and catalog everything during its initial startup or after new content is added. This is usually a one-time process for new content.
-  - Ensure your PC meets at least the minimum requirements for _Assetto Corsa_. See [Requirements](../requirements) for details.
+Below are common issues encountered during setup, along with their solutions.
+
+:::details AC root folder not found
+Double-check that you've selected the main `assettocorsa` folder, the one containing `acs.exe`. Use Steam’s `Browse local files` option to locate the correct path.
+:::
+:::details Antivirus Flags `ContentManager.exe`
+Some antivirus programs may flag CM as suspicious due to its deep system integration. If downloaded from [acstuff.ru](https://acstuff.ru/app/), this is almost always a false positive. You can add an exception in your antivirus for the CM executable or its folder.
+:::
+:::details CM is slow or freezes on first launch
+If you already have lots of mods installed (cars, tracks, etc.), CM will need time to index everything. This is normal and only occurs once per large content update. Ensure your system meets at least the minimum specs for AC. See [Requirements](../requirements) for details.
+:::

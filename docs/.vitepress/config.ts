@@ -213,6 +213,13 @@ export default defineConfig({
       ],
     },
 
+    // The toc on the right side of the page
+    outline: {
+      level: [2, 3],
+      label: 'On this page'
+    },
+
+    // Social links part of the header
     socialLinks: [
       {
         icon: "github",
