@@ -1,3 +1,6 @@
 # Changelog
 
-A log of all significant user-facing changes for the current version of the ARC website. This includes new pages, major content updates, and UX improvements.
+:::warning Under Construction
+This page is not yet complete. Contribute [here](https://github.com/creacher4/assetto-corsa-arc) or check back soon!
+:::
+

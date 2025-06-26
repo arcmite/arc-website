@@ -1,3 +1,6 @@
 # Style Guide
 
-To maintain consistency across the site, please follow these simple guidelines when writing or editing content.
+:::warning Under Construction
+This page is not yet complete. Contribute [here](https://github.com/creacher4/assetto-corsa-arc) or check back soon!
+:::
+

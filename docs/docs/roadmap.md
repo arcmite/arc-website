@@ -1,7 +1,6 @@
 # Project Roadmap
 
-This document outlines the current and future plans for ARC. Our goal is to create the most comprehensive and user-friendly reference for Assetto Corsa modding.
+:::warning Under Construction
+This page is not yet complete. Contribute [here](https://github.com/creacher4/assetto-corsa-arc) or check back soon!
+:::
 
-If you'd like to help with any of these items, please see our [Contribution Guide](./contributing.md).
-
-<!-- To fill with information -->
