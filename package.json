@@ -9,5 +9,8 @@
   "devDependencies": {
     "vitepress": "latest",
     "vue-easy-lightbox": "^1.19.0"
+  },
+  "dependencies": {
+    "lucide-vue-next": "^0.523.0"
   }
 }
