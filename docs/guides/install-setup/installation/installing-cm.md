@@ -35,8 +35,8 @@ A key unlocked by donating to the developer. Adds advanced tools for:
   - Access to experimental builds
 :::
 
-:::info Should I upgrade?
-If you’re just looking to play and mod AC casually, the lite version is more than enough. Upgrade only if you're managing servers or working heavily with advanced modding setups.
+:::tip Do I need the Full version?
+If you are new to Assetto Corsa or a casual player, the lite version is all you need. Consider donating for a key if you plan to manage online servers or engage in further mod development.
 :::
 
 ## Installation
@@ -102,8 +102,8 @@ CM may offer to install some additional plugins, such as integration for handlin
 
 Click `OK` or `Apply` to save these initial settings. Content Manager will then launch.
 
-:::info Unlocking the full version
-If you've donated and received a key, go to `Settings → Content Manager → General`, and under the `App` section, click `Change` to enter your activation key.
+:::tip Unlocking the Full Version
+If you have a key, you can activate it in Content Manager by navigating to `Settings > Content Manager > General` and under the `App` header, click `Change` and enter your key.
 :::
 
 ## Troubleshooting

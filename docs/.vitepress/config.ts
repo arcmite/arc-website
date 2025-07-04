@@ -21,27 +21,7 @@ export default defineConfig({
   themeConfig: {
     // The main navigation bar at the top of the page
     nav: [
-      {
-        text: "Guides",
-        items: [
-          {
-            text: "Installation & Setup",
-            link: "/guides/install-setup/welcome",
-          },
-          {
-            text: "Modding",
-            link: "/guides/modding/modding-basics",
-          },
-          {
-            text: "Visuals",
-            link: "/guides/visuals/enhancing-looks",
-          },
-          {
-            text: "Other",
-            link: "/guides/other/photo-mode",
-          },
-        ],
-      },
+      { text: "Guides", link: "/guides/install-setup/welcome" },
       { text: "Creators", link: "/creators/" },
       { text: "Wiki", link: "/wiki/" },
       { text: "Showcase", link: "/showcase/" },
@@ -57,14 +37,8 @@ export default defineConfig({
           text: "Installation & Setup",
           collapsed: false,
           items: [
-            {
-              text: "Introduction",
-              link: "/guides/install-setup/welcome",
-            },
-            {
-              text: "Requirements",
-              link: "/guides/install-setup/requirements",
-            },
+            { text: "Introduction", link: "/guides/install-setup/welcome" },
+            { text: "Requirements", link: "/guides/install-setup/requirements" },
             {
               text: "Installation",
               collapsed: true,

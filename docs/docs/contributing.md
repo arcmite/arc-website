@@ -86,7 +86,7 @@ This method requires a few standard development tools. Before you start, please 
     git commit -m "Your descriptive commit message"
     ```
     :::tip Conventional Commits
-    We encourage the use of [Conventional Commits](https://www.conventionalcommits.org/) (e.g., `feat: Add Sol installation guide`, `fix: Correct link in Pure docs`). It helps keep our history clean.
+    We encourage the use of [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) (e.g., `feat: Add Sol installation guide`, `fix: Correct link in Pure docs`). It helps keep our history clean.
     :::
 
 6.  **Push to Your Fork:**
