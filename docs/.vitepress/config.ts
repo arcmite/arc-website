@@ -163,7 +163,6 @@ export default defineConfig({
             { text: "Look Up Tables", link: "/wiki/lut" },
             { text: "Post-Processing Filters", link: "/wiki/ppfilter" },
             { text: "Pure", link: "/wiki/pure" },
-            { text: "SDK", link: "/wiki/sdk" },
           ],
         },
       ],
