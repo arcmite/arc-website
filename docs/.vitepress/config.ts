@@ -8,8 +8,9 @@ export default defineConfig({
   // BASE LINK FOR GITHUB PAGES
   base: "/assetto-corsa-arc/",
 
+  // will pull from docs/public
   head: [
-    ['link', { rel: 'icon', href: '/assetto-corsa-arc/images/ARC1.png' }]
+    ['link', { rel: 'icon', href: 'images/ARC1.png' }],
   ],
 
   markdown: {
@@ -21,7 +22,7 @@ export default defineConfig({
   themeConfig: {
     // The main navigation bar at the top of the page
     nav: [
-      { text: "Guides", link: "/guides/install-setup/welcome" },
+      { text: "Guides", link: "/guides/welcome" },
       { text: "Creators", link: "/creators/" },
       { text: "Wiki", link: "/wiki/" },
       { text: "Showcase", link: "/showcase/" },
@@ -33,105 +34,33 @@ export default defineConfig({
     sidebar: {
       // This sidebar will be shown on all pages under the /guides/ path
       "/guides/": [
+        { text: "Introduction", link: "/guides/welcome" },
+        { text: "Requirements", link: "/guides/requirements" },
         {
-          text: "Installation & Setup",
+          text: "Setup",
           collapsed: false,
           items: [
-            { text: "Introduction", link: "/guides/install-setup/welcome" },
-            { text: "Requirements", link: "/guides/install-setup/requirements" },
-            {
-              text: "Installation",
-              collapsed: true,
-              items: [
-                {
-                  text: "Content Manager",
-                  link: "/guides/install-setup/installation/installing-cm",
-                },
-                {
-                  text: "Custom Shaders Patch",
-                  link: "/guides/install-setup/installation/installing-csp",
-                },
-                {
-                  text: "Pure",
-                  link: "/guides/install-setup/installation/installing-pure",
-                },
-              ],
-            },
+            { text: "Content Manager", link: "/guides/setup/installing-cm" },
+            { text: "Custom Shaders Patch", link: "/guides/setup/installing-csp" },
+            { text: "Pure", link: "/guides/setup/installing-pure" },
           ],
         },
         {
           text: "Modding",
-          collapsed: true,
+          collapsed: false,
           items: [
-            {
-              text: "Basics",
-              link: "/guides/modding/modding-basics",
-            },
-            {
-              text: "Root Folder",
-              collapsed: true,
-              items: [
-                {
-                  text: "What is it?",
-                  link: "/guides/modding/root-directory/root-directory",
-                },
-                {
-                  text: "Structure",
-                  link: "/guides/modding/root-directory/rd-structure",
-                },
-              ],
-            },
-            {
-              text: "Installing Mods",
-              collapsed: true,
-              items: [
-                { text: "Cars", link: "/guides/modding/installing-mods/cars" },
-                {
-                  text: "Tracks",
-                  link: "/guides/modding/installing-mods/tracks",
-                },
-                {
-                  text: "Apps",
-                  link: "/guides/modding/installing-mods/apps",
-                },
-                {
-                  text: "Other",
-                  link: "/guides/modding/installing-mods/other",
-                },
-              ],
-            },
+            { text: "Overview", link: "/guides/modding/overview" },
+            { text: "Root Folder & File Structure", link: "/guides/modding/root-folder" },
+            { text: "Installing Mods", link: "/guides/modding/installing-mods" },
           ],
         },
         {
           text: "Visuals",
-          collapsed: true,
+          collapsed: false,
           items: [
-            {
-              text: "Enhancing Looks",
-              link: "/guides/visuals/enhancing-looks",
-            },
-            {
-              text: "Post-Processing Filters",
-              collapsed: true,
-              items: [
-                {
-                  text: "What are they?",
-                  link: "/guides/visuals/ppfilters/ppfilters",
-                },
-                {
-                  text: "Installation",
-                  link: "/guides/visuals/ppfilters/installing-ppfilters",
-                },
-                {
-                  text: "Creating your own",
-                  link: "/guides/visuals/ppfilters/creating-ppfilters",
-                },
-              ],
-            },
-            {
-              text: "Pure Config",
-              link: "/guides/visuals/pconfig-basics",
-            },
+            { text: "Overview", link: "/guides/visuals/overview" },
+            { text: "Post-Processing Filters", link: "/guides/visuals/ppfilters" },
+            { text: "Pure Config", link: "/guides/visuals/pconfig" },
           ],
         },
         {
