@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guides/install-setup/requirements
+      link: /guides/welcome
     - theme: alt
       text: Contribute on GitHub
       link: https://github.com/creacher4/assetto-corsa-arc
