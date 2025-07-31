@@ -1,6 +1,7 @@
 /*
- * Arcmite VitePress Font Override
- * =================================================================== */
+ * font override
+ *
+ */
 
 @font-face {
   font-family: "Nationale";
@@ -10,7 +11,7 @@
   font-display: swap;
 }
 
-/* --- Italic --- */
+/* italics */
 @font-face {
   font-family: "Nationale";
   src: url("/fonts/Nationale-Italic.woff2") format("woff2");
@@ -19,7 +20,7 @@
   font-display: swap;
 }
 
-/* --- Light --- */
+/* light weight */
 @font-face {
   font-family: "Nationale";
   src: url("/fonts/Nationale-Light.woff2") format("woff2");
@@ -28,7 +29,7 @@
   font-display: swap;
 }
 
-/* --- Medium --- */
+/* medium weight */
 @font-face {
   font-family: "Nationale";
   src: url("/fonts/Nationale-Medium.woff2") format("woff2");
@@ -37,7 +38,7 @@
   font-display: swap;
 }
 
-/* --- Demi --- */
+/* demi weight */
 @font-face {
   font-family: "Nationale";
   src: url("/fonts/Nationale-DemiBold.woff2") format("woff2");
@@ -46,7 +47,7 @@
   font-display: swap;
 }
 
-/* --- Bold --- */
+/* bold */
 @font-face {
   font-family: "Nationale";
   src: url("/fonts/Nationale-Bold.woff2") format("woff2");
@@ -55,7 +56,7 @@
   font-display: swap;
 }
 
-/* --- Black --- */
+/* black weight */
 @font-face {
   font-family: "Nationale";
   src: url("/fonts/Nationale-Black.woff2") format("woff2");
@@ -71,17 +72,8 @@
 }
 
 /*
- * Arcmite VitePress Color Theme Override
- 
-html.dark {
-  --vp-c-brand-1: #eb0a1e;
-  --vp-c-brand-2: #c9091a;
-  --vp-c-brand-3: #f04f5f;
-}
-*/
-
-/*
-* Video container styles in docs
+* video container styles in docs
+*
 */
 
 .video-container {
@@ -93,6 +85,7 @@ html.dark {
   background: #000;
   margin: 1rem 0;
 }
+
 .video-container iframe {
   position: absolute;
   top: 0;
@@ -102,18 +95,22 @@ html.dark {
 }
 
 /* 
-* Home page hero image block
+* home page hero styles
+*
 */
 
 .VPHero.has-image .image-src {
-  /* The drop-shadow filter respects the image's transparency */
-  /* format: drop-shadow(offsetX offsetY blur-radius color) */
+  /* the drop-shadow filter respects the image's transparency
+   * format: drop-shadow(offsetX offsetY blur-radius color)
+   *
+   */
   filter: drop-shadow(0 0 150px rgba(0, 150, 255, 0.5));
 }
 
 /*
- * Hero block for each sections landing pages
-*/
+ * hero block for each sections landing pages
+ *
+ */
 .section-hero {
   text-align: center;
   padding: 4rem 1.5rem;
@@ -138,8 +135,9 @@ html.dark {
 }
 
 /*
- * Showcase Gallery Styles
-*/
+ * showcase gallery styles
+ *
+ */
 .showcase-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));

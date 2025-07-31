@@ -4,25 +4,25 @@ layout: page
 
 <script setup>
 import { ref } from 'vue'
-import { withBase } from 'vitepress' // Needed for relative image paths
+import { withBase } from 'vitepress' // needed for relative image paths
 import VueEasyLightbox from 'vue-easy-lightbox/dist/external-css/vue-easy-lightbox.esm.min.js'
 import 'vue-easy-lightbox/dist/external-css/vue-easy-lightbox.css'
 import { items } from './data.ts'
 
-// Create an array of just the image URLs for the lightbox component
+// create an array of just the image URLs for the lightbox component
 const imageSources = items.map(item => withBase(item.src))
 
-// Reactive variables to control the lightbox
+// reactive variables to control the lightbox
 const lightboxVisible = ref(false)
 const lightboxIndex = ref(0)
 
-// Function to open the lightbox at a specific image index
+// function to open the lightbox at a specific image index
 const showLightbox = (index) => {
   lightboxIndex.value = index
   lightboxVisible.value = true
 }
 
-// Function to hide the lightbox
+// function to hide the lightbox
 const hideLightbox = () => {
   lightboxVisible.value = false
 }

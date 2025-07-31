@@ -25,9 +25,9 @@ Download the latest version from the official website. It will be a `.zip` archi
 
 ### Extract
 
-1.  Open the downloaded `.zip` archive.
-2.  Locate the `ContentManager.exe` file.
-3.  Extract `ContentManager.exe` to a permanent location, such as your Desktop or a dedicated folder.
+1. Open the downloaded `.zip` archive.
+2. Locate the `ContentManager.exe` file.
+3. Extract `ContentManager.exe` to a permanent location, such as your Desktop or a dedicated folder.
 
 :::warning Best Practice
 Do not place `ContentManager.exe` inside the Assetto Corsa root folder. Keeping it separate prevents accidental deletion or issues when verifying game files.
@@ -53,10 +53,10 @@ C:\Program Files (x86)\Steam\steamapps\common\assettocorsa
 
 :::info Find your root folder
 If, for any reason, you cannot find your root folder, you can use the following method:
-1.  In the Steam app, open your Steam Library.
-2.  Right-click on `Assetto Corsa`.
-3.  Select `Manage` -> `Browse local files`.
-4.  The path of the File Explorer window that opens is your root folder.
+1. In the Steam app, open your Steam Library.
+2. Right-click on `Assetto Corsa`.
+3. Select `Manage` -> `Browse local files`.
+4. The path of the File Explorer window that opens is your root folder.
 :::
 
 ### Other Settings
