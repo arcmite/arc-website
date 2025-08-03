@@ -19,15 +19,15 @@ Follow the [Install Content Manager Page](installing-cm.md)
 
 Installation involves downloading the CSP archive and dragging it into Content Manager
 
-## Download
+### Download
 
 Download the `latest version` from the official website. It will be a '.zip' archive.
 
 - **Official Link:** [acstuff.club/patch](https://acstuff.club/patch/)
 
-## Installing into game files
+### Installing into game files
 
-### Content Manager
+#### Content Manager
 
 1. Open `downloads` in file explorer.
 2. Locate the `lights-patch-v0.X.XX.zip` file.
@@ -37,9 +37,9 @@ Download the `latest version` from the official website. It will be a '.zip' arc
 It is best to restart your Content Manager as it can sometimes cause issues.
 :::
 
-### OR
+#### OR
 
-### Manually
+#### Manually
 
 1. Open `downloads` in file explorer.
 2. Locate the `lights-patch-v0.X.XX.zip` file.
