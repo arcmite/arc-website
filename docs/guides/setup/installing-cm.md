@@ -6,8 +6,8 @@ Content Manager is an alternative launcher for Assetto Corsa that provides power
 
 ## Prerequisites
 
-- Assetto Corsa installed via Steam.
-- A program capable of extracting `.zip` archives.
+- Assetto Corsa v1.16.3/4 (64-bit only), installed via Steam.
+- A program capable of extracting `.zip` archives. (preferably [7-Zip](/wiki/7-zip.md))
 
 :::warning Incomplete?
 Refer to the [Requirements](../requirements) guide if you have not met these prerequisites.
