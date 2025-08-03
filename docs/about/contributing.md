@@ -13,8 +13,9 @@ You can help improve ARC in the following ways:
 - **Fix and Improve:** Correct typos, broken links, and outdated info. Improve formatting or make content easier to follow.
 - **Suggest Ideas:** Propose new topics, guides, or site features. Give feedback on layout or usability.
 
+<!-- This roadmap link will need updating once the actual roadmap is out -->
 :::tip Not sure where to start?
-Check the [Project Roadmap](./roadmap.md), or look through our [open issues](https://github.com/creacher4/assetto-corsa-arc/issues) on GitHub.
+Check the [Roadmap](https://github.com/creacher4/assetto-corsa-arc), or look through our [open issues](https://github.com/creacher4/assetto-corsa-arc/issues) on GitHub.
 :::
 
 ## Contribution Methods
@@ -41,10 +42,10 @@ This method requires a few standard development tools. Before you start, please 
 - [**Node.js**](https://nodejs.org/en/) (v18+ LTS recommended)
 - A code editor like [**VS Code**](https://code.visualstudio.com/) (recommended)
 
-**Alternative:** You can use [**StackBlitz**](#online-ide-stackblitz) for an online setup without installing anything locally.
+Alternatively, you can use [**StackBlitz**](#online-ide-stackblitz) for an online setup without installing anything locally.
 :::
 
-###### Fork & Clone
+##### Fork & Clone
 - [Fork the repository](https://github.com/creacher4/assetto-corsa-arc) to your GitHub account.
 - Clone your fork to your local machine using a terminal:
 
@@ -58,7 +59,7 @@ git clone https://github.com/YOUR_USERNAME/assetto-corsa-arc.git
 cd assetto-corsa-arc
 ```
 
-###### Install Dependencies
+##### Install Dependencies
 
 Inside the project folder, run this command once to install VitePress and other tools.
 
@@ -67,7 +68,7 @@ Inside the project folder, run this command once to install VitePress and other 
 npm install
 ```
 
-###### Create a Branch
+##### Create a Branch
 
 Keep your changes organized by creating a new branch for each feature or fix.
 
@@ -76,7 +77,7 @@ Keep your changes organized by creating a new branch for each feature or fix.
 git checkout -b your-descriptive-branch-name
 ```
 
-###### Make & Preview Changes
+##### Make & Preview Changes
 
 - Start the local development server:
 
@@ -95,7 +96,6 @@ Use clear, concise commit messages.
 ```bash
 # Either
 git add .
-# or
 git add path/to/file.md
 # Then
 git commit -m "Your descriptive commit message"
@@ -105,13 +105,13 @@ git commit -m "Your descriptive commit message"
 We encourage the use of [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) (e.g., `feat: Add Sol installation guide`, `fix: Correct link in Pure docs`). It helps keep our history clean.
 :::
 
-###### Push to Your Fork
+##### Push to Your Fork
 
 ```bash
 git push origin your-descriptive-branch-name
 ```
 
-###### Submit a Pull Request
+##### Submit a Pull Request
 
 - Go to your fork on GitHub. A prompt to `Compare & pull request` should appear.
 - Provide a clear title and description for your PR. If it addresses an issue, link it (e.g., `Closes #123`).
@@ -131,12 +131,12 @@ You can use StackBlitz to edit and preview changes online without a local setup:
 If you see an error like `spawn git ENOENT` on StackBlitz, it's likely due to the `lastUpdated` feature. Temporarily disable it in `docs/.vitepress/config.ts` by setting `themeConfig.lastUpdated` to `false`. There are two ways to do this: either by omitting the `lastUpdated` property completely (since it's disabled by default), or by using the following code snippets:
 
 ```ts
-// active
+// Active
 lastUpdated: {
     text: "Last Updated",
 },
 
-// inactive
+// Inactive
 lastUpdated: false,
 ```
 :::

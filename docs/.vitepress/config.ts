@@ -26,7 +26,14 @@ export default defineConfig({
       { text: "Creators", link: "/creators/" },
       { text: "Wiki", link: "/wiki/" },
       { text: "Showcase", link: "/showcase/" },
-      { text: "ⓘ About", link: "/about/" },
+      { text: "ⓘ About",
+        items: [
+          { text: "About ARC", link: "/about/overview" },
+          { text: "Changelog", link: "https://github.com/creacher4/assetto-corsa-arc/commits/vitepress-rewrite/" },
+          // Will be replaced with a link to an actual roadmap when it's ready
+          { text: "Roadmap", link: "https://github.com/creacher4/assetto-corsa-arc"},
+        ],
+      },
     ],
 
     // The sidebar configuration. VitePress automatically shows the
@@ -98,21 +105,14 @@ export default defineConfig({
       ],
       // This sidebar will be shown on all pages under the /about/ path
       "/about/": [
-        {
-          text: "About The Project",
-          collapsed: false,
-          items: [
-            { text: "Project Roadmap", link: "/about/roadmap" },
-            { text: "Changelog", link: "/about/changelog" },
-          ],
-        },
+        { text: "Overview", link: "/about/overview" },
+        { text: "Meet the Team", link: "/about/contributors" },
         {
           text: "Contributing",
           collapsed: false,
           items: [
             { text: "How to Contribute", link: "/about/contributing" },
-            { text: "Style Guide", link: "/about/style-guide" },
-            { text: "Meet the Team", link: "/about/contributors" },
+            { text: "Style Guide", link: "/about/style-guide" }
           ],
         },
       ],
@@ -135,7 +135,7 @@ export default defineConfig({
 
     footer: {
       message: "Built with VitePress.",
-      copyright: "Copyright © 2025 | The ARC Team",
+      copyright: "Copyright © 2025-present ARC",
     },
 
     editLink: {
