@@ -95,6 +95,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "Custom Shaders Patch", link: "/wiki/csp" },
+            { text: "7-zip", link: "/wiki/7-zip"},
             { text: "Lua", link: "/wiki/lua" },
             { text: "Look Up Tables", link: "/wiki/lut" },
             { text: "Post-Processing Filters", link: "/wiki/ppfilter" },
