@@ -26,7 +26,7 @@ export default defineConfig({
       { text: "Creators", link: "/creators/" },
       { text: "Wiki", link: "/wiki/" },
       { text: "Showcase", link: "/showcase/" },
-      { text: "Docs", link: "/docs/" },
+      { text: "ⓘ About", link: "/about/" },
     ],
 
     // The sidebar configuration. VitePress automatically shows the
@@ -95,23 +95,23 @@ export default defineConfig({
           ],
         },
       ],
-      // This sidebar will be shown on all pages under the /docs/ path
-      "/docs/": [
+      // This sidebar will be shown on all pages under the /about/ path
+      "/about/": [
         {
           text: "About The Project",
           collapsed: false,
           items: [
-            { text: "Project Roadmap", link: "/docs/roadmap" },
-            { text: "Changelog", link: "/docs/changelog" },
+            { text: "Project Roadmap", link: "/about/roadmap" },
+            { text: "Changelog", link: "/about/changelog" },
           ],
         },
         {
           text: "Contributing",
           collapsed: false,
           items: [
-            { text: "How to Contribute", link: "/docs/contributing" },
-            { text: "Style Guide", link: "/docs/style-guide" },
-            { text: "Meet the Team", link: "/docs/contributors" },
+            { text: "How to Contribute", link: "/about/contributing" },
+            { text: "Style Guide", link: "/about/style-guide" },
+            { text: "Meet the Team", link: "/about/contributors" },
           ],
         },
       ],
