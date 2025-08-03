@@ -22,7 +22,7 @@ export default defineConfig({
   themeConfig: {
     // The main navigation bar at the top of the page
     nav: [
-      { text: "Guides", link: "/guides/welcome" },
+      { text: "Guides", link: "/guides/get-started" },
       { text: "Creators", link: "/creators/" },
       { text: "Wiki", link: "/wiki/" },
       { text: "Showcase", link: "/showcase/" },
@@ -34,7 +34,7 @@ export default defineConfig({
     sidebar: {
       // This sidebar will be shown on all pages under the /guides/ path
       "/guides/": [
-        { text: "Introduction", link: "/guides/welcome" },
+        { text: "Get Started", link: "/guides/get-started" },
         { text: "Requirements", link: "/guides/requirements" },
         {
           text: "Setup",

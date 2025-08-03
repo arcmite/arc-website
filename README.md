@@ -11,7 +11,7 @@ A community-driven modding reference guide for [Assetto Corsa](https://store.ste
 
 ## Contributing
 
-Read the [Contributing](docs/docs/contributing.md) guide before submitting changes.
+Read the [Contributing](docs/about/contributing.md) guide before submitting changes.
  
 ```bash
 git clone https://github.com/creacher4/assetto-corsa-arc.git
