@@ -1,6 +1,6 @@
 # Content Manager
 
-> This guide covers the installation and initial setup of Content Manager (CM).
+> <Badge type="tip" text="Updated"/>
 
 Content Manager is an alternative launcher for Assetto Corsa that provides powerful features for content management, online play, and game configuration. It is considered essential for a modern Assetto Corsa installation.
 

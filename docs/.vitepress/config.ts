@@ -57,7 +57,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: "Overview", link: "/guides/modding/overview" },
-            { text: "Root Folder & File Structure", link: "/guides/modding/root-folder" },
+            { text: "Root Folder", link: "/guides/modding/root-folder" },
             { text: "Installing Mods", link: "/guides/modding/installing-mods" },
           ],
         },

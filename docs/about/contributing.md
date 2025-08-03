@@ -1,5 +1,7 @@
 # How to Contribute
 
+> <Badge type="tip" text="Updated"/>
+
 Welcome! Thank you for your interest in contributing to ARC. As we aim to become the definitive Assetto Corsa reference guide, we recognize that this can only be achieved through community collaboration. Whether it's fixing a typo, writing a guide, or suggesting improvements, every contribution matters.
 
 ## Types of Contributions

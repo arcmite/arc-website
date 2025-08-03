@@ -1,6 +1,6 @@
 # Post-Processing Filters
 
-## What is a PPFilter?
+> <Badge type="tip" text="Updated"/> <Badge type="info" text="Considered for Review"/>
 
 A Post-Processing Filter, or PPFilter, is a configuration file (`.ini`) that controls the final look of the game in real-time. It adjusts everything from color grading and contrast to advanced effects like bloom, lens flare, and depth of field. It is the primary tool for achieving a specific visual style in Assetto Corsa.
 

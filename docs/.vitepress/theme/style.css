@@ -111,6 +111,7 @@
  * hero block for each sections landing pages
  *
  */
+ 
 .section-hero {
   text-align: center;
   padding: 4rem 1.5rem;
@@ -138,6 +139,7 @@
  * showcase gallery styles
  *
  */
+
 .showcase-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -184,4 +186,21 @@
   color: var(--vp-c-text-2);
   margin: 0;
   line-height: 1.4;
+}
+
+/*
+ * img styles
+ *
+ */
+ 
+
+/* targets anything in public/images */
+img[src*="/images/"] {
+  display: block;
+  margin: 2rem auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid #2a2a2a;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
