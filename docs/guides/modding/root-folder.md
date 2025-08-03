@@ -1,5 +1,7 @@
 # Root Folder
 
+> This guide covers the main folder structure of the root folder and how to find it.
+
 ## How to Find your root folder
 
 In Steam, go to your Library and then navigate to Assetto Corsa. Click on the settings cog, then go to **Manage > Browse local files**.
@@ -8,7 +10,7 @@ I recommend pinning the root folder to Quick Access, so you don’t have to repe
 
 ![image](/images/guides/root-folder/steam.png)
 
-## Folder Descriptions
+## Folder Overview
 
 ### `/apps/`
 The apps folder contains all user apps. Lua apps are lightweight and generally faster than Python apps.
