@@ -11,7 +11,7 @@ Custom Shaders Patch is an extension for Assetto Corsa that, when installed, add
 - [Content Manager](installing-cm)
 
 :::warning Missing Dependencies?
-If you're unsure whether your system is ready, check the [Requirements](/guides/setup/requirements.md) guide first.
+If you're unsure whether your system is ready, check the [Requirements](/docs/guides/requirements.md) guide first.
 :::
 
 ## Download
