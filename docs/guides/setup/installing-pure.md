@@ -1,7 +1,5 @@
 # Pure
 
-> This guide covers the installation of Pure.
-
 Pure is a complex weather and graphics mod for Assetto Corsa and Custom Shaders Patch that is designed to enhance the game's visual quality and realism. It provides enhanced lighting, shadows, and reflections as well as large Post-Processing Filter support.
 
 ## Prerequisites
