@@ -23,7 +23,7 @@ These are general requirements to run Assetto Corsa with mods as well as some fi
 
 | Program                      | Link                                                                                                           | Description                                                                                       |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| 7zip                         | [7zip Guide](/wiki/7-zip.md)                                                                                   | A program capable of extracting `.zip` archives.                                                  |
+| 7-Zip                         | [7-Zip Guide](/wiki/7-zip.md)                                                                                   | A program capable of extracting `.zip` archives.                                                  |
 | VCRedist Installer           | [Github.com](https://github.com/abbodi1406/vcredist/releases/download/v0.85.0/VisualCppRedist_AIO_x86_x64.exe) | Installs all VC Redistributables in a simple .exe file.                                           |
 | DirectX End-User Runtime Web | [Microsoft.com](https://www.microsoft.com/en-us/download/details.aspx?id=35)                                   | Installs a number of runtime libraries from the legacy DirectX SDK for Assetto Corsa.             |
 | .Net Framework 4.5.2         | [Dotnet.Microsoft.com](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net452)                    | The runtime includes everything you need to run existing apps/programs built with .NET Framework. |
@@ -32,7 +32,7 @@ These are general requirements to run Assetto Corsa with mods as well as some fi
 - [**VCRedist Installer**](https://github.com/abbodi1406/vcredist/releases/download/v0.85.0/VisualCppRedist_AIO_x86_x64.exe)
 - [**DirectX End-User Runtime Web**](https://www.microsoft.com/en-us/download/details.aspx?id=35)
 - [**.Net Framework 4.5.2**](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net452)
-  :::
+:::
 
 :::details Controller Requirements
 To use a PS4 or PS5 controller, you may need to download DS4Windows.
