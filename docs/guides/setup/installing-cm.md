@@ -10,7 +10,7 @@ Content Manager is an alternative launcher for Assetto Corsa that provides power
 - A program capable of extracting `.zip` archives.
 
 :::warning Missing Dependencies?
-If you're unsure whether your system is ready, check the [Requirements](/docs/guides/requirements.md) guide first.
+If you're unsure whether your system is ready, check the [Requirements](/guides/requirements) guide first.
 :::
 
 ## Installation
