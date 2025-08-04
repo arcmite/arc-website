@@ -47,5 +47,5 @@ To use a PS4 or PS5 controller, you may need to download DS4Windows.
 
 - Search: `(company) (wheel name) wheel firmware`
 - Example: "Moza R12 wheel firmware"
-- (If you have a Logitech, GHub must stay open at all times during use
+- If you have a Logitech, **GHub must stay open** at all times during use
   Once your firmware is installed, rebind all your buttons inside Content Manager
