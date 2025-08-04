@@ -7,13 +7,11 @@ Custom Shaders Patch is an extension for Assetto Corsa that, when installed, add
 ## Prerequisites
 
 - Assetto Corsa v1.16.3/4 (64-bit only), installed via Steam.
-- A program capable of extracting `.zip` archives. (preferably [7-Zip](/wiki/7-zip.md))
-- [Visual C++ Redistributable 2015 (x86)](https://www.microsoft.com/en-us/download/details.aspx?id=48145).
+- A program capable of extracting `.zip` archives.
+- [Content Manager](installing-cm)
 
-:::warning Content Manager
-Content Manager is **highly recommended** when using Custom Shaders Patch
-
-Follow the [Installing Content Manager guide](installing-cm.md).
+:::warning Missing Dependencies?
+If you're unsure whether your system is ready, check the [Requirements](/guides/setup/requirements.md) guide first.
 :::
 
 ## Download

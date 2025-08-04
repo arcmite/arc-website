@@ -194,8 +194,8 @@
  */
  
 
-/* targets anything in public/images */
-img[src*="/images/"] {
+/* targets anything in public/images/guides */
+img[src*="/images/guides"] {
   display: block;
   margin: 2rem auto;
   max-width: 100%;

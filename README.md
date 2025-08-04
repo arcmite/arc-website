@@ -18,5 +18,5 @@ git clone https://github.com/creacher4/assetto-corsa-arc.git
 cd assetto-corsa-arc
 npm install
 npm run docs:dev
-# Open locally at: http://localhost:5173
+# Open locally at: http://localhost:5173/assetto-corsa-arc/
 ```

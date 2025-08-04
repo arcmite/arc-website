@@ -7,10 +7,10 @@ Content Manager is an alternative launcher for Assetto Corsa that provides power
 ## Prerequisites
 
 - Assetto Corsa v1.16.3/4 (64-bit only), installed via Steam.
-- A program capable of extracting `.zip` archives. (preferably [7-Zip](/wiki/7-zip.md))
+- A program capable of extracting `.zip` archives.
 
-:::warning Incomplete?
-Refer to the [Requirements](../requirements) guide if you have not met these prerequisites.
+:::warning Missing Dependencies?
+If you're unsure whether your system is ready, check the [Requirements](/guides/setup/requirements.md) guide first.
 :::
 
 ## Installation
@@ -55,7 +55,7 @@ C:\Program Files (x86)\Steam\steamapps\common\assettocorsa
 If, for any reason, you cannot find your root folder, you can use the following method:
 1. In the Steam app, open your Steam Library.
 2. Right-click on `Assetto Corsa`.
-3. Select `Manage` -> `Browse local files`.
+3. Select `Manage > Browse local files`.
 4. The path of the File Explorer window that opens is your root folder.
 :::
 
@@ -70,11 +70,11 @@ Click `OK` to save the settings. Content Manager will now start.
 
 Content Manager has a free (Lite) and a paid (Full) version.
 
-:::info Lite Version (Free)
+:::info Lite Version <Badge type="tip" text="Free"/>
 Includes all core functionality for managing content, driving, and configuring game settings. It is sufficient for most users.
 :::
 
-:::details Full Version (Paid)
+:::details Full Version <Badge type="warning" text="Paid"/>
 Unlocked by donating to the developer. It adds advanced features:
 - Access to pre-release and experimental builds.
 - Online server creation and management tools.

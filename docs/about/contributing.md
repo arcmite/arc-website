@@ -92,7 +92,7 @@ git checkout -b your-descriptive-branch-name
 npm run docs:dev
 ```
 
-- Open the URL shown in your terminal (usually `http://localhost:5173`) in your browser.
+- Open the URL shown in your terminal (usually `http://localhost:5173/assetto-corsa-arc/`) in your browser.
 - Edit or add files in your code editor. The site will update live as you save your changes.
 - Remember to follow our [Style Guide](style-guide) and link new pages in `docs/.vitepress/config.ts` if they should appear in the sidebar.
 
