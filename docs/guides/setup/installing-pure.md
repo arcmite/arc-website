@@ -2,43 +2,64 @@
 
 > <Badge type="danger" text="Outdated"/> <Badge type="warning" text="Under Review"/>
 
-Pure is a weather and graphics add-on for Assetto Corsa and Custom Shaders Patch (CSP), created by [Peter Boese](/creators/peter-boese). It provides enhanced lighting, weather realism, shadows, reflections, and extensive Post-Processing Filter (PPFilter) support.
+Pure is a weather and graphics add-on for **Assetto Corsa** and **Custom Shaders Patch (CSP)**, created by [Peter Boese](creators/peter-boese). It provides enhanced lighting, weather realism, shadows, reflections, and extensive Post-Processing Filter (PPFilter) support.
+
+Pure is considered essential for achieving the most realistic visuals in CSP-based setups.
 
 ## Prerequisites
 
 - Assetto Corsa v1.16.3/4 (64-bit only), installed via Steam.
-- A program capable of extracting .zip archives.
-- [Latest Content Manager version](installing-cm).
-- [Latest Custom Shaders Patch version](installing-csp)
-- [Active Peter Boese Patreon Subscription](https://www.patreon.com/c/peterboese/posts)
+- A program capable of extracting `.zip` archives.
+- Latest [Content Manager](installing-cm) installed and configured.
+- Latest [CSP version](installing-csp) installed and working.
+- An [active Patreon subscription to Peter Boese](https://www.patreon.com/c/peterboese/posts) (required for access to the latest builds).
 
+:::warning Missing Dependencies?
+If you’re not sure your system is ready, check the [Requirements](/guides/requirements) guide first.
+:::
 
 ## Download
 
-Download the **latest** version from the official patreon. It will be a `.zip` archive.
+Pure is distributed as a `.zip` archive via Peter Boese’s Patreon.
 
-- Official Patreon: [patreon.com/c/peterboese/posts](https://www.patreon.com/c/peterboese/posts)
+- **Official Patreon:** [patreon.com/c/peterboese/posts](https://www.patreon.com/c/peterboese/posts)
+
+Once subscribed, download the **latest** version from the Patreon posts. Downloads follow this format:
+
+```bash
+Pure_X.XX Highres.zip
+# Where X.XX is the version number
+```
 
 ## Installation
 
-### Extract
+Pure must be installed manually, **do not install via Content Manager**.
 
-1. Open your `downloads` folder in file explorer.
-2. Locate the `Pure_X.XX Highres.zip` file.
-3. Extract its contents to your [root folder](/guides/modding/root-folder.html#find-your-root-folder).
-   :::info Best Practice
-   It is recommended to restart Content Manager, as it will cause issues if you don't.
-   :::
+1. Locate the downloaded `.zip` file in your `Downloads` folder.
+2. Extract its contents directly to your [root folder](/guides/modding/root-folder#find-your-root-folder).
+3. Allow file overwrites if prompted.
 
-### Enabling Pure
-4. Open `Content Manager` and go to `Settings`
-5. Click `Custom Shaders Patch` at the top and find the `WeatherFX` extension
-6. Click on `Weather Style` and switch to `Pure Gamma or Pure LCS`
+:::info Best Practice
+Always restart Content Manager after installing Pure to avoid missing menu entries or weather configuration issues.
+:::
 
-   :::warning Using Pure in Singleplayer
-   You must enable the Pure Weather controller under the Weather selection in Quick mode.
-   :::
+## Enabling Pure
+
+After installing Pure:
+
+1. Open Content Manager.
+2. Go to `Settings > Custom Shaders Patch`.
+3. In the left-hand list, under `Extensions`, click on `WeatherFX`.
+4. Under `Weather Style`, select `Pure Gamma` or `Pure LCS`.
+
+<!-- consider adding info box for the difference between pure gamma and lcs. either by linking to the wiki or writing it here -->
+
+:::warning Singleplayer Note
+When launching a singleplayer session, make sure to set the `Weather Controller` to `Pure` in the quick race menu.
+:::
 
 ## Version Information
 
-You will always want to be on the latest version of Pure and CSP to ensure maximum compatability with each other and Post-Processing Filters.
+- Always use the **latest** versions of both Pure and CSP.
+- Some Pure releases require a minimum CSP version, so make sure to check the Patreon release notes before updating.
+- Mixing outdated Pure with new CSP (or vice versa) can cause missing features or visual glitches.

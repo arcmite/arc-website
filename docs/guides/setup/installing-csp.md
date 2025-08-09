@@ -21,14 +21,12 @@ Most stable builds are free; pre-release and preview builds require Patreon acce
 
 - **Official Link:** [acstuff.club/patch](https://acstuff.club/patch/)
 
-:::details File naming
 Downloads follow this format:
 
 ```bash
 lights-patch-v0.X.XX.zip
 # Where `X.XX` is the version number
 ```
-:::
 
 ## Installation
 
@@ -48,9 +46,7 @@ There are two ways to install CSP:
 2. Extract its contents to your [root folder](/guides/modding/root-folder#find-your-root-folder). Allow file overwrite if prompted.
 3. Restart Content Manager to ensure changes are recognized.
 
-<!-- consider adding a recommended tag -->
-
-:::warning Best Practice
+:::info Best Practice
 Always restart CM after installing CSP. Without a restart, CSP’s configuration panel may not load properly or may display outdated settings.
 :::
 
