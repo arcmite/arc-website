@@ -2,7 +2,7 @@
 
 > <Badge type="danger" text="Outdated"/> <Badge type="warning" text="Under Review"/>
 
-Pure is a weather and graphics add-on for **Assetto Corsa** and **Custom Shaders Patch (CSP)**, created by [Peter Boese](creators/peter-boese). It provides enhanced lighting, weather realism, shadows, reflections, and extensive Post-Processing Filter (PPFilter) support.
+Pure is a weather and graphics add-on for **Assetto Corsa** and **Custom Shaders Patch (CSP)**, created by [Peter Boese](/creators/peter-boese). It provides enhanced lighting, weather realism, shadows, reflections, and extensive Post-Processing Filter (PPFilter) support.
 
 Pure is considered essential for achieving the most realistic visuals in CSP-based setups.
 

@@ -77,6 +77,7 @@ export default defineConfig({
         },
       ],
       // This sidebar will be shown on all pages under the /creators/ path
+      // consider rehauling the headings for these, when adding more creators
       "/creators/": [
         {
           text: "Creators & Modders",
