@@ -11,6 +11,7 @@
     "vue-easy-lightbox": "^1.19.0"
   },
   "dependencies": {
+    "@iconify/vue": "^5.0.0",
     "lucide-vue-next": "^0.523.0"
   }
 }

@@ -1,10 +1,19 @@
-# Ilja Jusupov
+<script setup>
+const links = [
+  { kind: 'patreon', href: 'https://www.patreon.com/x4fab', label: 'Patreon' },
+  { kind: 'website', href: 'https://acstuff.club', label: 'acstuff.club' },
+  { kind: 'github',  href: 'https://github.com/gro-ove', label: 'GitHub' },
+  { kind: 'x',       href: 'https://x.com/0x4fab', label: 'X' },
+]
+</script>
 
-Ilja is the developer behind **Content Manager** and **Custom Shaders Patch (CSP)**, two essential tools in modern Assetto Corsa setups. His work has shaped how the sim racing community plays the game today.
+<CreatorProfile
+  avatar="https://github.com/gro-ove.png"
+  name="Ilja Jusupov"
+  caption="Say something, Ilja!"
+  :links="links"
+>
 
-## Links
+Ilja is the developer behind **Content Manager** and **Custom Shaders Patch (CSP)**, two essentials of modern Assetto Corsa setups.
 
-- **Patreon**: [patreon.com/x4fab](https://www.patreon.com/x4fab)
-- **Website**: [acstuff.club](https://acstuff.club/)
-- **GitHub**: [github.com/gro-ove](https://github.com/gro-ove)
-- **Twitter**: [x.com/0x4fab](https://x.com/0x4fab)
+</CreatorProfile>

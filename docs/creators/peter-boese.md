@@ -1,8 +1,17 @@
-# Peter Boese
+<script setup>
+const links = [
+  { kind: 'patreon', href: 'https://www.patreon.com/peterboese', label: 'Patreon' },
+  { kind: 'youtube', href: 'https://www.youtube.com/@onlyletterandnumber', label: 'YouTube' }
+]
+</script>
 
-Peter is the creator of **Pure**, a powerful weather and lighting system for Assetto Corsa. It has become the standard for high-quality visuals and weather realism in modern CSP setups.
+<CreatorProfile
+  avatar="/images/creators/avatar_boese.png"
+  name="Peter Boese"
+  caption="Say something, Peter!"
+  :links="links"
+>
 
-## Links
+Peter is the creator of **Pure**, a comprehensive weather and lighting framework for Assetto Corsa built on top of Custom Shaders Patch (CSP). Pure provides weather presets, sky models, lighting/shadow tuning, a controller, and a large PPFilter ecosystem.
 
-- **Patreon**: [patreon.com/peterboese](https://www.patreon.com/peterboese)
-- **YouTube**: [youtube.com/@onlyletterandnumber](https://www.youtube.com/@onlyletterandnumber)
+</CreatorProfile>
