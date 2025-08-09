@@ -82,7 +82,7 @@ export const items = [
   },
   {
     src: "/images/showcase/zaentyt_nsx.png",
-    alt: "",
+    alt: "NSX Veilside in Waves showroom",
     author: "@zaentyt",
     details: "PPFilter: Z_BWCine | Car: Honda NSX Veilside | Track: Domi Waves",
   },

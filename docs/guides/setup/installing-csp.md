@@ -2,13 +2,13 @@
 
 > <Badge type="danger" text="Outdated"/> <Badge type="warning" text="Under Review"/>
 
-Custom Shaders Patch is an extension for Assetto Corsa that, when installed, adds new features such as dynamic lighting, 24h day, new physics features, various optimizations, and a lot more.
+Custom Shaders Patch (CSP) is an extension for Assetto Corsa that adds advanced visual effects, new physics features, and numerous optimizations. It enables features such as dynamic lighting, a full day–night cycle, improved weather systems, and enhanced graphics.
 
 ## Prerequisites
 
 - Assetto Corsa v1.16.3/4 (64-bit only), installed via Steam.
 - A program capable of extracting `.zip` archives.
-- [Content Manager](installing-cm)
+- [Content Manager](installing-cm) installed and configured.
 
 :::warning Missing Dependencies?
 If you're unsure whether your system is ready, check the [Requirements](/guides/requirements) guide first.
@@ -16,47 +16,63 @@ If you're unsure whether your system is ready, check the [Requirements](/guides/
 
 ## Download
 
-Download the **latest** version from the official website. It will be a `.zip` archive.
+Custom Shaders Patch is distributed as a `.zip` archive.
+Most stable builds are free; pre-release and preview builds require Patreon access.
 
 - **Official Link:** [acstuff.club/patch](https://acstuff.club/patch/)
 
+:::details File naming
+Downloads follow this format:
+
+```bash
+lights-patch-v0.X.XX.zip
+# Where `X.XX` is the version number
+```
+:::
+
 ## Installation
 
-#### Content Manager
+There are two ways to install CSP:
 
-1. Open your `downloads` folder in file explorer.
-2. Locate the `lights-patch-v0.X.XX.zip` file.
-3. Drag it into your Content Manager window.
+### Content Manager
 
-#### OR
+1. Download the CSP `.zip` archive.
+2. Open Content Manager.
+3. Drag and drop the `.zip` file into the CM window.
+4. CM will prompt to install CSP, confirm.
+5. Wait for the install to complete.
 
-#### Manually
+### Manual Installation <Badge type="tip" text="Recommended"/>
 
-1. Open your `downloads` folder in file explorer.
-2. Locate the `lights-patch-v0.X.XX.zip` file.
-3. Extract its contents to your [root folder](/guides/modding/root-folder.html#how-to-find-your-root-folder).
+1. Download the CSP `.zip` archive.
+2. Extract its contents to your [root folder](/guides/modding/root-folder#find-your-root-folder). Allow file overwrite if prompted.
+3. Restart Content Manager to ensure changes are recognized.
 
-:::info Best Practice
-It is recommended to restart Content Manager, as it can sometimes cause issues if you don't.
+<!-- consider adding a recommended tag -->
+
+:::warning Best Practice
+Always restart CM after installing CSP. Without a restart, CSP’s configuration panel may not load properly or may display outdated settings.
+:::
+
+## Configuration
+
+After installing CSP:
+
+1. Open Content Manager.
+2. Go to `Settings > Custom Shaders Patch`.
+3. Enable CSP by ticking the checkbox at the top.
+4. Review the modules listed in the left sidebar (e.g., WeatherFX, LightingFX, ExtraFX). You can enable or disable features as needed.
+
+:::info Compatibility
+If using [Pure](installing-pure), ensure your CSP version meets Pure’s minimum version requirement. Using older CSP builds can break weather features.
 :::
 
 ## Version Information
 
-Generally, you will want to be on the latest version of Custom Shaders Patch.
+- **Recommended Builds:** Marked as *recommended* on the download page. These offer a balance of stability and features.
+- **Preview Builds:** Early access via Patreon. Useful for testing new features or required by some latest mods.
+- **Buggy/Untested:** Experimental builds with incomplete testing — only use if explicitly required.
 
-The stability tag (recommended, untested, buggy) underneath the file size is mostly unimportant.
-
-## Troubleshooting
-
-:::details "Configs for Custom Shaders Patch are missing"
-1. Download your Custom Shaders Patch file from the official website again.
-2. Follow the "Installing into game files" step again.
-3. Close and re-open Content Manager.
-:::
-
-:::details "Missing CSP Features"
-1. Delete `Content Manager.exe`
-2. Reinstall Content Manager from [Content Manager GitHub](https://github.com/gro-ove/actools/releases/download/v0.8.2686.39678/Content.Manager.zip).
-3. Reinstall the latest Custom Shaders Patch Version.
-4. Close and re-open Content Manager.
+:::warning Downgrading CSP
+If a newer CSP version breaks something, you can revert by installing an older `.zip` in the same way as above. CM will overwrite the existing files.
 :::

@@ -84,23 +84,3 @@ Unlocked by donating to the developer. It adds advanced features:
 
 To upgrade, go to `Settings > Content Manager > General` and click `Change` to enter the key you received via email after donating.
 :::
-
-## Troubleshooting
-
-For common issues encountered during setup.
-
-:::details Assetto Corsa root folder not found
-Ensure the selected path is the main `assettocorsa` folder, which contains `acs.exe`. Use the "Browse local files" method in Steam to verify the correct location.
-:::
-
-:::details Antivirus flags `ContentManager.exe`
-Antivirus software may flag the executable due to its function as a launcher. If downloaded from the official `acstuff.ru` link, this is a false positive. Add an exception for `ContentManager.exe` in your antivirus settings.
-:::
-
-:::details CM fails to launch or shows a .NET Framework error
-Content Manager requires the Microsoft .NET Framework to run. If it fails to start, download and install the latest version of .NET Framework (typically 4.5 or higher) from the official Microsoft website.
-:::
-
-:::details CM is slow or freezes on first launch
-If you have a large number of mods, CM will index them on first start. This process can be resource-intensive but is a one-time operation for your existing content.
-:::
