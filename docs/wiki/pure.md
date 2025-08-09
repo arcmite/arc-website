@@ -1,5 +1,5 @@
 # Pure
+> <Badge type="tip" text="Updated"/>
+Pure is a complex weather and graphics mod developed by *Peter Boese* for Assetto Corsa and Custom Shaders Patch that is designed to enhance the game's visual quality and realism. It provides enhanced lighting, shadows, and reflections as well as large Post-Processing Filter support.
 
-:::warning Under Construction
-This page is not yet complete. Contribute [here](https://github.com/creacher4/assetto-corsa-arc) or check back soon!
-:::
+To install it, follow our [Installing Pure guide](/setup/installing-pure.md)
