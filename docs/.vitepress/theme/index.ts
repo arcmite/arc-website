@@ -6,7 +6,11 @@ import CreatorProfile from "./components/CreatorProfile.vue";
 
 export default {
   ...DefaultTheme,
-  enhanceApp({ app }) {
-    app.component('CreatorProfile', CreatorProfile)
+  enhanceApp(ctx) {
+    // run vitepress config first
+    DefaultTheme.enhanceApp?.(ctx)
+
+    // then rest
+    ctx.app.component('CreatorProfile', CreatorProfile)
   }
 };
