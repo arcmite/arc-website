@@ -6,7 +6,7 @@ A Post-Processing Filter, or PPFilter, is a configuration file (.ini) that contr
 - A program capable of extracting `.zip` archives.
 - Latest [Content Manager](installing-cm) installed and configured.
 - Latest [CSP version](installing-csp) installed and working.
-- An [active Patreon subscription to Peter Boese](https://www.patreon.com/c/peterboese/posts) (required for access to the latest builds).
+- Latest [Pure version](https://www.patreon.com/c/peterboese/posts) (recommended for maximum compatibility.).
 
 ## Recommended Post-Processing Filters
 
