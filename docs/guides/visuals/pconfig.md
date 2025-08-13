@@ -1,9 +1,10 @@
 # Pure Config
 
+> <Badge type="danger" text="Outdated"/> <Badge type="warning" text="Under Review"/>
+
 This page will list all the functions contained within Pure Config and an explanation on what they do.
 
 ## Main Tab
-
 
 | Quality Presets (Groundfog) | Low | Medium | High | Very High |
 | --------------------------- | --- | ------ | ---- | --------- |
