@@ -14,6 +14,15 @@
 }
 
 /*
+ * nav bar
+ *
+ */
+
+.VPNav {
+  background-color: var(--vp-c-bg);
+}
+
+/*
  * hero block for each sections landing pages
  *
  */
