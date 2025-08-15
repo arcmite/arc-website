@@ -17,6 +17,12 @@
   --vp-c-danger-2: color-mix(in oklab, #D22C2C 88%, black 12%);
   --vp-c-danger-3: color-mix(in oklab, #D22C2C 76%, black 24%);
   --vp-c-danger-soft: color-mix(in oklab, #D22C2C 16%, transparent);
+
+  /* info  */
+  --vp-c-info-1: #3b82f6;
+  --vp-c-info-2: #60a5fa;
+  --vp-c-info-3: #2563eb;
+  --vp-c-info-soft: rgba(59, 130, 246, 0.14);
 }
 
 .dark {
@@ -35,4 +41,10 @@
   --vp-c-danger-2: #e25151;
   --vp-c-danger-3: #b53a3a;
   --vp-c-danger-soft: color-mix(in oklab, #e25151 18%, transparent);
+
+  /* info */
+  --vp-c-info-1: #60a5fa;
+  --vp-c-info-2: #3b82f6;
+  --vp-c-info-3: #1d4ed8;
+  --vp-c-info-soft: rgba(96, 165, 250, 0.16);
 }

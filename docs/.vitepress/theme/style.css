@@ -148,3 +148,122 @@ body::before {
   background-image: var(--arc-surface-overlay);
   background-repeat: no-repeat;
 }
+
+/*
+ * admonition blocks
+ *
+ */
+
+/* base style for all custom blocks */
+.vp-doc .custom-block {
+  border-radius: 8px;
+  border: 1px solid var(--vp-c-divider);
+  border-left-width: 5px;
+  box-shadow: var(--vp-shadow-1);
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+
+.vp-doc .custom-block:hover {
+    box-shadow: var(--vp-shadow-2);
+}
+
+/* title */
+.vp-doc .custom-block .custom-block-title {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* specific styles for each type */
+
+/* info / note */
+.vp-doc .custom-block.info,
+.vp-doc .custom-block.note {
+  border-left-color: var(--vp-c-info-2);
+  background-color: var(--vp-c-info-soft);
+}
+.vp-doc .custom-block.info .custom-block-title,
+.vp-doc .custom-block.note .custom-block-title {
+  color: var(--vp-c-info-1);
+}
+
+/* tip / success */
+.vp-doc .custom-block.tip {
+  border-left-color: var(--vp-c-success-2);
+}
+.vp-doc .custom-block.tip .custom-block-title {
+  color: var(--vp-c-success-1);
+}
+
+/* warning / caution */
+.vp-doc .custom-block.warning,
+.vp-doc .custom-block.caution {
+  border-left-color: var(--vp-c-warning-2);
+  background-color: var(--vp-c-warning-soft);
+}
+.vp-doc .custom-block.warning .custom-block-title,
+.vp-doc .custom-block.caution .custom-block-title {
+  color: var(--vp-c-warning-1);
+}
+
+/* danger */
+.vp-doc .custom-block.danger {
+  border-left-color: var(--vp-c-danger-2);
+  background-color: var(--vp-c-danger-soft);
+}
+.vp-doc .custom-block.danger .custom-block-title {
+  color: var(--vp-c-danger-1);
+}
+
+/* details */
+.vp-doc .custom-block.details {
+  border-left-color: var(--vp-c-gray-2);
+}
+.dark .vp-doc .custom-block.details {
+  border-left-color: var(--vp-c-gray-1);
+}
+
+/*
+ * admonition icons
+ *
+ */
+
+/* position */
+.vp-doc .custom-block .custom-block-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* space between icon and text */
+}
+
+/* base styles for all icons */
+.vp-doc .custom-block .custom-block-title::before {
+  content: '';
+  display: block;
+  width: 1.2em;
+  height: 1.2em;
+  /* bg color becomes icon color */
+  background-color: currentColor; 
+  /* use svg as mask */
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+}
+
+/* icon assignments */
+
+.vp-doc .custom-block.info .custom-block-title::before,
+.vp-doc .custom-block.note .custom-block-title::before {
+  mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8"/></svg>');
+}
+
+.vp-doc .custom-block.tip .custom-block-title::before {
+  mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>');
+}
+
+.vp-doc .custom-block.warning .custom-block-title::before,
+.vp-doc .custom-block.caution .custom-block-title::before {
+  mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M1 21h22L12 2L1 21m12-3h-2v-2h2m0-4h-2V7h2"/></svg>');
+}
+
+/* might need a better icon for this, but eh it gets the point across */
+.vp-doc .custom-block.danger .custom-block-title::before {
+  mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M13 13h-2V7h2m0 8h-2v-2h2M15.73 3L21 8.27v7.46L15.73 21H8.27L3 15.73V8.27L8.27 3h7.46Z"/></svg>');
+}
