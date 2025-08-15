@@ -15,13 +15,18 @@ If you're unsure whether your system is ready, check the [Requirements](/guides/
 
 ## Installation
 
-Installation involves downloading the application archive and extracting the executable.
+The installation process involves downloading the executable, placing it in a safe location, and running the initial configuration.
 
 ### Download
 
-Download the latest version from the official website. It will be a `.zip` archive.
+First, download the application from the official website.
 
-- **Official Link:** [acstuff.ru/app/](https://acstuff.ru/app/)
+<DownloadCard
+  title="Content Manager"
+  caption="The essential launcher for Assetto Corsa."
+  buttonLink="https://acstuff.ru/app/"
+  buttonText="Download Content Manager" 
+/>
 
 ### Extract
 

@@ -20,16 +20,23 @@ If you’re not sure your system is ready, check the [Requirements](/guides/requ
 
 ## Download
 
-Pure is distributed as a `.zip` archive via Peter Boese’s Patreon.
+Pure is distributed exclusively via Peter Boese’s Patreon. Once subscribed, you can download the latest `.zip` archive from the posts.
 
-- **Official Patreon:** [patreon.com/c/peterboese/posts](https://www.patreon.com/c/peterboese/posts)
+<DownloadCard
+  title="Pure Graphics Mod"
+  caption="Requires an active Patreon subscription to Peter Boese."
+  buttonLink="https://www.patreon.com/c/peterboese/posts"
+  buttonText="Go to Patreon"
+/>
 
-Once subscribed, download the **latest** version from the Patreon posts. Downloads follow this format:
+:::info Info
+Downloads follow this format:
 
 ```bash
 Pure_X.XX Highres.zip
 # Where X.XX is the version number
 ```
+:::
 
 ## Installation
 

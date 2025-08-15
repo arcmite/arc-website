@@ -16,17 +16,23 @@ If you're unsure whether your system is ready, check the [Requirements](/guides/
 
 ## Download
 
-Custom Shaders Patch is distributed as a `.zip` archive.
-Most stable builds are free; pre-release and preview builds require Patreon access.
+Custom Shaders Patch is distributed as a `.zip` archive from the official website.
 
-- **Official Link:** [acstuff.club/patch](https://acstuff.club/patch/)
+<DownloadCard
+  title="Custom Shaders Patch"
+  caption="Stable builds are free. Preview builds may require Patreon access."
+  buttonLink="https://acstuff.club/patch/"
+  buttonText="Download Custom Shaders Patch"
+/>
 
+:::info Info
 Downloads follow this format:
 
 ```bash
 lights-patch-v0.X.XX.zip
 # Where `X.XX` is the version number
 ```
+:::
 
 ## Installation
 

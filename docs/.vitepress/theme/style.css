@@ -23,6 +23,23 @@
 }
 
 /*
+ * inline link styles
+ *
+ */
+
+.vp-doc a {
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.25s;
+}
+
+.vp-doc a:hover {
+  color: var(--vp-c-brand-2);
+  text-decoration: none;
+}
+
+/*
  * hero block for each sections landing pages
  *
  */
@@ -147,6 +164,54 @@ body::before {
   pointer-events: none;
   background-image: var(--arc-surface-overlay);
   background-repeat: no-repeat;
+}
+
+/*
+ * badge styles
+ *
+ */
+
+/* base style for all badges */
+.vp-doc .VPBadge {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 4px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+  border: 1px solid;
+  background-color: var(--vp-c-bg-soft);
+}
+
+/* specific styles for each type */
+
+/* tip / success */
+.vp-doc .VPBadge.tip {
+  background-color: var(--vp-c-tip-soft);
+  border-color: var(--vp-c-green-2);
+  color: var(--vp-c-tip-1);
+}
+
+/* warning */
+.vp-doc .VPBadge.warning {
+  background-color: var(--vp-c-warning-soft);
+  border-color: var(--vp-c-yellow-2);
+  color: var(--vp-c-warning-1);
+}
+
+/* danger */
+.vp-doc .VPBadge.danger {
+  background-color: var(--vp-c-danger-soft);
+  border-color: var(--vp-c-danger-2);
+  color: var(--vp-c-danger-1);
+}
+
+/* info / default */
+.vp-doc .VPBadge.info,
+.vp-doc .VPBadge {
+  background-color: var(--vp-c-info-soft);
+  border-color: var(--vp-c-info-2);
+  color: var(--vp-c-info-1);
 }
 
 /*
