@@ -23,6 +23,9 @@
   --vp-c-info-2: #60a5fa;
   --vp-c-info-3: #2563eb;
   --vp-c-info-soft: rgba(59, 130, 246, 0.14);
+
+  /* hr */
+  --vp-c-divider: rgba(46, 53, 50, 0.2); 
 }
 
 .dark {
@@ -47,4 +50,7 @@
   --vp-c-info-2: #3b82f6;
   --vp-c-info-3: #1d4ed8;
   --vp-c-info-soft: rgba(96, 165, 250, 0.16);
+
+  /* hr */
+  --vp-c-divider: rgba(229, 239, 233, 0.12);
 }
