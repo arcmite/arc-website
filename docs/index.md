@@ -5,9 +5,6 @@ hero:
   name: ARC
   text: A Reference Guide.
   tagline: Serving as a centralized, community-driven reference for improving the Assetto Corsa experience, for users on all levels.
-  image:
-    src: /images/ARC1.png
-    alt: ARC
   actions:
     - theme: brand
       text: Get Started

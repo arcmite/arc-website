@@ -1,0 +1,38 @@
+/* ARC theme tokens */
+/* see default theme vars: https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
+
+:root {
+  /* brand */
+  --vp-c-brand-1: #1F6F52;       /* link/text accent (≥6:1 on white) */
+  --vp-c-brand-2: #2C8D66;       /* hover/active accent */
+  --vp-c-brand-3: #17653A;       /* solid button bg vs white (≥7:1) */
+  --vp-c-brand-soft: color-mix(in oklab, var(--vp-c-brand-2) 12%, transparent);
+
+  /* text */
+  --vp-c-text-1: #2e3532;
+  --vp-c-text-2: #666b69;
+
+  /* danger */
+  --vp-c-danger-1: #D22C2C;
+  --vp-c-danger-2: color-mix(in oklab, #D22C2C 88%, black 12%);
+  --vp-c-danger-3: color-mix(in oklab, #D22C2C 76%, black 24%);
+  --vp-c-danger-soft: color-mix(in oklab, #D22C2C 16%, transparent);
+}
+
+.dark {
+  /* brand */
+  --vp-c-brand-1: #8AD4B0;       /* link/text accent */
+  --vp-c-brand-2: #3AA671;       /* hover */
+  --vp-c-brand-3: #298459;       /* solid button bg vs white (≈4.6:1) */
+  --vp-c-brand-soft: color-mix(in oklab, #3AA671 18%, transparent);
+
+  /* text */
+  --vp-c-text-1: #e5efe9;
+  --vp-c-text-2: #9fb3a9;
+
+  /* danger */
+  --vp-c-danger-1: #ff8c8c;
+  --vp-c-danger-2: #e25151;
+  --vp-c-danger-3: #b53a3a;
+  --vp-c-danger-soft: color-mix(in oklab, #e25151 18%, transparent);
+}

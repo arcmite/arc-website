@@ -3,12 +3,14 @@
 *
 */
 
-.VPHero.has-image .image-src {
-  /* the drop-shadow filter respects the image's transparency
-   * format: drop-shadow(offsetX offsetY blur-radius color)
-   *
-   */
-  filter: drop-shadow(0 0 150px rgba(0, 150, 255, 0.5));
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #17653A, #9ab1a0);
+}
+
+.dark {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #298459, #9ab1a0);
 }
 
 /*
@@ -106,4 +108,34 @@ img[src*="/images/guides"] {
   border-radius: 6px;
   border: 1px solid #2a2a2a;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/*
+ * asphalt style gradient overlay
+ *
+ */
+
+:root {
+  --arc-surface-overlay:
+    radial-gradient(ellipse at 25% 10%,  rgba(0,0,0,0.020) 0 60%, transparent 60%),
+    radial-gradient(ellipse at 70% 30%,  rgba(0,0,0,0.015) 0 60%, transparent 60%),
+    radial-gradient(ellipse at 40% 80%,  rgba(0,0,0,0.020) 0 60%, transparent 60%);
+}
+
+.dark {
+  --arc-surface-overlay:
+    radial-gradient(ellipse at 25% 10%,  rgba(255,255,255,0.020) 0 60%, transparent 60%),
+    radial-gradient(ellipse at 70% 30%,  rgba(255,255,255,0.015) 0 60%, transparent 60%),
+    radial-gradient(ellipse at 40% 80%,  rgba(255,255,255,0.020) 0 60%, transparent 60%);
+}
+
+/* (prevents stretch with page length) */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: var(--arc-surface-overlay);
+  background-repeat: no-repeat;
 }

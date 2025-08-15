@@ -9,14 +9,16 @@ export default defineConfig({
   base: "/assetto-corsa-arc/",
 
   // will pull from docs/public
-  head: [
-    ['link', { rel: 'icon', href: 'images/ARC1.png' }],
-  ],
+  // head: [
+  //   ['link', { rel: 'icon', href: 'images/ARC1.png' }],
+  // ],
 
   markdown: {
     image: {
       lazyLoading: true,
     },
+    theme: { light: 'vitesse-light', dark: 'vitesse-dark' },
+    lineNumbers: true
   },
 
   themeConfig: {
