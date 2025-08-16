@@ -15,7 +15,7 @@ const links = [
   :links="links"
 >
 
-Ilja Jusupov, also known as x4fab, is the brilliant mind behind two of the most transformative mods for Assetto Corsa: **Content Manager** and **Custom Shaders Patch (CSP)**. His work has fundamentally reshaped the modding landscape, introducing a level of customization and visual fidelity that has kept the game thriving for years beyond its release.
+Ilja Jusupov, also known as x4fab, is the brilliant mind behind two of the most transformative mods for Assetto Corsa: **Content Manager (CM)** and **Custom Shaders Patch (CSP)**. His work has fundamentally reshaped the modding landscape, introducing a level of customization and visual fidelity that has kept the game thriving for years beyond its release.
 
 <div class="key-projects">
   <h2 class="kp-title">Key Projects</h2>
