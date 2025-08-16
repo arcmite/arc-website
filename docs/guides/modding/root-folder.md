@@ -1,6 +1,6 @@
 # Root Folder
 
-> <Badge type="tip" text="Updated"/>
+> <Badge type="danger" text="Outdated"/> <Badge type="warning" text="Under Review"/>
 
 The root folder is the main directory where Assetto Corsa is installed. It's where the game stores its core files, and it's where most mods need to be installed. Knowing how to access and understand this folder is essential for modding and troubleshooting.
 
