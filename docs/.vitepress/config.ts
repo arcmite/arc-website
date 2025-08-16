@@ -87,7 +87,10 @@ export default defineConfig({
           items: [
             { text: "Foo Bar", link: "/creators/foo-bar" },
             { text: "Ilja Jusupov", link: "/creators/ilja-jusupov" },
-            { text: "Peter Boese", link: "/creators/peter-boese" }
+            { text: "Peter Boese", link: "/creators/peter-boese" },
+            { text: "compu", link: "/creators/compu" },
+            { text: "DasCiba", link: "/creators/das-ciba" },
+            { text: "OMEGA", link: "/creators/omega" }
           ],
         },
       ],

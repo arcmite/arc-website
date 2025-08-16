@@ -11,7 +11,7 @@ const links = [
   { kind: 'website', href: 'https://example.com', label: 'Website' },
 
   // if missing from creatorprofile.vue, use custom kind
-  // see https://icon-sets.iconify.design/ for list of icons, and look for the icon name
+  // see https://icon-sets.iconify.design/ for list of icons, and look for the iconify icon name
   { kind: 'custom', icon: 'mdi:camera', href: 'https://flickr.com/example', label: 'Flickr' }
 ]
 </script>
@@ -34,7 +34,7 @@ This is a template biography for **Foo Bar**, demonstrating the CreatorProfile c
       <p class="kp-card-desc">A brief description of a significant project or contribution.</p>
       <!-- add links to relevant guides or external pages -->
       <div class="kp-card-links">
-        <a class="kp-card-link install" href="/path/to/guide.html">Installation Guide</a>
+        <a class="kp-card-link open-book" href="/path/to/guide.html">Installation Guide</a>
         <a class="kp-card-link read-more" href="https://example.com" target="_blank" rel="noopener">Read More</a>
       </div>
     </div>
@@ -42,6 +42,10 @@ This is a template biography for **Foo Bar**, demonstrating the CreatorProfile c
       <h3 class="kp-card-title">Project Beta</h3>
       <p class="kp-card-desc">Another project can be highlighted here to showcase the creator's work.</p>
       <!-- this card has no links, showing them are optional -->
+    </div>
+    <div class="kp-card">
+      <h3 class="kp-card-title">Project Charlie</h3>
+      <p class="kp-card-desc">Lorem ipsum dolor sit amet.</p>
     </div>
   </div>
 </div>
