@@ -28,7 +28,7 @@ export default defineConfig({
       { text: "Creators", link: "/creators/" },
       { text: "Wiki", link: "/wiki/" },
       { text: "Showcase", link: "/showcase/" },
-      { text: "ⓘ About",
+      { text: "About",
         items: [
           { text: "About ARC", link: "/about/overview" },
           { text: "Changelog", link: "https://github.com/creacher4/assetto-corsa-arc/commits/vitepress-rewrite/" },

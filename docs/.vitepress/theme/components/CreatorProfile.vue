@@ -12,11 +12,10 @@ const props = defineProps<{
   avatar: string
   name: string
   caption?: string
-  location?: string
+  quote?: string
   links?: Link[]
 }>()
 
-// iconify my beloved
 const iconName = (kind: BuiltinKind) => {
   switch (kind) {
     case 'github':  return 'simple-icons:github'
@@ -36,13 +35,11 @@ const normalizedLinks = computed<NormalizedLink[]>(() =>
   })
 )
 
-// prefix site base for local avatars
 const avatarSrc = computed(() => {
   const a = props.avatar ?? ''
   return /^https?:\/\//.test(a) ? a : withBase(a)
 })
 
-// func to avoid `new URL(...)` in template, since volar doesn't know global URL there
 function hostname(href: string): string {
   try {
     const host = new URL(href).hostname
@@ -54,12 +51,11 @@ function hostname(href: string): string {
 </script>
 
 <template>
-  <article class="creator-profile">
-    <header class="cp-header">
-      <img class="cp-avatar" :src="avatarSrc" :alt="name" loading="lazy" />
-      <div class="cp-meta">
-        <h1 class="cp-name">{{ name }}</h1>
-        <p v-if="caption" class="cp-caption">{{ caption }}</p>
+  <div class="creator-profile-layout">
+    <aside class="cp-sidebar">
+      <div class="cp-sidebar-content">
+        <img class="cp-avatar" :src="avatarSrc" :alt="name" loading="lazy" />
+        <p v-if="quote" class="cp-quote">"{{ quote }}"</p>
         <nav v-if="normalizedLinks.length" class="cp-links" aria-label="Creator links">
           <a
             v-for="l in normalizedLinks"
@@ -69,76 +65,136 @@ function hostname(href: string): string {
             target="_blank"
             rel="noopener"
           >
-            <Icon :icon="l.icon" width="18" height="18" />
+            <Icon :icon="l.icon" width="20" height="20" />
             <span>{{ l.label ?? hostname(l.href) }}</span>
           </a>
         </nav>
       </div>
-    </header>
+    </aside>
 
-    <div class="cp-body">
-      <slot />
-    </div>
-  </article>
+    <main class="cp-main">
+      <header class="cp-header">
+        <h1 class="cp-name">{{ name }}</h1>
+        <p v-if="caption" class="cp-caption">{{ caption }}</p>
+      </header>
+      <div class="cp-body">
+        <slot />
+      </div>
+    </main>
+  </div>
 </template>
 
 <style scoped>
-.creator-profile {
-  max-width: 880px;
-  margin: 0 auto;
+.creator-profile-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 1152px;
+  margin: 2rem auto;
 }
 
-.cp-header {
-  display: grid;
-  grid-template-columns: 112px 1fr;
-  gap: 1.25rem;
+.cp-sidebar-content {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  padding: 1rem 0 1.25rem;
-  border-bottom: 1px solid var(--vp-c-divider);
+  padding: 1.5rem;
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
 }
 
 .cp-avatar {
-  width: 112px;
-  height: 112px;
-  border-radius: 999px; /* perfect round */
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
   object-fit: cover;
-  border: 1px solid var(--vp-c-bg-soft);
-  box-shadow: 0 2px 12px rgba(0,0,0,.15);
-  background: var(--vp-c-bg);
+  border: 2px solid var(--vp-c-bg);
+  box-shadow: var(--vp-shadow-2);
+  margin-bottom: 1.25rem;
 }
 
-.cp-meta { min-width: 0; }
-.cp-name {
-  font-size: 1.8rem;
-  margin: 0 0 .25rem 0;
-  letter-spacing: -0.01em;
-}
-.cp-caption {
-  margin: 0 0 .75rem 0;
+.cp-quote {
+  font-style: italic;
+  text-align: center;
   color: var(--vp-c-text-2);
+  margin: 0 0 1.25rem 0;
+  padding: 0 0.5rem;
+  font-size: 0.95rem;
 }
 
 .cp-links {
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  gap: .5rem;
+  flex-direction: column;
+  gap: 0.25rem;
 }
-.cp-link {
-  display: inline-flex;
-  align-items: center;
-  gap: .5rem;
-  padding: .45rem .7rem;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: .5rem;
-  font-size: .9rem;
-  transition: border-color .15s, transform .05s;
-}
-.cp-link:hover { border-color: var(--vp-c-brand-1); }
-.cp-link:active { transform: translateY(1px); }
 
-.cp-body { padding: 1.25rem 0 0; }
-@media (max-width: 640px) {
-  .cp-header { grid-template-columns: 80px 1fr; }
-  .cp-avatar { width: 80px; height: 80px; }
+.cp-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  color: var(--vp-c-text-2);
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.cp-link:hover {
+  background-color: var(--vp-c-bg-mute);
+  color: var(--vp-c-text-1);
+}
+
+.cp-main {
+  min-width: 0;
+}
+
+.cp-header {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--vp-c-divider);
+  margin-bottom: 1.5rem;
+}
+
+.cp-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: var(--vp-c-text-1);
+  border: none;
+}
+
+.cp-caption {
+  font-size: 1.2rem;
+  color: var(--vp-c-text-2);
+  margin-top: 0.5rem;
+}
+
+.cp-body {
+  padding: 0;
+}
+
+/* desktop layout */
+@media (min-width: 960px) {
+  .creator-profile-layout {
+    grid-template-columns: 240px 1fr;
+  }
+  .cp-sidebar-content {
+    position: sticky;
+    top: 88px; /* adjust based on nav height */
+  }
+}
+
+/* mobile layout */
+@media (max-width: 959px) {
+  .creator-profile-layout {
+    margin: 0 auto;
+  }
+  .cp-name, .cp-caption {
+    text-align: center;
+  }
+  .cp-name {
+    font-size: 2.2rem;
+  }
 }
 </style>

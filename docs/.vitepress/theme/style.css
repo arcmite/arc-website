@@ -117,6 +117,108 @@
 }
 
 /*
+ * creator profile styles
+ *
+ * (consider turning this into a vue component)
+ */
+
+.key-projects {
+  margin-top: 2.5rem;
+}
+
+.kp-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  border: none;
+}
+
+.kp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.kp-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+}
+
+.kp-card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  border: none;
+}
+
+.kp-card-desc {
+  margin: 0;
+  color: var(--vp-c-text-2);
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.kp-card-links {
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--vp-c-divider);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.kp-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--vp-c-text-2);
+  text-decoration: none;
+  background-color: var(--vp-c-bg-mute);
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.kp-card-link:hover {
+  background-color: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+}
+
+.dark .kp-card-link:hover {
+  color: var(--vp-c-brand-1);
+}
+
+.kp-card-link::before,
+.kp-card-link[target="_blank"]::after {
+  content: '';
+  display: block;
+  width: 1.1em;
+  height: 1.1em;
+  background-color: currentColor;
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+}
+
+.kp-card-link.install::before {
+  mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7l7-7Z"/></svg>');
+}
+
+.kp-card-link.read-more::before {
+  mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h14M5 4v12h14V4H5m2 2h2v2H7V6m0 4h2v2H7v-2m0 4h2v2H7v-2m4-8h5v2h-5V6m0 4h5v2h-5v-2m0 4h5v2h-5v-2Z"/></svg>');
+}
+
+.kp-card-link[target="_blank"]::after {
+  mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M14 3v2h3.59l-9.83 9.83l1.41 1.41L19 6.41V10h2V3m-2 16H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7h-2Z"/></svg>');
+  margin-left: 0.2rem;
+}
+
+/*
  * img styles
  *
  */
