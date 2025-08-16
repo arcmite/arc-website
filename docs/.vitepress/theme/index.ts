@@ -5,6 +5,7 @@ import "./style.css";
 //register globals here
 import CreatorProfile from "./components/CreatorProfile.vue";
 import DownloadCard from './components/DownloadCard.vue';
+import ShowcaseCard from './components/ShowcaseCard.vue';
 
 export default {
   ...DefaultTheme,
@@ -15,5 +16,6 @@ export default {
     // then rest
     ctx.app.component('CreatorProfile', CreatorProfile)
     ctx.app.component('DownloadCard', DownloadCard)
+    ctx.app.component('ShowcaseCard', ShowcaseCard)
   }
 };

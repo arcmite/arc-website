@@ -1,4 +1,4 @@
-/* 
+/*
 * home page hero styles
 *
 */
@@ -43,7 +43,7 @@
  * hero block for each sections landing pages
  *
  */
- 
+
 .section-hero {
   text-align: center;
   padding: 4rem 1.5rem;
@@ -68,9 +68,44 @@
 }
 
 /*
+ * showcase filter
+ */
+
+.showcase-filter {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 2rem;
+  max-width: 400px;
+  padding: 0 1.5rem;
+}
+
+.filter-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--vp-c-divider);
+  background-color: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  font-size: 1rem;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+
+.filter-input:focus {
+  outline: none;
+  border-color: var(--vp-c-brand-1);
+  box-shadow: 0 0 0 2px var(--vp-c-brand-soft);
+}
+
+.no-results {
+  text-align: center;
+  margin: 4rem 0;
+  color: var(--vp-c-text-2);
+}
+
+/*
  * showcase gallery styles
  *
- * (consider using a vue component instead of this)
+ *
  */
 
 .showcase-grid {
@@ -79,45 +114,6 @@
   gap: 1.5rem;
   margin-top: 2rem;
   padding: 1.5rem 1.5rem;
-}
-
-.showcase-card {
-  border-radius: 12px;
-  overflow: hidden;
-  background-color: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-bg-soft);
-  transition: transform 0.2s ease-in-out, border-color 0.2s ease-in-out;
-  cursor: pointer;
-}
-
-.showcase-card:hover {
-  transform: translateY(-5px);
-}
-
-.showcase-card img {
-  display: block;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  margin: 0;
-}
-
-.showcase-card .card-info {
-  padding: 1rem;
-}
-
-.showcase-card .photo-by {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--vp-c-text-1);
-  margin: 0 0 0.5rem 0;
-}
-
-.showcase-card .details {
-  font-size: 0.85rem;
-  color: var(--vp-c-text-2);
-  margin: 0;
-  line-height: 1.4;
 }
 
 /*
@@ -306,7 +302,7 @@ body::before {
   width: 1.2em;
   height: 1.2em;
   /* bg color becomes icon color */
-  background-color: currentColor; 
+  background-color: currentColor;
   /* use svg as mask */
   mask-repeat: no-repeat;
   mask-size: 100% 100%;
