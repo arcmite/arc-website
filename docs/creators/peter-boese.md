@@ -27,8 +27,9 @@ Peter Boese is a visionary developer in the Assetto Corsa community, best known 
       </div>
     </div>
     <div class="kp-card">
-      <h3 class="kp-card-title">Sol <Badge type="danger" text="Deprecated"/></h3>
-      <p class="kp-card-desc">The predecessor to Pure, Sol was a groundbreaking mod that first introduced a full day/night cycle and dynamic weather to Assetto Corsa, paving the way for modern visuals.</p>
+      <h3 class="kp-card-title">Sol <Badge type="danger" text="discontinued"/></h3>
+      <p class="kp-card-desc">The predecessor to Pure, Sol was a notable mod that added a full day/night cycle and dynamic weather to Assetto Corsa, paving the way for modern 
+      visuals</p>
     </div>
   </div>
 </div>
