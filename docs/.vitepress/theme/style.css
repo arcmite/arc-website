@@ -70,6 +70,7 @@
 /*
  * showcase gallery styles
  *
+ * (consider using a vue component instead of this)
  */
 
 .showcase-grid {
@@ -91,7 +92,6 @@
 
 .showcase-card:hover {
   transform: translateY(-5px);
-  border-color: var(--vp-c-brand-1);
 }
 
 .showcase-card img {
