@@ -22,7 +22,7 @@ Peter Boese is a prominent developer in the Assetto Corsa community, best known 
       <h3 class="kp-card-title">Pure</h3>
       <p class="kp-card-desc">A comprehensive weather and lighting engine that replaces the game's stock systems. It features a 3D cloud system, realistic sky models, and seamless weather transitions.</p>
       <div class="kp-card-links">
-        <a class="kp-card-link install" href="/assetto-corsa-arc/guides/setup/installing-pure.html">Installation Guide</a>
+        <a class="kp-card-link open-book" href="/assetto-corsa-arc/guides/setup/installing-pure.html">Installation Guide</a>
         <a class="kp-card-link read-more" href="https://www.patreon.com/peterboese" target="_blank" rel="noopener">Read More</a>
       </div>
     </div>

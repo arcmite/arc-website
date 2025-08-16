@@ -24,7 +24,7 @@ Ilja Jusupov, also known as x4fab, is the brilliant mind behind two of the most 
       <h3 class="kp-card-title">Content Manager</h3>
       <p class="kp-card-desc">A powerful, feature-rich alternative launcher for Assetto Corsa that simplifies mod management, race setup, and provides countless quality-of-life improvements.</p>
       <div class="kp-card-links">
-        <a class="kp-card-link install" href="/assetto-corsa-arc/guides/setup/installing-cm.html">Installation Guide</a>
+        <a class="kp-card-link open-book" href="/assetto-corsa-arc/guides/setup/installing-cm.html">Installation Guide</a>
         <a class="kp-card-link read-more" href="https://acstuff.ru/" target="_blank" rel="noopener">Read More</a>
       </div>
     </div>
@@ -32,7 +32,7 @@ Ilja Jusupov, also known as x4fab, is the brilliant mind behind two of the most 
       <h3 class="kp-card-title">Custom Shaders Patch</h3>
       <p class="kp-card-desc">An extensive graphical overhaul that adds dynamic lighting, rain effects, and a vast array of visual enhancements, pushing the game's engine to its modern limits.</p>
       <div class="kp-card-links">
-        <a class="kp-card-link install" href="/assetto-corsa-arc/guides/setup/installing-csp.html">Installation Guide</a>
+        <a class="kp-card-link open-book" href="/assetto-corsa-arc/guides/setup/installing-csp.html">Installation Guide</a>
         <a class="kp-card-link read-more" href="https://ac-custom-shaders-patch.fandom.com/wiki/Custom_Shaders_Patch_Wiki" target="_blank" rel="noopener">Read More</a>
       </div>
     </div>
