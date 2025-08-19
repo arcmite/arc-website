@@ -20,7 +20,7 @@ We welcome contributions beyond documentation. If you’d like your creator prof
 
 <!-- This roadmap link will need updating once the actual roadmap is out -->
 :::tip Not sure where to start?
-Check the [Roadmap](https://github.com/creacher4/assetto-corsa-arc), or look through our [open issues](https://github.com/creacher4/assetto-corsa-arc/issues) on GitHub.
+Check the [Roadmap](https://github.com/ac-arc-project/assetto-corsa-arc), or look through our [open issues](https://github.com/ac-arc-project/assetto-corsa-arc/issues) on GitHub.
 :::
 
 ## Contribution Methods
@@ -51,7 +51,7 @@ Alternatively, you can use [**StackBlitz**](#online-ide-stackblitz) for an onlin
 :::
 
 ##### Fork & Clone
-- [Fork the repository](https://github.com/creacher4/assetto-corsa-arc) to your GitHub account.
+- [Fork the repository](https://github.com/ac-arc-project/assetto-corsa-arc) to your GitHub account.
 - Clone your fork to your local machine using a terminal:
 
 :::info Info
@@ -130,8 +130,8 @@ Our team will review your PR. Note that we may suggest changes or ask for revisi
 
 You can use StackBlitz to edit and preview changes online without a local setup:
 
-1. Go to the [ARC repository](https://github.com/creacher4/assetto-corsa-arc).
-2. Change `github.com` in the URL to `stackblitz.com/github` (e.g., `stackblitz.com/github/creacher4/assetto-corsa-arc`).
+1. Go to the [ARC repository](https://github.com/ac-arc-project/assetto-corsa-arc).
+2. Change `github.com` in the URL to `stackblitz.com/github` (e.g., `stackblitz.com/github/ac-arc-project/assetto-corsa-arc`).
 3. StackBlitz will automatically initialize the project environment. You may need to run `npm run docs:dev` in its built-in terminal to start the live preview.
 
 :::warning StackBlitz & `lastUpdated`

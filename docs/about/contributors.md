@@ -11,11 +11,11 @@ import {
 
 const members = [
   {
-    avatar: 'https://github.com/creacher4.png',
-    name: 'sql',
+    avatar: 'https://github.com/tablemesh91.png',
+    name: 'dll',
     title: 'Creator',
     links: [
-      { icon: 'github', link: 'https://github.com/creacher4' }
+      { icon: 'github', link: 'https://github.com/tablemesh91' }
     ]
   },
   {

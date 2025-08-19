@@ -11,7 +11,7 @@ hero:
       link: /guides/get-started
     - theme: alt
       text: Contribute on GitHub
-      link: https://github.com/creacher4/assetto-corsa-arc
+      link: https://github.com/ac-arc-project/assetto-corsa-arc
 
 features:
   - title: "Step-by-Step Guides"

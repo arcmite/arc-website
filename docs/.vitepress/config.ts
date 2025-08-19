@@ -31,9 +31,9 @@ export default defineConfig({
       { text: "About",
         items: [
           { text: "About ARC", link: "/about/overview" },
-          { text: "Changelog", link: "https://github.com/creacher4/assetto-corsa-arc/commits/vitepress-rewrite/" },
+          { text: "Changelog", link: "https://github.com/ac-arc-project/assetto-corsa-arc/commits/vitepress-rewrite/" },
           // Will be replaced with a link to an actual roadmap when it's ready
-          { text: "Roadmap", link: "https://github.com/creacher4/assetto-corsa-arc"},
+          { text: "Roadmap", link: "https://github.com/ac-arc-project/assetto-corsa-arc"},
         ],
       },
     ],
@@ -134,7 +134,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/creacher4/assetto-corsa-arc",
+        link: "https://github.com/ac-arc-project/assetto-corsa-arc",
       },
       { icon: "discord", link: "https://discord.gg/Szd4nu4wEp" },
     ],
@@ -146,7 +146,7 @@ export default defineConfig({
 
     editLink: {
       pattern:
-        "https://github.com/creacher4/assetto-corsa-arc/edit/vitepress-rewrite/docs/:path",
+        "https://github.com/ac-arc-project/assetto-corsa-arc/edit/vitepress-rewrite/docs/:path",
       text: "Edit this page on GitHub",
     },
 
