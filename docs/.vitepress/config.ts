@@ -6,7 +6,7 @@ export default defineConfig({
   description: "A start-to-finish modding reference for Assetto Corsa.",
 
   // BASE LINK FOR GITHUB PAGES
-  base: "/assetto-corsa-arc/",
+  base: "/arc-website/",
 
   // will pull from docs/public
   // head: [
@@ -31,9 +31,9 @@ export default defineConfig({
       { text: "About",
         items: [
           { text: "About ARC", link: "/about/overview" },
-          { text: "Changelog", link: "https://github.com/ac-arc-project/assetto-corsa-arc/commits/vitepress-rewrite/" },
+          { text: "Changelog", link: "https://github.com/arcmite/arc-website/commits/vitepress-rewrite/" },
           // Will be replaced with a link to an actual roadmap when it's ready
-          { text: "Roadmap", link: "https://github.com/ac-arc-project/assetto-corsa-arc"},
+          { text: "Roadmap", link: "https://github.com/arcmite/arc-website"},
         ],
       },
     ],
@@ -134,7 +134,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/ac-arc-project/assetto-corsa-arc",
+        link: "https://github.com/arcmite/arc-website",
       },
       { icon: "discord", link: "https://discord.gg/Szd4nu4wEp" },
     ],
@@ -146,7 +146,7 @@ export default defineConfig({
 
     editLink: {
       pattern:
-        "https://github.com/ac-arc-project/assetto-corsa-arc/edit/vitepress-rewrite/docs/:path",
+        "https://github.com/arcmite/arc-website/edit/vitepress-rewrite/docs/:path",
       text: "Edit this page on GitHub",
     },
 
