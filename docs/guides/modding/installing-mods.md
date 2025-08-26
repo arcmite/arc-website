@@ -6,7 +6,7 @@ This will show how to install mods manually as using Content Manager will either
 
 ## Find your Root Folder
 
-First go to your Root Folder, which you can find by [following our guide on how to find your `Root Folder`](/modding/root-folder)
+First go to your Root Folder, which you can find by [following our guide on how to find your Root Folder](../modding/root-folder.md)
 
 ## Identifying your installation process
 Some mods will require different installation processes depending on how they are packed. For example, if the mod is contained in `content/tracks/shuto_revival_project_beta` then all the user would have to do is drag it into their root folder. However, if it is just `shuto_revival_project_beta` then they would need to open `Content` → `Tracks` and move the folder into there.
