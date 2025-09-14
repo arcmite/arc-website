@@ -1,5 +1,5 @@
 # Get Started
-
+> <Badge type="danger" text="Outdated"/> <Badge type="warning" text="Under Review"/>
 The *Guides* section will feature Step-by-Step Guides that will help anyone move from a fresh install to a fully-modded setup. Our guides walk you through the entire process with intuitive explanations that are easy to understand and will give you the best results.
 
 ## Table of Contents
