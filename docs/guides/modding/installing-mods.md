@@ -1,6 +1,6 @@
 # Installing mods
 
-> <Badge type="danger" text="Outdated"/> <Badge type="warning" text="Under Review"/>
+> <Badge type="tip" text="Updated"/>
 
 This will show how to install mods manually as using Content Manager will either break the mod or cause issues. If you installed a mod using Content Manager and it is having issues, follow this and it will overwrite the previous bad installation.
 
