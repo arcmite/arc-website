@@ -1,5 +1,5 @@
 # Modding
-> <Badge type="danger" text="Outdated"/> <Badge type="warning" text="Under Review"/>
+> <Badge type="tip" text="Updated"/>
 
 Modding is the process of altering a video game to change or add content, which can range from simple tweaks to complete overhauls of gameplay and graphics. Mods can enhance the gaming experience by fixing bugs, introducing new features, or creating entirely new games based on the original.
 
