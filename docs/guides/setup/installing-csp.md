@@ -1,6 +1,6 @@
 # Custom Shaders Patch
 
-> <Badge type="danger" text="Outdated"/> <Badge type="warning" text="Under Review"/>
+> <Badge type="tip" text="Updated"/>
 
 Custom Shaders Patch (CSP) is an extension for Assetto Corsa that adds advanced visual effects, new physics features, and numerous optimizations. It enables features such as dynamic lighting, a full day–night cycle, improved weather systems, and enhanced graphics.
 
