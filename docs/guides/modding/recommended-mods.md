@@ -14,7 +14,7 @@ https://www.overtake.gg/downloads/comfy-map.52623/
 ### NFS World Speedometer UI (CSP 3.0+)
 
 https://www.overtake.gg/downloads/nfs-world-speedometer-ui.80328/
-![NFS World Speedometer](/images/guides/recommended-mods/nfsworldspeedometerui.png)
+![NFS World Speedometer](/images/guides/recommended-mods/nfsworldui.png)
 
 ### CMRT Essential HUD
 
@@ -57,7 +57,7 @@ https://www.overtake.gg/downloads/camtool-2.15062/
 ### Drone Camera
 
 https://www.overtake.gg/downloads/drone-camera.36405/
-![Drone Camera](/images/guides/recommended-mods/dronecamera.png)
+![Drone Camera](/images/guides/recommended-mods/dronecam.png)
 
 ### Drone Camera Pro
 
