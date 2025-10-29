@@ -62,4 +62,4 @@ https://www.overtake.gg/downloads/drone-camera.36405/
 ### Drone Camera Pro
 
 https://www.overtake.gg/downloads/drone-camera-pro.62857/
-![Drone Camera Pro](/images/guides/recommended-appsIMGs/dronecampro.png)
+![Drone Camera Pro](/images/guides/recommended-mods/dronecampro.png)
