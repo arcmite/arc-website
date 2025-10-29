@@ -1,6 +1,6 @@
 # Visuals
 
-> <Badge type="danger" text="Outdated"/> <Badge type="warning" text="Under Review"/>
+> <Badge type="tip" text="Updated"/>
 
 The visual section will cover everything you will need to know to make your game visually stunning. Please ensure you have all the prerequisites listed below.
 

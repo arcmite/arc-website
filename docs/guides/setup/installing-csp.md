@@ -1,6 +1,6 @@
 # Custom Shaders Patch
 
-> <Badge type="danger" text="Outdated"/> <Badge type="warning" text="Under Review"/>
+> <Badge type="tip" text="Updated"/>
 
 Custom Shaders Patch (CSP) is an extension for Assetto Corsa that adds advanced visual effects, new physics features, and numerous optimizations. It enables features such as dynamic lighting, a full day–night cycle, improved weather systems, and enhanced graphics.
 
@@ -31,6 +31,9 @@ Downloads follow this format:
 ```bash
 lights-patch-v0.X.XX.zip
 # Where `X.XX` is the version number
+
+lights-patch-v0.X.X-previewXXX-full.zip
+# Preview versions look like the following and enable rain
 ```
 :::
 
@@ -61,7 +64,7 @@ Always restart CM after installing CSP. Without a restart, CSP’s configuration
 After installing CSP:
 
 1. Open Content Manager.
-2. Go to `Settings > Custom Shaders Patch`.
+2. Go to `Settings > Custom Shaders Patch > General Patch Settings`.
 3. Enable CSP by ticking the checkbox at the top.
 4. Review the modules listed in the left sidebar (e.g., WeatherFX, LightingFX, ExtraFX). You can enable or disable features as needed.
 
@@ -72,7 +75,7 @@ If using [Pure](installing-pure), ensure your CSP version meets Pure’s minimum
 ## Version Information
 
 - **Recommended Builds:** Marked as *recommended* on the download page. These offer a balance of stability and features.
-- **Preview Builds:** Early access via Patreon. Useful for testing new features or required by some latest mods.
+- **Preview Builds:** Early access via Patreon. Enables Rain functionality and is useful for testing new features or required by some latest mods.
 - **Buggy/Untested:** Experimental builds with incomplete testing — only use if explicitly required.
 
 :::warning Downgrading CSP

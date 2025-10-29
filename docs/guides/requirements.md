@@ -1,6 +1,6 @@
 # Requirements
 
-> <Badge type="danger" text="Outdated"/> <Badge type="warning" text="Under Review"/>
+> <Badge type="tip" text="Updated"/>
 
 These are general requirements to run Assetto Corsa with mods as well as some firmware/software you will need to download.
 
