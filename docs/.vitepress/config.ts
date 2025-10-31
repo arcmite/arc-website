@@ -9,9 +9,9 @@ export default defineConfig({
   base: "/arc-website/",
 
   // will pull from docs/public
-  // head: [
-  //   ['link', { rel: 'icon', href: 'images/ARC1.png' }],
-  // ],
+  head: [
+    ['link', { rel: 'icon', href: 'images/brand/ARC.png' }],
+  ],
 
   markdown: {
     image: {
