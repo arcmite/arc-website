@@ -70,7 +70,7 @@ export default defineConfig({
           items: [
             { text: "Overview", link: "/guides/visuals/overview" },
             { text: "Post-Processing Filters", link: "/guides/visuals/ppfilters" },
-            { text: "Pure Config", link: "/guides/visuals/pconfig" },
+            { text: "Pure Config", link: "/guides/visuals/pure-config" },
           ],
         },
         {
