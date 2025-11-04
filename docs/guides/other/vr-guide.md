@@ -220,7 +220,7 @@ Any headset using OpenComposite and the OpenXR Toolkit can also adjust Resolutio
 <!--> <!-->
 <!--> <!-->
 
-## 4 Video and CSP Presets
+## 4. Video and CSP Presets
 
 :::::info
 :::warning
@@ -259,7 +259,7 @@ Foveated rendering / Nvidia VRS is NOT enabled in any of these, read the chapter
 <!--> <!-->
 <!--> <!-->
 
-## What is Foveated Rendering
+## 5. What is Foveated Rendering
 
 :::::info
 :::warning
@@ -286,7 +286,7 @@ Foveated rendering might be easily noticeable on headsets that use pancake lense
   <!--> <!-->
   <!--> <!-->
 
-## Video / CSP Settings
+## 6. Video / CSP Settings
 
 :::::info
 ::::details Video Settings
@@ -459,7 +459,7 @@ This is not a performance related setting but its recommended to keep this `enab
 <!--> <!-->
 <!--> <!-->
 
-## OpenComposite and OpenXR Toolkit
+## 7. OpenComposite and OpenXR Toolkit
 
 :::::info
 ::::details OpenComposite
@@ -508,7 +508,7 @@ If you encounter any issues using OpenComposite, I have the [original dll file u
   <!--> <!-->
   <!--> <!-->
 
-## Additional Notes
+## 8. Additional Notes
 
 :::::info
 :::info For Virtual Desktop & Pimax Users
@@ -555,7 +555,7 @@ Having hardware acceleration enabled in various programs (like Steam, Discord, S
 <!--> <!-->
 <!--> <!-->
 
-## Advanced Tweaks
+## 9. Advanced Tweaks
 
 :::::danger
 These tweaks are meant to be used only if you understand what they do and how to revert them if needed, _not_ recommended for most people.
