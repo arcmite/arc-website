@@ -76,7 +76,10 @@ export default defineConfig({
         {
           text: "Other Guides",
           collapsed: true,
-          items: [{ text: "Photo Mode", link: "/guides/other/photo-mode" }],
+          items: [
+            { text: 'Photo Mode', link: '/guides/other/photo-mode' },
+            { text: 'VR Guide', link: '/guides/other/vr-guide' },
+          ],
         },
       ],
       // This sidebar will be shown on all pages under the /creators/ path
