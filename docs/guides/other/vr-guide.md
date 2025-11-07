@@ -1,5 +1,7 @@
 # VR guide for Assetto Corsa and CSP
 
+> <Badge type="warning" text="Under Review"/>
+
 > [!NOTE]
 > For further help or if you want to report a game issue, join the [`Custom Shaders Patch Discord`](https://discord.gg/zN4XtmZ4Jf) and use the [`virtual-reality-talk`](https://discord.com/channels/453595061788344330/615211984639754260) channel.
 
@@ -10,6 +12,7 @@
 
 > [!TIP]
 > Most people should only have to read up to video settings, beyond that is more in depth coverage of various settings which may not be needed.
+
 <!--> <!-->
 <!--> <!-->
 <!--> <!-->
@@ -22,7 +25,9 @@
 - Latest version of Content Manager
 - Latest version of Custom Shaders Patch unless said otherwise.
 - Latest version of Pure (Delivers the best image in VR)
-  :::
+
+:::
+
   <!--> <!-->
   <!--> <!-->
   <!--> <!-->
@@ -40,8 +45,9 @@ Click on your brand of headset to expand the instructions, you only need to use 
 This is the easiest and for most users the best method
 
 1. First make sure that you have successfully set up Quest link or Air link and that the headset is connected to your PC - [Tutorial how to do so](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/)  
-   1.1. If youre using an Oculus Rift (S) then you simply need to have the headset connected and showing in the oculus app.
-2. In the Oculus App, <ins>Settings > General</ins> enable "Unknown sources" and next to the "OpenXR Runtime" press "Set Oculus as active" (If its greyed out then you don't need to press it)
+1.1. If youre using an Oculus Rift (S) then you simply need to have the headset connected and showing in the oculus app.
+2. In the Oculus App, <ins>Settings > General</ins> enable "Unknown sources" and next to the "OpenXR Runtime" press "Set Oculus as active" (If its greyed out then you don't
+need to press it)
 3. In Content Manager go to <ins>Settings > Assetto Corsa > Video</ins> and set "Rendering Mode" to "Oculus Rift".
 
 **You do not need SteamVR for this**
@@ -55,10 +61,10 @@ Intended more for advanced users
 1. First make sure that you have successfully set up Quest link or Air link and that the headset is connected to your PC - [Tutorial how to do so](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/)  
    1.1. If youre using an Oculus Rift (S) then you simply need to have the headset connected and showing in the oculus app.
 2. In the Oculus App, <ins>Settings > General</ins> enable "Unknown sources" and next to the "OpenXR Runtime" press "Set Oculus as active" (If its greyed out then you don't need to press it)
-3. Set up OpenComposite, [instructions here](/guides/other/vr-guide.md#7.-OpenComposite-and-OpenXR-Toolkit)
+3. Set up OpenComposite, [instructions here](/opencomposite-openxr-toolkit?id=to-install-opencomposite)
 4. In Content Manager go to <ins>Settings > Assetto Corsa > Video</ins> and set "Rendering Mode" to "OpenVR"
 
-Using this method you can also look into the [OpenXR Toolkit](/guides/other/vr-guide.md#7.-OpenComposite-and-OpenXR-Toolkit)
+Using this method you can also look into the [OpenXR Toolkit](/opencomposite-openxr-toolkit?id=_72-openxr-toolkit)
 :::
 
 :::details **Virtual Desktop**
@@ -67,26 +73,26 @@ Virtual Desktop can potentially deliver a better experience but it is also paid.
 1. Purchase Virtual Desktop on the Oculus / Meta store (do not buy it on steam itself)
 2. Follow the instructions provided in Virtual Desktop to connect your headset to your PC (Quest / Air Link is not required).
 3. Open the Virtual Desktop Streamer application, and under settings, select VirtualDesktopXR (VDXR) as the OpenXR runtime.
-4. Set up OpenComposite, [instructions here](/guides/other/vr-guide.md#7.-OpenComposite-and-OpenXR-Toolkit)
+4. Set up OpenComposite, [instructions here](/opencomposite-openxr-toolkit?id=to-install-opencomposite)
 5. In Content Manager go to <ins>Settings > Assetto Corsa > Video</ins> and set "Rendering Mode" to "OpenVR"
-   :::
+:::
 
 :::details **SteamVR**
 Generally not recommended to use
 
 1. First make sure that you have successfully set up Quest link or Air link and that the headset is connected to your PC - [Tutorial how to do so](https://www.meta.com/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/)  
-   1.1. If youre using an Oculus Rift (S) then you simply need to have the headset connected and showing in the oculus app.
+1.1. If youre using an Oculus Rift (S) then you simply need to have the headset connected and showing in the oculus app.
 2. Install and set up SteamVR from Steam
 3. In Content Manager go to <ins>Settings > Assetto Corsa > Video</ins> and set "Rendering Mode" to "OpenVR"
-   :::
+:::
 
 :::details Oculus / Meta additional notes and troubleshooting {open}
 
 - If you're using the USB cable and quest link (wired) set the encode bitrate to 500mbps or higher in the Oculus Debug Tool. More info about the [Oculus Debug Tool here](https://smartglasseshub.com/oculus-debug-tool/).
 - Game lagging when using the headset wirelessly: Your router might not be able to handle the high amount of bandwidth required for a smooth experience, this will generally show as high network latency. Try to lower the bitrate in the [Oculus Debug Tool](https://smartglasseshub.com/oculus-debug-tool/) or set it to 0 for auto bitrate.
 - When using USB-C make sure your headset runs at USB 3 and not USB 2 speeds (Should be around 1.5Gbps or higher), if it keeps connecting via USB 2 even with a new cable and using a USB 3 port, reset your headset to factory defaults which will fix the issue.
-  :::
-  ::::
+:::
+::::
 
 <!--> <!-->
 <!--> <!-->
@@ -99,8 +105,8 @@ Generally not recommended to use
 2. Install and set up SteamVR from Steam
 3. Some headsets might require an additional driver or utility to function correctly, follow the provided instructions for your headset.
 4. In Content Manager go to <ins>Settings > Assetto Corsa > Video</ins> and change "Rendering Mode" to "OpenVR"
-   :::
-   ::::
+:::
+::::
 
 <!--> <!-->
 <!--> <!-->
@@ -112,18 +118,18 @@ Generally not recommended to use
 - 1. Make sure your headset is connected to your PC
 - 2. [Install Oasis Driver for Windows Mixed Reality](https://store.steampowered.com/app/3824490/Oasis_Driver_for_Windows_Mixed_Reality/)
 - 3. [Follow Oasis instructions](https://github.com/mbucchia/Oasis-Driver-for-Windows-Mixed-Reality/wiki#hello-and-welcome-to-the-oasis-driver-for-windows-mixed-reality-documentation)
-- 4.  In Content Manager go to <ins>Settings > Assetto Corsa > Video</ins> and change "Rendering Mode" to "OpenVR"
+- 4. In Content Manager go to <ins>Settings > Assetto Corsa > Video</ins> and change "Rendering Mode" to "OpenVR"
 
 :::details **Using OpenComposite**
 :::warning Use this ONLY if the Oasis SteamVR driver doesn't work for you
 
-5.  Make sure your headset is connected to your PC
-6.  Install and set up Windows Mixed Reality from the Microsoft Store
-7.  Install and set up OpenXR Tools for Windows Mixed Reality from the Microsoft Store
-8.  If you see a button that says "Set as active runtime" - press it.
-9.  [Set up OpenComposite](/guides/other/vr-guide.md#7.-OpenComposite-and-OpenXR-Toolkit)
+5. Make sure your headset is connected to your PC
+6. Install and set up Windows Mixed Reality from the Microsoft Store
+7. Install and set up OpenXR Tools for Windows Mixed Reality from the Microsoft Store
+8. If you see a button that says "Set as active runtime" - press it.
+9. [Set up OpenComposite](/opencomposite-openxr-toolkit?id=to-install-opencomposite)
 10. In Content Manager go to <ins>Settings > Assetto Corsa > Video</ins> and change "Rendering Mode" to "OpenVR"
-    Using this method you can also look into the [OpenXR Toolkit](/guides/other/vr-guide.md#7.-OpenComposite-and-OpenXR-Toolkit)
+    Using this method you can also look into the [OpenXR Toolkit](/opencomposite-openxr-toolkit?id=_72-openxr-toolkit)
 
 ::::
 
@@ -137,10 +143,10 @@ Generally not recommended to use
 1. Make sure your headset is connected to your PC
 2. [Install and set up Pimax Play](https://pimax.com/pages/downloads-manuals)
 3. [Set the OpenXR Runtime to Pimax OpenXR in Pimax Play](https://pimax.com/blogs/blogs/how-to-use-pimax-openxr)
-4. [Set up OpenComposite](/guides/other/vr-guide.md#7.-OpenComposite-and-OpenXR-Toolkit)
+4. [Set up OpenComposite](/opencomposite-openxr-toolkit?id=to-install-opencomposite)
 5. In Content Manager go to <ins>Settings > Assetto Corsa > Video</ins> and change "Rendering Mode" to "OpenVR"
 
-Using this method you can also look into the [OpenXR Toolkit](/guides/other/vr-guide.md#7.-OpenComposite-and-OpenXR-Toolkit)
+Using this method you can also look into the [OpenXR Toolkit](/opencomposite-openxr-toolkit?id=_72-openxr-toolkit)
 :::
 
 :::details **Using SteamVR**
@@ -149,9 +155,10 @@ Using this method you can also look into the [OpenXR Toolkit](/guides/other/vr-g
 2. [Install and set up Pimax Play](https://pimax.com/pages/downloads-manuals)
 3. Install and set up SteamVR from Steam
 4. In Content Manager go to <ins>Settings > Assetto Corsa > Video</ins> and change "Rendering Mode" to "OpenVR"
-   :::
-   ::::
-   :::::
+:::
+::::
+
+:::::
    <!--> <!-->
    <!--> <!-->
    <!--> <!-->
@@ -229,7 +236,7 @@ Save your current settings as presets in Content Manager for Video and Custom Sh
 
 ::::details Video Presets
 
-If you don't want to read through the sections below, try each each of the presets and see what works best. These are some video presets made by [Raptyyy](https://github.com/Raptyyy) and should be adjusted to your needs.
+If you don't want to read through the sections below, try each each of the presets and see what works best. These are some video presets made by [Raptyyy](https://github.com/Raptyyy)and should be adjusted to your needs.
 Make sure to double check the <ins>Rendering Mode</ins> so that its set correctly for your headset !
 
 - High Performance: [Link here](https://acstuff.club/s/lW4B) (Disable post processing if you need even more performance)
@@ -250,7 +257,7 @@ These presets are simply to be used as a base for your own preference. Test the 
 - High Quality - [Link here](https://acstuff.club/s/J0Je)
 
 :::warning
-Foveated rendering / Nvidia VRS is NOT enabled in any of these, read the chapter about [Foveated Rendering here](/guides/other/vr-guide.md#5.-What-Is-Foveated_Rendering)
+Foveated rendering / Nvidia VRS is NOT enabled in any of these, read the chapter about [Foveated Rendering here](foveated-rendering)
 :::
 ::::
 :::::
@@ -277,10 +284,11 @@ Foveated rendering might be easily noticeable on headsets that use pancake lense
 
 :::info **Ways to enable / use Foveated rendering (Use only one of these methods):**
 
-- Enable `Nvidia VRS` in Custom Shaders Patch, [explained further here](/guides/other/vr-guide.md#6.-Video-/-CSP-Settings) (Recommended for most users)
-- Enable `Foveated Rendering` in the `OpenXR Toolkit` if you're using OpenComposite, [explained further here](/guides/other/vr-guide.html#OpenComposite-and-OpenXR-Toolkit) (Gives more adjustability compared to Nvidia VRS, intended for Advanced users)
+- Enable `Nvidia VRS` in Custom Shaders Patch, [explained further here](/csp-settings?id=nvidia-vrs) (Recommended for most users)
+- Enable `Foveated Rendering` in the `OpenXR Toolkit` if you're using OpenComposite, [explained further here](/opencomposite-openxr-toolkit?id=recommended-settings-for-the-toolkit) (Gives more adjustability compared to Nvidia VRS, intended for Advanced users)
 - For Pimax users you can enable `Foveated Rendering` in `Pimax Play` (More convenient but less options compared to the OpenXR Toolkit)
   :::
+
   :::::
   <!--> <!-->
   <!--> <!-->
@@ -436,7 +444,7 @@ Not related to performance but there are good NeckFX scripts for VR to enhance i
 :::
 
 :::details Nvidia VRS
-Also known as [Foveated Rendering](/guides/other/vr-guide.html#5.-what-is-foveated-rendering), only works for Nvidia GPUs.  
+Also known as [Foveated Rendering](https://arcmite.github.io/arc-website/guides/other/vr-guide.html#what-is-foveated-rendering), only works for Nvidia GPUs.  
 If you want to use Nvidia VRS (Requires Single Pass Stereo to be enabled):
 
 - **Nvidia VRS** `enabled`
@@ -503,6 +511,7 @@ If you encounter any issues using OpenComposite, I have the [original dll file u
 - For users wearing glasses you might be able to lower the `Field of View (FOV)` which can increase the image quality without any performance loss.
   :::
   ::::
+
   :::::
   <!--> <!-->
   <!--> <!-->
@@ -562,7 +571,7 @@ These tweaks are meant to be used only if you understand what they do and how to
 
 ::::details CPU Affinity
 
-#### Using only one CCD (Chiplet) on a multi CCD AMD CPU (12 or 16 core).
+#### Using only one CCD (Chiplet) on a multi CCD AMD CPU (12 or 16 core)
 
 1. Install and open [Process Lasso](https://bitsum.com/)
 2. Run Assetto Corsa (Ideally in windowed mode)
