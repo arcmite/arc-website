@@ -444,7 +444,7 @@ Not related to performance but there are good NeckFX scripts for VR to enhance i
 :::
 
 :::details Nvidia VRS
-Also known as [Foveated Rendering](/guides/other/vr-guide.html#_5.-What-is-Foveated-Rendering), only works for Nvidia GPUs.  
+Also known as [Foveated Rendering](/guides/other/vr-guide.html#_5-what-is-foveated-rendering), only works for Nvidia GPUs.  
 If you want to use Nvidia VRS (Requires Single Pass Stereo to be enabled):
 
 - **Nvidia VRS** `enabled`
