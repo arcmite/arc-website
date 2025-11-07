@@ -1,4 +1,4 @@
-<img width="1488" height="348" alt="image" src="https://github.com/user-attachments/assets/67ed85d0-1f13-4590-8d76-983df491f3a7" /># VR guide for Assetto Corsa and CSP
+# VR guide for Assetto Corsa and CSP
 
 > <Badge type="warning" text="Under Review"/>
 
